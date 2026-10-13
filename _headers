@@ -1,0 +1,7 @@
+/maudau_feed.xml
+  Cache-Control: public, max-age=10800, s-maxage=10800
+  Access-Control-Allow-Origin: *
+
+/maudau_feed.xml.gz
+  Cache-Control: public, max-age=10800, s-maxage=10800
+  Access-Control-Allow-Origin: *

@@ -79,12 +79,17 @@ $$\text{Old Price} = \operatorname{round}(\text{Final Price} \times 1.25)$$
 ## 6. GitHub Actions та хостинг
 
 - **Репозиторій:** `https://github.com/lozko1991-blip/MAUDAU`
-- **Розклад оновлення:** Кожні 4 години (`cron: '0 */4 * * *'`) та при ручному запуску (`workflow_dispatch`).
+- **Розклад оновлення:** Рівно **6 разів на добу** (кожні 4 години: `cron: '0 */4 * * *'`) та за запитом (`workflow_dispatch`).
+- **Кешування (3 години):**
+  - **Локальний кеш генератора (`CACHE_TTL = 10 800 сек`):** Вихідні прайси постачальників кешуються на 3 години для захисту від блокувань (429 Too Many Requests) та стабільності генерації.
+  - **HTTP Cache-Control (`_headers`):** `Cache-Control: public, max-age=10800, s-maxage=10800` для CDN, Cloudflare та проксі-серверів.
+  - **Налаштування кабінету MAUDAU:** Інтервал синхронізації цін та залишків встановлюється на 3 або 4 години (6 разів на добу).
 - **Порядок пайплайну:**
-  1. Встановлення залежностей (`pip install requests lxml openpyxl`)
-  2. Генерація XML фіду (`python maudau_xml_generator.py`)
-  3. Запуск 20 автоматичних тестів валідації (`python -m unittest discover tests`)
-  4. Автоматичний деплой на GitHub Pages
-- **Посилання для MAUDAU:**
+  1. Кешування вихідних файлів постачальників (`actions/cache@v4`)
+  2. Встановлення залежностей (`pip install requests lxml openpyxl`)
+  3. Потокова генерація XML та GZIP фідів (`python maudau_xml_generator.py`)
+  4. Запуск 20 автоматичних юніт-тестів валідації (`python -m unittest discover tests`)
+  5. Розгортання на GitHub Pages
+- **Посилання для кабінету продавця MAUDAU:**
   - XML: `https://lozko1991-blip.github.io/MAUDAU/maudau_feed.xml`
   - GZIP: `https://lozko1991-blip.github.io/MAUDAU/maudau_feed.xml.gz`

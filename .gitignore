@@ -9,6 +9,7 @@ __pycache__/
 *.tmp
 *.offers.tmp
 maudau_feed.xml.offers.tmp
+.feed_cache/
 
 # Large XML files (>50MB/100MB limit on GitHub)
 Masterevanew.xml

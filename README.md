@@ -73,7 +73,10 @@ python -m unittest discover tests
 
 ## 🔄 Автоматизація та посилання для MAUDAU
 
-- Пайплайн виконується за розкладом кожні **4 години** (`0 */4 * * *`) на GitHub Actions.
+- **Розклад автооновлення:** Рівно **6 разів на добу** (кожні 4 години: `0 */4 * * *`) на GitHub Actions.
+- **Кешування на 3 години (TTL 10 800 с):**
+  - Локальний кеш вихідних файлів постачальників захищає від блокувань IP та прискорює повторну обробку.
+  - Файл `_headers` встановлює `Cache-Control: public, max-age=10800, s-maxage=10800` для CDN/проксі.
 - Посилання для кабінету мерчанта MAUDAU:
   - **XML фід:** `https://lozko1991-blip.github.io/MAUDAU/maudau_feed.xml`
   - **GZIP фід (рекомендовано для швидкого скачування):** `https://lozko1991-blip.github.io/MAUDAU/maudau_feed.xml.gz`

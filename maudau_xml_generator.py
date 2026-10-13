@@ -1,3 +1,4 @@
+import argparse
 import codecs
 import gzip
 import io
@@ -18,6 +19,10 @@ import lxml.etree as ET
 from markup_config import calculate_prices, is_category_excluded
 from category_mapper import get_category_info, format_category_xml
 from param_normalizer import normalize_parameters, strip_html
+
+# Директорія та TTL кешу постачальників (3 години = 10 800 секунд)
+CACHE_DIR = os.path.join(os.path.dirname(__file__), ".feed_cache")
+CACHE_TTL = 3 * 3600
 
 # 4 постачальники для інтеграції в єдиний MAUDAU XML фід
 SOURCES = [
@@ -84,39 +89,29 @@ def clean_description_html(raw_html: str, title: str = "", vendor: str = "") -> 
     if not raw_html:
         return fallback
 
-    # 1. Подвійний unescape
     text = unescape(unescape(str(raw_html)))
-
-    # 2. Видалення недрукованих ASCII
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
 
-    # 3. Видалення скриптів, стилів, медіа та <img>
     text = re.sub(r'<(script|style|iframe|video|audio|svg|canvas|form|input|button)[^>]*>.*?</\1>', '', text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r'<(script|style|iframe|video|audio|img|input)[^>]*\/?>', '', text, flags=re.IGNORECASE)
     text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
 
-    # 4. Видалення посилань URL та доменних імен
     text = re.sub(r'https?://[^\s<>"\'()]+|www\.[^\s<>"\'()]+', '', text)
     text = re.sub(r'\b[a-zA-Z0-9\.\-_]+\.(?:ua|com|net|org|shop|in\.ua|prom\.ua|rozetka|com\.ua|biz\.ua)\b', '', text, flags=re.IGNORECASE)
 
-    # 5. Видалення номерів телефонів
     text = re.sub(r'(?:\+?38\s*)?(?:\(?0\d{2}\)?[\s\-\.]*)\d{3}[\s\-\.]*\d{2}[\s\-\.]*\d{2}', '', text)
     text = re.sub(r'(?:\+?380|\b0)\d{9}\b', '', text)
 
-    # 6. Видалення згадок месенджерів та реклами
     promo_pattern = r'(?i)(?:viber|вайбер|telegram|телеграм|whatsapp|ватсап|instagram|інстаграм|facebook|фейсбук)[\s\:\-\@\w\.\+\/]*'
     text = re.sub(promo_pattern, '', text)
     cta_pattern = r'(?i)(?:дзвоніть|телефонуйте|наш сайт|замовлення приймаються|звертайтесь за телефоном|деталі за телефоном|переходьте за посиланням|підписуйтесь)[^<\n\.]*'
     text = re.sub(cta_pattern, '', text)
 
-    # 7. Видалення inline атрибутів стилів
     text = re.sub(r'\s+(?:style|class|id|align|bgcolor|width|height|loading|onerror|onclick|data-[a-z0-9\-]+)="[^"]*"', '', text, flags=re.IGNORECASE)
     text = re.sub(r"\s+(?:style|class|id|align|bgcolor|width|height|loading|onerror|onclick|data-[a-z0-9\-]+)='[^']*'", '', text, flags=re.IGNORECASE)
 
-    # 8. Розгортання зайвих span та font
     text = re.sub(r'</?(?:span|font)[^>]*>', '', text, flags=re.IGNORECASE)
 
-    # 9. Форматування тексту в семантичні абзаци
     if not re.search(r'<(?:p|div|ul|ol|li|br|h[1-6])\b', text, re.IGNORECASE):
         paragraphs = [p.strip() for p in re.split(r'\n{2,}', text) if p.strip()]
         if paragraphs:
@@ -124,18 +119,14 @@ def clean_description_html(raw_html: str, title: str = "", vendor: str = "") -> 
         else:
             text = f"<p>{text.replace(chr(10), '<br/>')}</p>"
 
-    # Заміна div на p
     text = re.sub(r'<div[^>]*>', '<p>', text, flags=re.IGNORECASE)
     text = re.sub(r'</div>', '</p>', text, flags=re.IGNORECASE)
 
-    # Видалення порожніх тегів (кілька проходів)
     for _ in range(3):
         text = re.sub(r'<(\w+)[^>]*>\s*(?:&nbsp;|\s)*</\1>', '', text, flags=re.IGNORECASE)
 
-    # Нормалізація повторних <br/>
     text = re.sub(r'(?:<br\s*/?>\s*){2,}', '<br/>', text, flags=re.IGNORECASE)
 
-    # Обмеження довжини опису
     DESC_LIMIT = 5000
     if len(text) > DESC_LIMIT:
         cut_pos = text.rfind('>', 0, DESC_LIMIT)
@@ -146,46 +137,36 @@ def clean_description_html(raw_html: str, title: str = "", vendor: str = "") -> 
 
     text = text.strip()
 
-    # Перевірка на змістовність тексту
     plain = re.sub(r'<[^>]+>', '', text).strip()
     if len(plain) < 20:
         return fallback
 
-    # Захист CDATA
     return text.replace("]]>", "]]&gt;")
 
-class IterContentStream(io.RawIOBase):
+class SanitizedBytesReader(io.RawIOBase):
     """
-    Потоковий декодер на базі requests.iter_content, який стабільно працює
-    з chunked encoding, ігнорує «брудні» байти (як одиночні 0x96 у Yavshoke)
-    та віддає валідний UTF-8 потік у lxml.iterparse.
+    Потоковий декодер, який читає бінарний потік, ігнорує «брудні» байти (як одиночні 0x96 у Yavshoke)
+    та віддає чистий валідний UTF-8 потік у lxml.iterparse, гарантуючи збереження багатобайтових символів на межах чанків.
     """
-    def __init__(self, response, chunk_size=262144):
-        self.response = response
+    def __init__(self, raw_stream, chunk_size=262144):
+        self.raw = raw_stream
         self.chunk_size = chunk_size
-        self.iter = response.iter_content(chunk_size=chunk_size)
-        self.buffer = b""
         self.decoder = codecs.getincrementaldecoder('utf-8')(errors='ignore')
+        self.buffer = b""
 
     def readable(self) -> bool:
         return True
 
     def readinto(self, b) -> int:
         while len(self.buffer) < len(b):
-            try:
-                chunk = next(self.iter)
-            except (StopIteration, GeneratorExit):
+            raw_chunk = self.raw.read(self.chunk_size)
+            if not raw_chunk:
                 final_str = self.decoder.decode(b"", final=True)
                 if final_str:
                     self.buffer += final_str.encode('utf-8')
                 break
-            except Exception as e:
-                print(f"  [STREAM WARNING] Переривання потоку: {e}")
-                break
-
-            if chunk:
-                decoded_str = self.decoder.decode(chunk, final=False)
-                self.buffer += decoded_str.encode('utf-8')
+            decoded_str = self.decoder.decode(raw_chunk, final=False)
+            self.buffer += decoded_str.encode('utf-8')
 
         n = min(len(b), len(self.buffer))
         if n == 0:
@@ -194,11 +175,51 @@ class IterContentStream(io.RawIOBase):
         self.buffer = self.buffer[n:]
         return n
 
-def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maudau_feed.xml"):
+def get_source_file_stream(source: dict, force_refresh: bool = False):
+    """
+    Завантажує та кешує вихідний XML постачальника на 3 години (CACHE_TTL = 10800 сек).
+    Якщо кеш валідний і створений менше 3 годин тому — використовується миттєво з локального диску,
+    захищаючи від лімітів частоти запитів (429 Too Many Requests) та збоїв мережі.
+    """
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    cache_path = os.path.join(CACHE_DIR, f"{source['id']}.xml")
+
+    use_cache = False
+    if os.path.exists(cache_path) and not force_refresh:
+        file_age = time.time() - os.path.getmtime(cache_path)
+        if file_age < CACHE_TTL and os.path.getsize(cache_path) > 1024:
+            use_cache = True
+            age_min = file_age / 60.0
+            print(f"  [КЕШ 3 ГОДИНИ] Використано збережений файл постачальника (вік кешу: {age_min:.1f} хв / ліміт: 180 хв)")
+
+    if not use_cache:
+        print(f"  [МЕРЕЖА] Завантаження свіжого фіду з {source['url']}...")
+        resp = requests.get(
+            source["url"],
+            stream=True,
+            timeout=180,
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) MAUDAU Feed Aggregator/2.0"}
+        )
+        resp.raise_for_status()
+
+        temp_cache = cache_path + ".tmp"
+        with open(temp_cache, "wb") as f_out:
+            for chunk in resp.iter_content(chunk_size=262144):
+                if chunk:
+                    f_out.write(chunk)
+
+        if os.path.exists(cache_path):
+            os.remove(cache_path)
+        os.rename(temp_cache, cache_path)
+        print(f"  [КЕШ СТВОРЕНО] Збережено в локальний кеш (розмір: {os.path.getsize(cache_path)/(1024*1024):.2f} МБ)")
+
+    return open(cache_path, "rb")
+
+def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maudau_feed.xml", force_refresh: bool = False):
     start_time = time.time()
     print("=" * 75)
     print("СТАРТ ГЕНЕРАЦІЇ МУЛЬТИ-ПОСТАЧАЛЬНИЦЬКОГО ФІДУ MAUDAU XML")
-    print(f"Постачальників у списку: {len(sources)}")
+    print(f"Постачальників у списку: {len(sources)} | Кеш постачальників: 3 години")
     for s in sources:
         print(f"  - [{s['prefix']}] {s['id']} ({s['domain']})")
     print("=" * 75)
@@ -226,27 +247,19 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
     # all_categories: prefixed_cid -> (name_raw, prefixed_pid)
     all_categories: Dict[str, Tuple[str, Optional[str]]] = {}
 
-    print("\n[КРОК 1/3] Потокове завантаження та фільтрація товарів від усіх постачальників...")
+    print("\n[КРОК 1/3] Завантаження/кешування та фільтрація товарів від усіх постачальників...")
 
     with open(temp_offers_path, "w", encoding="utf-8") as out_temp:
         for s_idx, source in enumerate(sources, 1):
             s_name = source["id"]
             prefix = source["prefix"]
             domain = source["domain"]
-            url = source["url"]
 
             print(f"\n--- [{s_idx}/{len(sources)}] Обробка: {s_name} (префікс: {prefix}, домен: {domain}) ---")
 
             try:
-                resp = requests.get(
-                    url,
-                    stream=True,
-                    timeout=180,
-                    headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) MAUDAU Feed Aggregator/2.0"}
-                )
-                resp.raise_for_status()
-
-                stream = io.BufferedReader(IterContentStream(resp, chunk_size=262144))
+                raw_file_stream = get_source_file_stream(source, force_refresh=force_refresh)
+                stream = io.BufferedReader(SanitizedBytesReader(raw_file_stream, chunk_size=262144))
                 context = ET.iterparse(
                     stream,
                     events=("end",),
@@ -266,7 +279,6 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                             elem.clear()
                             continue
 
-                        # opt-drop може мати parent_id, інші parentId
                         raw_pid = (elem.get("parentId") or elem.get("parent_id") or "").strip()
                         if raw_pid in ("0", "-1", "none", "None", ""):
                             raw_pid = ""
@@ -419,7 +431,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                             continue
                         seen_offer_ids.add(offer_id)
 
-                        # 10. Формування фрагменту XML та запис у тимчасовий буфер
+                        # 10. Запис кандидата у тимчасовий буфер
                         cat_direct_counts[prefixed_cat_id] += 1
                         supplier_candidates += 1
                         stats["candidate_offers"] += 1
@@ -463,6 +475,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                             print(f"  [STREAM {s_name}] Оброблено: {supplier_offers_count} товарів | Кандидатів: {supplier_candidates}")
                             last_log_time = time.time()
 
+                raw_file_stream.close()
                 print(f"  Успішно оброблено {s_name}: всього {supplier_offers_count}, пройшло фільтри {supplier_candidates}")
 
             except Exception as e:
@@ -470,10 +483,8 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
 
     print("\n[КРОК 2/3] Фільтрація категорій (< 3 товарів) та побудова дерева категорій...")
 
-    # Знаходимо всі батьківські категорії
     parent_cids = {pid for _, pid in all_categories.values() if pid and pid in all_categories}
 
-    # Валідація назв категорій: категорія обов'язково повинна мати непусту назву!
     named_categories = set()
     category_names_cache: Dict[str, Tuple[str, Optional[str]]] = {}
     for cid, (raw_cname, _) in all_categories.items():
@@ -483,7 +494,6 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
             named_categories.add(cid)
             category_names_cache[cid] = (clean_name_ua, portal_id)
 
-    # Тонкі категорії: мають < 3 прямих товарів І НЕ є батьківськими категоріями (або не мають валідної назви)
     thin_cat_ids = {
         cid for cid, count in cat_direct_counts.items()
         if (count < 3 and cid not in parent_cids) or (cid not in named_categories)
@@ -492,10 +502,8 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
     stats["categories_pruned_thin"] = len(thin_cat_ids)
     print(f"  Знайдено тонких/невалідних категорій: {len(thin_cat_ids)}")
 
-    # Категорії, які мають >= 3 товарів і мають ім'я
     valid_cat_ids = {cid for cid, count in cat_direct_counts.items() if cid not in thin_cat_ids}
 
-    # Повне дерево: додаємо всі дійсні категорії + всіх їхніх предків (щоб не зламати ієрархію)
     final_cat_ids: Set[str] = set()
     for v_cid in valid_cat_ids:
         cur = v_cid
@@ -543,7 +551,6 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
         out.write('        </categories>\n')
         out.write('        <offers>\n')
 
-        # Другий прохід: переносимо оффери з тимчасового буфера
         with open(temp_offers_path, "r", encoding="utf-8") as in_temp:
             cur_cat_id = None
             offer_buffer = []
@@ -567,11 +574,9 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
         out.write('    </shop>\n')
         out.write('</yml_catalog>\n')
 
-    # Видалення тимчасового буфера
     if os.path.exists(temp_offers_path):
         os.remove(temp_offers_path)
 
-    # Генерація GZIP копії
     gz_output_file = output_file + ".gz"
     with open(output_file, "rb") as f_in:
         with gzip.open(gz_output_file, "wb", compresslevel=6) as f_out:
@@ -599,4 +604,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
     print("=" * 75)
 
 if __name__ == "__main__":
-    generate_maudau_feed(SOURCES, output_file="maudau_feed.xml")
+    parser = argparse.ArgumentParser(description="MAUDAU Multi-Supplier Feed Generator")
+    parser.add_argument("--force", action="store_true", help="Force refresh cache from network")
+    args = parser.parse_args()
+    generate_maudau_feed(SOURCES, output_file="maudau_feed.xml", force_refresh=args.force)
