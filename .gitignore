@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+!price_warnings.log
+
+# Temporary and stream files
+*.tmp
+*.offers.tmp
+maudau_feed.xml.offers.tmp
+
+# Large XML files (>50MB/100MB limit on GitHub)
+Masterevanew.xml
+maudau_feed.xml
+merchant_categories_*.xml
+*.xlsx
+
+# Analysis & backup scratch files
+masterevaxml_BACKUP*.py
+top15_yavshoke.txt
+top30_categories.xlsx
+yavshoke_top15_result.txt
+yavshoke_top30_categories.csv
+yavshoke_top30_result.txt
+verify_output.txt
+debug_*.txt
+debug_*.py
+output_log.txt
+scratch_test.py

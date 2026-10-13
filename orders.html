@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UTRADE | Мої замовлення</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f0f4f8;--surface:#fff;--surface2:#f7f9fc;--border:#e2e8f0;--text:#0f172a;--text2:#64748b;--accent:#2563eb;--green:#10b981;--red:#ef4444;}
+[data-theme=dark]{--bg:#0d1117;--surface:#161b22;--surface2:#0d1117;--border:#30363d;--text:#e6edf3;--text2:#8b949e;--accent:#58a6ff;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Manrope',sans-serif;background:var(--bg);color:var(--text);}
+.bebas{font-family:'Bebas Neue',sans-serif;}
+.sec-title{font-size:.6rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--text2);}
+input,select{background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:.65rem;font-family:'Manrope',sans-serif;transition:border-color .15s;}
+input:focus,select:focus{outline:none;border-color:var(--accent);}
+input::placeholder{color:var(--text2);}
+nav{background:var(--surface);border-bottom:1px solid var(--border);}
+.cscroll::-webkit-scrollbar{width:4px;}
+.cscroll::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:10px;}
+
+/* Статуси */
+.st{display:inline-flex;align-items:center;gap:4px;font-size:.65rem;font-weight:800;padding:.25rem .65rem;border-radius:999px;white-space:nowrap;}
+.st-new    {background:#eff6ff;color:#2563eb;}
+.st-proc   {background:#f0fdf4;color:#16a34a;}
+.st-pack   {background:#fefce8;color:#ca8a04;}
+.st-sent   {background:#fff7ed;color:#ea580c;}
+.st-done   {background:#dcfce7;color:#15803d;}
+.st-refused{background:#fef2f2;color:#dc2626;}
+.st-return {background:#f5f3ff;color:#7c3aed;}
+
+/* Картки замовлень */
+.order-card{background:var(--surface);border:1px solid var(--border);border-radius:1rem;overflow:hidden;transition:box-shadow .2s;}
+.order-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.08);}
+.order-card-header{padding:.85rem 1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;border-bottom:1px solid var(--border);}
+.order-card-body{padding:.85rem 1rem;}
+.order-card-footer{padding:.65rem 1rem;border-top:1px solid var(--border);background:var(--surface2);display:flex;align-items:center;gap:.75rem;flex-wrap:wrap;}
+.item-row{display:flex;justify-content:space-between;align-items:center;gap:.5rem;padding:.3rem 0;border-bottom:1px solid var(--border);}
+.item-row:last-child{border-bottom:none;}
+
+/* Баланс */
+.bal-card{background:var(--surface);border:1px solid var(--border);border-radius:1rem;padding:.85rem 1rem;text-align:center;}
+
+/* Toast */
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#0f172a;color:#fff;padding:10px 22px;border-radius:999px;font-size:12px;font-weight:800;z-index:9999;transition:transform .3s;pointer-events:none;white-space:nowrap;}
+#toast.show{transform:translateX(-50%) translateY(0);}
+[data-theme=dark] #toast{background:#58a6ff;color:#000;}
+
+/* Банер входу */
+#loginScreen{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:1rem;}
+#loginScreen::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,#0f172a,#1e3a5f);z-index:-1;}
+
+/* Spinner */
+.spin{width:28px;height:28px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Traking badge */
+.ttn-link{color:var(--accent);font-weight:800;text-decoration:none;display:inline-flex;align-items:center;gap:3px;font-size:.72rem;}
+.ttn-link:hover{text-decoration:underline;}
+
+/* Адаптив */
+@media(max-width:640px){.order-card-header{flex-direction:column;align-items:flex-start;}}
+</style>
+</head>
+<body data-theme="light">
+<div id="toast"></div>
+
+<!-- ═══ ЕКРАН ВХОДУ ═══ -->
+<div id="loginScreen">
+  <div style="width:100%;max-width:400px;">
+    <div style="background:var(--surface);border-radius:1.5rem;padding:2rem;box-shadow:0 25px 60px rgba(0,0,0,.35);">
+      <!-- Лого -->
+      <div class="flex items-center gap-3 mb-6">
+        <div class="w-12 h-12 rounded-2xl flex items-center justify-center text-white flex-shrink-0"
+             style="background:linear-gradient(135deg,#10b981,#059669);box-shadow:0 4px 14px rgba(16,185,129,.4);">
+          <i class="fa-solid fa-box-open text-lg"></i>
+        </div>
+        <div>
+          <div class="bebas tracking-widest" style="font-size:1.6rem;color:var(--text);">МОЇ ЗАМОВЛЕННЯ</div>
+          <div class="sec-title">UTRADE Дроп-платформа</div>
+        </div>
+      </div>
+
+      <!-- Поле вводу -->
+      <div class="mb-4">
+        <label class="sec-title block mb-2">Ваш код дропера</label>
+        <input id="loginCode" type="text" placeholder="Наприклад: DR-A7K2M"
+               class="w-full px-4 py-3.5 text-sm font-bold"
+               style="text-transform:uppercase;font-size:.95rem;letter-spacing:.08em;"
+               onkeydown="if(event.key==='Enter')doLogin()"
+               autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <p style="font-size:.68rem;color:var(--text2);margin-top:.4rem;">Код видає адміністратор UTRADE</p>
+      </div>
+
+      <button onclick="doLogin()" id="loginBtn"
+              class="w-full py-3.5 rounded-xl text-sm font-black text-white hover:opacity-90 active:scale-[.98] transition-all flex items-center justify-center gap-2"
+              style="background:linear-gradient(135deg,#10b981,#059669);box-shadow:0 4px 16px rgba(16,185,129,.4);">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i>
+        Увійти
+      </button>
+
+      <div class="mt-4 text-center">
+        <a href="index.html" style="font-size:.72rem;color:var(--text2);">
+          <i class="fa-solid fa-store mr-1"></i>Повернутись до каталогу
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ НАВБАР ═══ -->
+<nav class="sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-4 h-14 flex items-center gap-3">
+    <a href="index.html" class="flex items-center gap-2.5 shrink-0">
+      <div class="w-8 h-8 rounded-xl flex items-center justify-center text-white"
+           style="background:linear-gradient(135deg,#10b981,#059669);">
+        <i class="fa-solid fa-box-open text-xs"></i>
+      </div>
+      <div class="hidden sm:block">
+        <div class="bebas tracking-widest" style="font-size:1.1rem;color:var(--text);">МОЇ ЗАМОВЛЕННЯ</div>
+        <div class="sec-title">UTRADE</div>
+      </div>
+    </a>
+
+    <!-- Бейдж дропера -->
+    <div id="droperBadge" class="hidden items-center gap-2 px-3 py-1.5 rounded-full"
+         style="background:var(--surface2);border:1px solid var(--border);">
+      <i class="fa-solid fa-user-circle text-xs" style="color:var(--accent);"></i>
+      <span id="droperBadgeText" class="text-xs font-black" style="color:var(--text);"></span>
+    </div>
+
+    <div class="ml-auto flex items-center gap-1.5">
+      <button onclick="toggleTheme()" class="w-8 h-8 rounded-xl flex items-center justify-center"
+              style="background:var(--surface2);border:1px solid var(--border);color:var(--text2);">
+        <i id="themeIcon" class="fa-solid fa-moon text-xs"></i>
+      </button>
+      <button onclick="exportMyCSV()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold hover:opacity-80"
+              style="background:var(--surface2);border:1px solid var(--border);color:var(--text2);" title="CSV">
+        <i class="fa-solid fa-file-arrow-down text-xs"></i>
+        <span class="hidden sm:inline">CSV</span>
+      </button>
+      <a href="index.html" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold hover:opacity-80 text-white"
+         style="background:var(--text);">
+        <i class="fa-solid fa-store text-xs"></i>
+        <span class="hidden sm:inline">Каталог</span>
+      </a>
+      <button onclick="doLogout()" class="w-8 h-8 rounded-xl flex items-center justify-center hover:text-red-500"
+              style="background:var(--surface2);border:1px solid var(--border);color:var(--text2);" title="Вийти">
+        <i class="fa-solid fa-right-from-bracket text-xs"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ ГОЛОВНИЙ КОНТЕНТ ═══ -->
+<div class="max-w-5xl mx-auto px-4 py-5">
+
+  <!-- БАЛАНС -->
+  <div id="balanceSection" class="hidden mb-5">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="bal-card">
+        <div class="sec-title mb-1">Загальний прибуток</div>
+        <div id="balProfit" class="bebas" style="font-size:1.6rem;color:var(--green);">0 ₴</div>
+      </div>
+      <div class="bal-card">
+        <div class="sec-title mb-1">Всього замовлень</div>
+        <div id="balTotal" class="bebas" style="font-size:1.6rem;">0</div>
+      </div>
+      <div class="bal-card">
+        <div class="sec-title mb-1">Виконано</div>
+        <div id="balDone" class="bebas" style="font-size:1.6rem;color:var(--green);">0</div>
+      </div>
+      <div class="bal-card">
+        <div class="sec-title mb-1">Очікують / штрафи</div>
+        <div style="display:flex;align-items:baseline;gap:.5rem;justify-content:center;">
+          <div id="balPending" class="bebas" style="font-size:1.4rem;color:#f59e0b;">0</div>
+          <div style="font-size:.65rem;color:var(--text2);">/</div>
+          <div id="balPenalties" class="bebas" style="font-size:1.1rem;color:var(--red);">0 ₴</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ФІЛЬТРИ -->
+  <div id="filtersSection" class="hidden mb-4">
+    <div class="flex flex-wrap gap-2 items-center">
+      <div class="flex gap-2 items-center">
+        <input type="date" id="filterFrom" onchange="loadOrders()" class="px-3 py-2 text-xs font-bold" style="min-width:130px;">
+        <span style="color:var(--text2);font-size:.75rem;">—</span>
+        <input type="date" id="filterTo" onchange="loadOrders()" class="px-3 py-2 text-xs font-bold" style="min-width:130px;">
+      </div>
+      <select id="filterStatus" onchange="loadOrders()" class="px-3 py-2 text-xs font-bold">
+        <option value="all">Всі статуси</option>
+        <option>Новий</option>
+        <option>Оброблено</option>
+        <option>Комплектація</option>
+        <option>Відправлено</option>
+        <option>Виконано</option>
+        <option>Відмова клієнта</option>
+        <option>Повернення</option>
+      </select>
+      <button onclick="resetFilters()" class="px-3 py-2 rounded-xl text-xs font-bold hover:text-red-500 transition-colors"
+              style="background:var(--surface);border:1px solid var(--border);color:var(--text2);">
+        <i class="fa-solid fa-rotate-left mr-1"></i>Скинути
+      </button>
+      <span id="ordersCountLabel" class="sec-title ml-auto"></span>
+    </div>
+  </div>
+
+  <!-- LOADING -->
+  <div id="loadingBlock" class="hidden py-20 flex flex-col items-center gap-3">
+    <div class="spin"></div>
+    <div class="text-sm font-bold" style="color:var(--text2);">Завантаження замовлень...</div>
+  </div>
+
+  <!-- EMPTY -->
+  <div id="emptyBlock" class="hidden py-20 text-center">
+    <i class="fa-solid fa-box-open text-5xl mb-4 block" style="color:var(--border);"></i>
+    <div class="text-sm font-bold mb-1" style="color:var(--text2);">Замовлень не знайдено</div>
+    <p style="font-size:.75rem;color:var(--text2);">Оформіть перше замовлення в каталозі</p>
+    <a href="index.html" class="inline-flex items-center gap-2 mt-4 px-4 py-2 rounded-xl text-xs font-black text-white hover:opacity-80"
+       style="background:var(--accent);">
+      <i class="fa-solid fa-store"></i> До каталогу
+    </a>
+  </div>
+
+  <!-- ЗАМОВЛЕННЯ — картки -->
+  <div id="ordersGrid" class="space-y-3"></div>
+
+</div>
+
+<script>
+const WORKER = 'https://utrade-orders.lozko1991.workers.dev';
+let currentCode = '', currentName = '', allOrders = [];
+
+// ── THEME ──────────────────────────────────────────────
+function toggleTheme() {
+  const dark = document.body.getAttribute('data-theme') !== 'dark';
+  document.body.setAttribute('data-theme', dark ? 'dark' : 'light');
+  document.getElementById('themeIcon').className = dark ? 'fa-solid fa-sun text-xs' : 'fa-solid fa-moon text-xs';
+  localStorage.setItem('utrade_theme', dark ? 'dark' : 'light');
+}
+(function(){
+  if (localStorage.getItem('utrade_theme') === 'dark') {
+    document.body.setAttribute('data-theme','dark');
+    document.getElementById('themeIcon').className = 'fa-solid fa-sun text-xs';
+  }
+})();
+
+// ── TOAST ──────────────────────────────────────────────
+function toast(msg, dur = 2500) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), dur);
+}
+
+// ── СТАТУС → CSS ───────────────────────────────────────
+const STATUS_CSS = {
+  'Новий':          'st-new',
+  'Оброблено':      'st-proc',
+  'Комплектація':   'st-pack',
+  'Відправлено':    'st-sent',
+  'Виконано':       'st-done',
+  'Відмова клієнта':'st-refused',
+  'Повернення':     'st-return',
+};
+const STATUS_ICON = {
+  'Новий':'fa-circle-dot','Оброблено':'fa-check','Комплектація':'fa-boxes-packing',
+  'Відправлено':'fa-truck','Виконано':'fa-circle-check','Відмова клієнта':'fa-circle-xmark','Повернення':'fa-rotate-left',
+};
+function stBadge(s) {
+  const cls = STATUS_CSS[s] || 'st-new';
+  const ico = STATUS_ICON[s] || 'fa-circle-dot';
+  return `<span class="st ${cls}"><i class="fa-solid ${ico}" style="font-size:.55rem;"></i>${s}</span>`;
+}
+
+// ── LOGIN ──────────────────────────────────────────────
+async function doLogin() {
+  const code = document.getElementById('loginCode').value.trim().toUpperCase();
+  if (!code) { toast('⚠️ Введіть код дропера'); return; }
+
+  const btn = document.getElementById('loginBtn');
+  btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Перевірка...';
+  btn.disabled = true;
+
+  try {
+    const res  = await api('getOrders', { droperCode: code });
+    if (!res.ok) throw new Error(res.error || 'Невірний код');
+
+    currentCode = code;
+    currentName = res.droperName || code;
+    allOrders   = res.orders || [];
+
+    localStorage.setItem('utrade_droper_code', code);
+    document.getElementById('loginScreen').style.display = 'none';
+    document.getElementById('droperBadge').classList.remove('hidden');
+    document.getElementById('droperBadge').classList.add('flex');
+    document.getElementById('droperBadgeText').textContent = currentName + ' (' + code + ')';
+
+    showMain();
+    loadBalance();
+  } catch(e) {
+    toast('❌ ' + e.message);
+    btn.innerHTML = '<i class="fa-solid fa-arrow-right-to-bracket"></i> Увійти';
+    btn.disabled = false;
+  }
+}
+
+function doLogout() {
+  currentCode = '';
+  localStorage.removeItem('utrade_droper_code');
+  location.reload();
+}
+
+// ── АВТО-ВХІД ──────────────────────────────────────────
+(function(){
+  const t = localStorage.getItem('utrade_theme');
+  if (t === 'dark') { document.body.setAttribute('data-theme','dark'); document.getElementById('themeIcon').className='fa-solid fa-sun text-xs'; }
+  const saved = localStorage.getItem('utrade_droper_code');
+  if (saved) { document.getElementById('loginCode').value = saved; doLogin(); }
+})();
+
+// ── API HELPER ─────────────────────────────────────────
+async function api(action, body = {}) {
+  const res = await fetch(WORKER, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action, ...body }),
+  });
+  return res.json();
+}
+
+// ── ПОКАЗАТИ ГОЛОВНИЙ КОНТЕНТ ──────────────────────────
+function showMain() {
+  document.getElementById('filtersSection').classList.remove('hidden');
+  renderOrders(allOrders);
+}
+
+// ── БАЛАНС ─────────────────────────────────────────────
+async function loadBalance() {
+  const res = await api('getBalance', { droperCode: currentCode });
+  if (!res.ok) return;
+  const b = res.balance;
+  document.getElementById('balProfit').textContent   = (b.profit >= 0 ? '+' : '') + b.profit + ' ₴';
+  document.getElementById('balProfit').style.color   = b.profit >= 0 ? 'var(--green)' : 'var(--red)';
+  document.getElementById('balTotal').textContent    = b.totalOrders;
+  document.getElementById('balDone').textContent     = b.done;
+  document.getElementById('balPending').textContent  = b.pending;
+  document.getElementById('balPenalties').textContent= b.penalties > 0 ? '-' + b.penalties + ' ₴' : '0 ₴';
+  document.getElementById('balanceSection').classList.remove('hidden');
+}
+
+// ── ЗАВАНТАЖИТИ ЗАМОВЛЕННЯ ─────────────────────────────
+async function loadOrders() {
+  document.getElementById('loadingBlock').classList.remove('hidden');
+  document.getElementById('ordersGrid').innerHTML = '';
+  document.getElementById('emptyBlock').classList.add('hidden');
+
+  const res = await api('getOrders', {
+    droperCode: currentCode,
+    status:   document.getElementById('filterStatus').value,
+    dateFrom: document.getElementById('filterFrom').value  || undefined,
+    dateTo:   document.getElementById('filterTo').value    || undefined,
+  });
+
+  document.getElementById('loadingBlock').classList.add('hidden');
+  if (!res.ok) { toast('⚠️ ' + res.error); return; }
+  allOrders = res.orders || [];
+  renderOrders(allOrders);
+  loadBalance();
+}
+
+// ── РЕНДЕР ЗАМОВЛЕНЬ (картки) ──────────────────────────
+function renderOrders(orders) {
+  document.getElementById('ordersCountLabel').textContent =
+    orders.length ? `Знайдено: ${orders.length}` : '';
+
+  if (!orders.length) {
+    document.getElementById('emptyBlock').classList.remove('hidden');
+    return;
+  }
+  document.getElementById('emptyBlock').classList.add('hidden');
+
+  document.getElementById('ordersGrid').innerHTML = orders.map(o => {
+    const profit    = parseFloat(o.profit) || 0;
+    const pColor    = profit >= 0 ? 'var(--green)' : 'var(--red)';
+    const items     = Array.isArray(o.items) ? o.items : [];
+    const dateStr   = formatDate(o.date);
+
+    // Товари
+    const itemsHtml = items.map(it => `
+      <div class="item-row">
+        <span style="font-size:.75rem;font-weight:700;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"
+              title="${esc(it.name)}">${esc(it.name)}</span>
+        <span style="font-size:.7rem;color:var(--text2);white-space:nowrap;flex-shrink:0;">
+          ${it.count} шт × ${it.salePrice} ₴
+        </span>
+        <span style="font-size:.7rem;font-weight:700;white-space:nowrap;flex-shrink:0;color:var(--green);">
+          +${(it.salePrice - it.price) * it.count} ₴
+        </span>
+      </div>`).join('');
+
+    // ТТН
+    const ttnHtml = o.ttn
+      ? `<a href="https://novaposhta.ua/tracking/?cargo_number=${o.ttn}" target="_blank" class="ttn-link">
+           <i class="fa-solid fa-truck text-xs"></i>${o.ttn} <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:.55rem;"></i>
+         </a>`
+      : `<span style="font-size:.72rem;color:var(--text2);">ТТН не вказано</span>`;
+
+    // Статус НП
+    const npHtml = o.npStatus
+      ? `<span style="font-size:.65rem;color:var(--text2);">${esc(o.npStatus)}</span>`
+      : '';
+
+    return `
+    <div class="order-card">
+      <div class="order-card-header">
+        <div style="display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;">
+          <span class="bebas" style="font-size:1.1rem;color:var(--accent);letter-spacing:.04em;">${o.orderNum || '—'}</span>
+          ${stBadge(o.status)}
+        </div>
+        <div style="display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;">
+          <span style="font-size:.68rem;color:var(--text2);">${dateStr}</span>
+          <span class="bebas" style="font-size:1.1rem;color:${pColor};">${profit >= 0 ? '+' : ''}${profit} ₴</span>
+        </div>
+      </div>
+      <div class="order-card-body">
+        <!-- Клієнт + місто -->
+        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:.75rem;">
+          <div>
+            <div class="sec-title mb-1">Клієнт</div>
+            <div style="font-size:.78rem;font-weight:700;">${esc(o.clientName) || '—'}</div>
+            <div style="font-size:.7rem;color:var(--text2);">${esc(o.phone) || ''}</div>
+          </div>
+          <div>
+            <div class="sec-title mb-1">Адреса</div>
+            <div style="font-size:.72rem;color:var(--text2);max-width:200px;">${esc(o.city) || '—'}</div>
+          </div>
+          <div style="margin-left:auto;text-align:right;">
+            <div class="sec-title mb-1">Закуп / Продаж</div>
+            <div style="font-size:.78rem;font-weight:700;">${o.totalBuy} ₴ / ${o.totalSell} ₴</div>
+          </div>
+        </div>
+        <!-- Товари -->
+        <div style="margin-bottom:.5rem;">${itemsHtml}</div>
+      </div>
+      <div class="order-card-footer">
+        <div style="flex:1;">${ttnHtml}</div>
+        <div>${npHtml}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── HELPERS ────────────────────────────────────────────
+function esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function formatDate(d) {
+  if (!d) return '—';
+  const dt = new Date(d);
+  if (isNaN(dt)) return String(d).slice(0,16);
+  return dt.toLocaleDateString('uk-UA', { day:'2-digit', month:'2-digit', year:'numeric' }) + ' ' +
+         dt.toLocaleTimeString('uk-UA', { hour:'2-digit', minute:'2-digit' });
+}
+function resetFilters() {
+  document.getElementById('filterFrom').value = '';
+  document.getElementById('filterTo').value   = '';
+  document.getElementById('filterStatus').value = 'all';
+  loadOrders();
+}
+
+// ── CSV ────────────────────────────────────────────────
+function exportMyCSV() {
+  if (!allOrders.length) { toast('⚠️ Немає замовлень'); return; }
+  const rows = [['Замовлення','Дата','Клієнт','Телефон','Місто','Оплата','Товари','Закупка','Продаж','Прибуток','ТТН','Статус НП','Статус']];
+  allOrders.forEach(o => {
+    const items = (o.items||[]).map(it=>`${it.name} (${it.count}шт)`).join('; ');
+    rows.push([o.orderNum,o.dateDisplay||o.date,o.clientName,o.phone,o.city,o.payment,items,o.totalBuy,o.totalSell,o.profit,o.ttn,o.npStatus,o.status]);
+  });
+  const csv = rows.map(r => r.map(v=>`"${String(v||'').replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8;'}));
+  a.download = `utrade_${currentCode}_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  toast('📊 CSV завантажено!');
+}
+</script>
+</body>
+</html>

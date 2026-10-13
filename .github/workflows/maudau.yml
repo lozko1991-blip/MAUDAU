@@ -1,0 +1,66 @@
+name: MAUDAU Feed Update
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'maudau_xml_generator.py'
+      - 'markup_config.py'
+      - 'category_mapper.py'
+      - 'param_normalizer.py'
+      - 'category_mapping.json'
+      - 'maudau_dict.json'
+      - 'tests/**'
+      - '.github/workflows/maudau.yml'
+
+  schedule:
+    - cron: '0 */4 * * *'
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: maudau-feed
+  cancel-in-progress: false
+
+jobs:
+  build_maudau_feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests lxml
+
+      - name: Run Unit Tests & Validation
+        run: python -m unittest discover tests
+
+      - name: Generate MAUDAU XML Feed
+        run: python maudau_xml_generator.py
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build_maudau_feed
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
