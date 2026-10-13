@@ -3,11 +3,35 @@
 SUPPLIER_CONFIGS = {
     "crm.yavshoke.ua": {
         "name": "yavshoke",
-        "markup_percent": 1.30,      # +30%
-        "markup_fixed": 50,          # +50 грн
-        "min_price_final": 300.0,    # Тільки товари, де фінальна ціна на MAUDAU >= 300 грн
+        "markup_percent": 1.30,       # +30%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 300.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 300 грн
         "old_price_multiplier": 1.25, # price_old = price * 1.25 (знижка 20%)
-        "id_prefix": "321_",         # Префікс для унікальності offer id та категорій (код постачальника)
+        "id_prefix": "321_",          # Префікс для унікальності offer id та категорій
+    },
+    "opt-drop.com": {
+        "name": "opt-drop",
+        "markup_percent": 1.35,       # +35%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "1000_",         # Префікс 1000 для offer id та категорій
+    },
+    "dropt.in.ua": {
+        "name": "dropt",
+        "markup_percent": 1.20,       # +20%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "2010_",         # Префікс 2010 для offer id та категорій
+    },
+    "aveon.net.ua": {
+        "name": "aveon",
+        "markup_percent": 1.15,       # +15%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "3001_",         # Префікс 3001 для offer id та категорій
     }
 }
 

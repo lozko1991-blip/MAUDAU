@@ -21,11 +21,25 @@ def get_category_info(cat_id: str, default_name: str = "") -> Tuple[str, Optiona
     """
     Повертає: (name_ua, portal_id)
     Якщо категорія є в словнику - повертає українську назву та portal_id.
+    Підтримує як прямий пошук за повним префіксованим ID, так і fallback за числовим ID.
     """
     cat_id_str = str(cat_id).strip()
     if cat_id_str in CATEGORY_MAP:
         info = CATEGORY_MAP[cat_id_str]
         return info.get("name_ua", default_name), info.get("portal_id")
+
+    if "_" in cat_id_str:
+        raw = cat_id_str.split("_", 1)[1]
+        if raw in CATEGORY_MAP:
+            info = CATEGORY_MAP[raw]
+            return info.get("name_ua", default_name), info.get("portal_id")
+    else:
+        for prefix in ["321_", "1000_", "2010_", "3001_"]:
+            prefixed = f"{prefix}{cat_id_str}"
+            if prefixed in CATEGORY_MAP:
+                info = CATEGORY_MAP[prefixed]
+                return info.get("name_ua", default_name), info.get("portal_id")
+
     return default_name, None
 
 def format_category_xml(cat_id: str, name_ua: str, portal_id: Optional[str] = None, parent_id: Optional[str] = None) -> str:

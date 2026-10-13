@@ -41,13 +41,16 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests lxml
+        run: pip install requests lxml openpyxl
+
+      - name: Generate MAUDAU XML Feed
+        run: python maudau_xml_generator.py
 
       - name: Run Unit Tests & Validation
         run: python -m unittest discover tests
 
-      - name: Generate MAUDAU XML Feed
-        run: python maudau_xml_generator.py
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
