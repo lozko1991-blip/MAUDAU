@@ -46,6 +46,7 @@ class TestMaudauFeed(unittest.TestCase):
         for c in categories:
             cid = c.get("id")
             self.assertTrue(bool(cid), "Category must have id")
+            self.assertTrue(cid.startswith("321_"), f"Category ID {cid} must start with prefix 321_")
             self.assertNotIn(cid, seen_ids, f"Duplicate category id: {cid}")
             seen_ids.add(cid)
             name = c.text or ""
@@ -68,8 +69,13 @@ class TestMaudauFeed(unittest.TestCase):
             oid = elem.get("id")
             avail = elem.get("available")
             self.assertTrue(bool(oid), "Offer must have id")
+            self.assertTrue(oid.startswith("321_"), f"Offer ID {oid} must start with prefix 321_")
             self.assertIn(avail, ["true", "false"], "Available must be 'true' or 'false'")
             self.assertIsNone(re.search(r'[\s\u0400-\u04FF]', oid), f"Offer ID {oid} cannot contain Cyrillic or spaces")
+            
+            cat_el = elem.find("categoryId")
+            self.assertIsNotNone(cat_el, f"Offer {oid} must have categoryId")
+            self.assertTrue(cat_el.text.startswith("321_"), f"Category ID {cat_el.text} must start with prefix 321_")
             
             # Price >= 300
             price_el = elem.find("price")

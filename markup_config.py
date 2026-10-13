@@ -7,7 +7,7 @@ SUPPLIER_CONFIGS = {
         "markup_fixed": 50,          # +50 грн
         "min_price_final": 300.0,    # Тільки товари, де фінальна ціна на MAUDAU >= 300 грн
         "old_price_multiplier": 1.25, # price_old = price * 1.25 (знижка 20%)
-        "id_prefix": "yav_",         # Префікс для унікальності offer id
+        "id_prefix": "321_",         # Префікс для унікальності offer id та категорій (код постачальника)
     }
 }
 

@@ -21,5 +21,9 @@ class TestCategoryMapper(unittest.TestCase):
         xml = format_category_xml("12345", "Нові товари")
         self.assertEqual(xml, '<category id="12345">Нові товари</category>')
 
+    def test_format_xml_with_prefix_321(self):
+        xml = format_category_xml("321_14975", "Сковороди", portal_id="271", parent_id="321_1000")
+        self.assertEqual(xml, '<category id="321_14975" parentId="321_1000" portal_id="271">Сковороди</category>')
+
 if __name__ == "__main__":
     unittest.main()

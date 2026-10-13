@@ -27,5 +27,9 @@ class TestMarkupConfig(unittest.TestCase):
     def test_category_allowed(self):
         self.assertFalse(is_category_excluded("14975", cat_name="Сковороди", product_title="Сковорода Tefal 24 см"))
 
+    def test_supplier_prefix_321(self):
+        from markup_config import SUPPLIER_CONFIGS
+        self.assertEqual(SUPPLIER_CONFIGS["crm.yavshoke.ua"]["id_prefix"], "321_")
+
 if __name__ == "__main__":
     unittest.main()

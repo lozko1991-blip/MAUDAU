@@ -13,6 +13,8 @@ maudau_feed.xml.offers.tmp
 # Large XML files (>50MB/100MB limit on GitHub)
 Masterevanew.xml
 maudau_feed.xml
+maudau_feed.xml.gz
+*.xml.gz
 merchant_categories_*.xml
 *.xlsx
 

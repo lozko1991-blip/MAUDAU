@@ -20,7 +20,7 @@ SOURCES = [
     {
         "id": "yavshoke",
         "domain": "crm.yavshoke.ua",
-        "prefix": "yav_",
+        "prefix": "321_",
         "url": "https://crm.yavshoke.ua/media/export/all_drop_opt_price.xml"
     }
 ]
@@ -97,6 +97,7 @@ def process_feed(source: dict, output_file: str = "maudau_feed.xml"):
         "total_source_offers": 0,
         "excluded_category_offers": 0,
         "below_min_price_offers": 0,
+        "duplicate_offers": 0,
         "invalid_offers": 0,
         "published_offers": 0,
         "categories_count": 0,
@@ -106,6 +107,7 @@ def process_feed(source: dict, output_file: str = "maudau_feed.xml"):
     # Створюємо тимчасовий файл для запису офферів
     temp_offers_path = output_file + ".offers.tmp"
 
+    seen_offer_ids: Set[str] = set()
     used_category_ids: Set[str] = set()
     category_definitions: Dict[str, Tuple[str, Optional[str]]] = {} # cat_id -> (name_ru, parent_id)
 
@@ -263,6 +265,14 @@ def process_feed(source: dict, output_file: str = "maudau_feed.xml"):
 
                     # Формуємо XML товарної пропозиції
                     offer_id = escape_attr(f"{source['prefix']}{raw_id}")
+                    if offer_id in seen_offer_ids:
+                        stats["duplicate_offers"] += 1
+                        elem.clear()
+                        while elem.getprevious() is not None:
+                            del elem.getparent()[0]
+                        continue
+                    seen_offer_ids.add(offer_id)
+
                     avail_str = "true" if available else "false"
 
                     out_offers.write(f'        <offer id="{offer_id}" available="{avail_str}">\n')
@@ -365,19 +375,30 @@ def process_feed(source: dict, output_file: str = "maudau_feed.xml"):
     if os.path.exists(temp_offers_path):
         os.remove(temp_offers_path)
 
+    # Генерація стисненої копії (.xml.gz) для швидкого завантаження маркетплейсом
+    gz_output_file = output_file + ".gz"
+    print(f"\n[3/3] Створення архівованої версії {gz_output_file} для блискавичного скачування...")
+    import gzip
+    import shutil
+    with open(output_file, "rb") as f_in:
+        with gzip.open(gz_output_file, "wb", compresslevel=6) as f_out:
+            shutil.copyfileobj(f_in, f_out)
+    gz_size_mb = os.path.getsize(gz_output_file) / (1024 * 1024)
+
     elapsed = time.time() - start_time
     file_size_mb = os.path.getsize(output_file) / (1024 * 1024)
 
     print("\n" + "=" * 70)
     print("ГЕНЕРАЦІЮ ЗАВЕРШЕНО УСПІШНО!")
     print(f"Час виконання: {elapsed:.2f} сек")
-    print(f"Розмір згенерованого XML: {file_size_mb:.2f} МБ")
+    print(f"Розмір згенерованого XML: {file_size_mb:.2f} МБ (GZIP: {gz_size_mb:.2f} МБ)")
     print("-" * 70)
     print(f"Всього товарів у постачальника: {stats['total_source_offers']}")
     print(f"Відфільтровано заборонених категорій (ролети/тарілки): {stats['excluded_category_offers']}")
     print(f"Відфільтровано за ціною (< 300 грн на MAUDAU): {stats['below_min_price_offers']}")
+    print(f"Відсіяно внутрішніх дублів постачальника: {stats['duplicate_offers']}")
     print(f"Відхилено некоректних (без фото/назви): {stats['invalid_offers']}")
-    print(f"Опубліковано якісних товарів: {stats['published_offers']}")
+    print(f"Опубліковано унікальних якісних товарів: {stats['published_offers']}")
     print(f"Категорій у фіді: {stats['categories_count']} (з прямим portal_id: {stats['mapped_categories_count']})")
     print("=" * 70)
 
