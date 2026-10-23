@@ -1,7 +1,12 @@
 import unittest
-from markup_config import calculate_prices, is_category_excluded, check_price_anomaly
+from markup_config import calculate_prices, is_category_excluded, check_price_anomaly, is_forced_out_of_stock
 
 class TestMarkupConfig(unittest.TestCase):
+    def test_forced_out_of_stock(self):
+        self.assertTrue(is_forced_out_of_stock("321_5155079"))
+        self.assertTrue(is_forced_out_of_stock("5155079"))
+        self.assertTrue(is_forced_out_of_stock("321_5139163"))
+        self.assertFalse(is_forced_out_of_stock("321_9999999"))
     def test_price_anomaly_bedding_set(self):
         # 232 UAH for an euro bedding set is an anomaly and must be blocked
         allowed, reason = check_price_anomaly("Постільна білизна євро Viluta Ранфорс 5 24290-E/3 220х200 см", 232.0)

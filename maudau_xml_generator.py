@@ -16,7 +16,7 @@ from typing import List, Dict, Set, Tuple, Optional
 
 import lxml.etree as ET
 
-from markup_config import calculate_prices, is_category_excluded, check_price_anomaly
+from markup_config import calculate_prices, is_category_excluded, check_price_anomaly, is_forced_out_of_stock
 from category_mapper import get_category_info, format_category_xml
 from param_normalizer import normalize_parameters, strip_html
 
@@ -301,9 +301,10 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                         supplier_offers_count += 1
                         raw_id = (elem.get("id") or "").strip()
                         avail_val = (elem.get("available") or "true").strip().lower()
+                        is_forced_oos = is_forced_out_of_stock(f"{prefix}{raw_id}", raw_id)
 
-                        # 1. Тільки товари в наявності (available == true)
-                        if avail_val != "true":
+                        # 1. Тільки товари в наявності (крім примусово помічених як не в наявності для MAUDAU)
+                        if avail_val != "true" and not is_forced_oos:
                             stats["out_of_stock_offers"] += 1
                             elem.clear()
                             while elem.getprevious() is not None:
@@ -472,7 +473,8 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                         stats["candidate_offers"] += 1
 
                         out_temp.write(f"###OFFER:{prefixed_cat_id}\n")
-                        out_temp.write(f'        <offer id="{offer_id}" available="true">\n')
+                        final_avail = "false" if is_forced_oos else "true"
+                        out_temp.write(f'        <offer id="{offer_id}" available="{final_avail}">\n')
                         out_temp.write(f'            <price>{final_price}</price>\n')
                         if old_price > final_price:
                             out_temp.write(f'            <price_old>{old_price}</price_old>\n')

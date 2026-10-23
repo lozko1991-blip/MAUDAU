@@ -2,6 +2,7 @@ import unittest
 import lxml.etree as ET
 import os
 import re
+from markup_config import is_forced_out_of_stock
 
 FEED_FILE = "maudau_feed.xml"
 VALID_PREFIXES = ("321_", "1000_", "2010_", "3001_")
@@ -74,7 +75,10 @@ class TestMaudauFeed(unittest.TestCase):
             avail = elem.get("available")
             self.assertTrue(bool(oid), "Offer must have id")
             self.assertTrue(any(oid.startswith(p) for p in VALID_PREFIXES), f"Offer ID {oid} must have valid prefix")
-            self.assertEqual(avail, "true", f"Only in-stock items should be published (got {avail} for {oid})")
+            if not is_forced_out_of_stock(oid):
+                self.assertEqual(avail, "true", f"Only in-stock items should be published (got {avail} for {oid})")
+            else:
+                self.assertEqual(avail, "false", f"Forced out-of-stock items must have available='false'")
             self.assertIsNone(re.search(r'[\s\u0400-\u04FF]', oid), f"Offer ID {oid} cannot contain Cyrillic or spaces")
             
             cat_el = elem.find("categoryId")

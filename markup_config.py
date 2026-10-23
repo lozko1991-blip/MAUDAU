@@ -35,7 +35,18 @@ SUPPLIER_CONFIGS = {
     }
 }
 
-# Категорії, які суворо заборонено публікувати з yavshoke
+# Список товарів, які примусово знімаються з наявності на MAUDAU (available="false")
+MANUAL_OUT_OF_STOCK_IDS = {
+    "321_5155079", "5155079",  # Viluta Ранфорс 5 24290-E/3
+    "321_5139163", "5139163",  # Viluta Ранфорс 5 24269-2-2
+    "321_5139161", "5139161",  # Viluta Ранфорс 4 24259-2-2
+    "321_5139167", "5139167",  # Viluta Ранфорс 3 24288-2-2
+}
+
+def is_forced_out_of_stock(offer_id: str, raw_id: str = "") -> bool:
+    """Перевіряє, чи повинен товар мати available='false' у фіді MAUDAU."""
+    return str(offer_id).strip() in MANUAL_OUT_OF_STOCK_IDS or str(raw_id).strip() in MANUAL_OUT_OF_STOCK_IDS
+
 # 40863 - Ролеты, 42166 - Ролеты закрытого типа, 42165 - Ролеты открытого типа
 # 15041 - Тарелки и пиалы, 15055 - Детские тарелки и пиалы
 EXCLUDED_CATEGORY_IDS = {
