@@ -16,7 +16,7 @@ from typing import List, Dict, Set, Tuple, Optional
 
 import lxml.etree as ET
 
-from markup_config import calculate_prices, is_category_excluded
+from markup_config import calculate_prices, is_category_excluded, check_price_anomaly
 from category_mapper import get_category_info, format_category_xml
 from param_normalizer import normalize_parameters, strip_html
 
@@ -229,7 +229,9 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
         "out_of_stock_offers": 0,
         "excluded_category_offers": 0,
         "below_min_price_offers": 0,
+        "anomaly_price_offers": 0,
         "duplicate_offers": 0,
+        "duplicate_title_offers": 0,
         "invalid_offers": 0,
         "candidate_offers": 0,
         "thin_offers_removed": 0,
@@ -271,6 +273,8 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                 last_log_time = time.time()
                 supplier_offers_count = 0
                 supplier_candidates = 0
+                supplier_seen_titles: Set[str] = set()
+                supplier_seen_codes: Set[str] = set()
 
                 for event, elem in context:
                     if elem.tag == "category":
@@ -353,6 +357,15 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                                 del elem.getparent()[0]
                             continue
 
+                        # 4.1 Захист від аномальних цін (помилок/описок постачальника)
+                        is_price_valid, anomaly_reason = check_price_anomaly(title_ua, raw_price, raw_cat_id)
+                        if not is_price_valid:
+                            stats["anomaly_price_offers"] += 1
+                            elem.clear()
+                            while elem.getprevious() is not None:
+                                del elem.getparent()[0]
+                            continue
+
                         # Валідація назви
                         if not title_ua or len(title_ua) < 3:
                             stats["invalid_offers"] += 1
@@ -360,6 +373,28 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                             while elem.getprevious() is not None:
                                 del elem.getparent()[0]
                             continue
+
+                        # 4.2 Внутрішня дедуплікація постачальника за назвою
+                        norm_title = re.sub(r'\s+', ' ', title_ua.strip().lower())
+                        if norm_title in supplier_seen_titles:
+                            stats["duplicate_title_offers"] += 1
+                            elem.clear()
+                            while elem.getprevious() is not None:
+                                del elem.getparent()[0]
+                            continue
+                        supplier_seen_titles.add(norm_title)
+
+                        # 4.3 Внутрішня дедуплікація постачальника за артикулом/кодом
+                        vendor_code_el = elem.find("vendorCode") or elem.find("article")
+                        raw_code = (vendor_code_el.text or "").strip() if vendor_code_el is not None else ""
+                        if raw_code and raw_code != raw_id:
+                            if raw_code in supplier_seen_codes:
+                                stats["duplicate_offers"] += 1
+                                elem.clear()
+                                while elem.getprevious() is not None:
+                                    del elem.getparent()[0]
+                                continue
+                            supplier_seen_codes.add(raw_code)
 
                         title_ua = escape_xml(title_ua[:255])
                         title_ru = escape_xml(title_ru[:255])
@@ -595,9 +630,11 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
     print(f"Відсіяно не в наявності (available != true): {stats['out_of_stock_offers']}")
     print(f"Відсіяно заборонених категорій (ролети/тарілки): {stats['excluded_category_offers']}")
     print(f"Відсіяно за ціною (< 300 / < 350 грн на MAUDAU): {stats['below_min_price_offers']}")
+    print(f"Відсіяно аномально низьких цін (помилок постачальника): {stats['anomaly_price_offers']}")
     print(f"Відсіяно з категорій з < 3 товарів / без назви: {stats['thin_offers_removed']}")
     print(f"Відсіяно некоректних (без фото/назви/категорії): {stats['invalid_offers']}")
-    print(f"Відсіяно дублів: {stats['duplicate_offers']}")
+    print(f"Відсіяно дублів ID: {stats['duplicate_offers']}")
+    print(f"Відсіяно дублів назв всередині постачальників: {stats['duplicate_title_offers']}")
     print(f"ОПУБЛІКОВАНО ТОВАРІВ У ФІДІ: {stats['published_offers']}")
     print(f"Категорій у фіді: {stats['categories_final']} (з прив'язаним portal_id: {stats['categories_mapped_portal_id']})")
     print(f"Видалено тонких/некоректних категорій: {stats['categories_pruned_thin']}")

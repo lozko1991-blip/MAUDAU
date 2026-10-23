@@ -1,7 +1,26 @@
 import unittest
-from markup_config import calculate_prices, is_category_excluded
+from markup_config import calculate_prices, is_category_excluded, check_price_anomaly
 
 class TestMarkupConfig(unittest.TestCase):
+    def test_price_anomaly_bedding_set(self):
+        # 232 UAH for an euro bedding set is an anomaly and must be blocked
+        allowed, reason = check_price_anomaly("Постільна білизна євро Viluta Ранфорс 5 24290-E/3 220х200 см", 232.0)
+        self.assertFalse(allowed)
+        self.assertIn("Аномально низька", reason)
+
+        # 1090 UAH for an euro bedding set is valid and allowed
+        allowed, reason = check_price_anomaly("Постільна білизна євро Viluta Ранфорс 5 24290-E/3 220х200 см", 1090.0)
+        self.assertTrue(allowed)
+
+        # Non-set bedding (single pillowcase or sheet) is allowed
+        allowed, reason = check_price_anomaly("Простирадло на резинці Viluta 160х200х25 см", 250.0)
+        self.assertTrue(allowed)
+
+    def test_price_anomaly_power_equipment(self):
+        allowed, reason = check_price_anomaly("Бензиновий генератор 3 кВт", 250.0)
+        self.assertFalse(allowed)
+        allowed, reason = check_price_anomaly("Бензиновий генератор 3 кВт", 8500.0)
+        self.assertTrue(allowed)
     def test_price_calculation_allowed(self):
         final_p, old_p, allowed = calculate_prices("crm.yavshoke.ua", 200.0)
         self.assertTrue(allowed)
