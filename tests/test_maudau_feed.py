@@ -5,7 +5,8 @@ import re
 from markup_config import is_forced_out_of_stock
 
 FEED_FILE = "maudau_feed.xml"
-VALID_PREFIXES = ("321_", "1000_", "2010_", "3001_")
+VALID_PREFIXES = ("321_", "1000_", "2010_", "3001_", "9999_", "5555_", "3333_", "1100_", "7777_")
+VALID_CAT_PREFIXES = ("321_", "1000_", "2010_", "3001_", "9999_", "5555_", "3333_", "1100_", "7777_", "1200")
 
 class TestMaudauFeed(unittest.TestCase):
     @classmethod
@@ -51,7 +52,7 @@ class TestMaudauFeed(unittest.TestCase):
         for c in categories:
             cid = c.get("id")
             self.assertTrue(bool(cid), "Category must have id")
-            self.assertTrue(any(cid.startswith(p) for p in VALID_PREFIXES), f"Category ID {cid} must have a valid supplier prefix")
+            self.assertTrue(any(cid.startswith(p) for p in VALID_CAT_PREFIXES), f"Category ID {cid} must have a valid supplier prefix")
             self.assertNotIn(cid, seen_ids, f"Duplicate category id: {cid}")
             seen_ids.add(cid)
             name = c.text or ""
@@ -83,14 +84,14 @@ class TestMaudauFeed(unittest.TestCase):
             
             cat_el = elem.find("categoryId")
             self.assertIsNotNone(cat_el, f"Offer {oid} must have categoryId")
-            self.assertTrue(any(cat_el.text.startswith(p) for p in VALID_PREFIXES), f"Category ID {cat_el.text} must have valid prefix")
+            self.assertTrue(any(cat_el.text.startswith(p) for p in VALID_CAT_PREFIXES), f"Category ID {cat_el.text} must have valid prefix")
             
             # Price threshold check
             price_el = elem.find("price")
             self.assertIsNotNone(price_el)
             price = float(price_el.text)
-            if oid.startswith("321_"):
-                self.assertGreaterEqual(price, 300.0, f"Offer {oid} yavshoke price {price} must be >= 300")
+            if oid.startswith("321_") or oid.startswith("5555_"):
+                self.assertGreaterEqual(price, 300.0, f"Offer {oid} price {price} must be >= 300")
             else:
                 self.assertGreaterEqual(price, 350.0, f"Offer {oid} price {price} must be >= 350")
             

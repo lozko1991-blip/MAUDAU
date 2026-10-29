@@ -24,7 +24,7 @@ from param_normalizer import normalize_parameters, strip_html
 CACHE_DIR = os.path.join(os.path.dirname(__file__), ".feed_cache")
 CACHE_TTL = 3 * 3600
 
-# 4 постачальники для інтеграції в єдиний MAUDAU XML фід
+# 9 постачальників для інтеграції в єдиний MAUDAU XML фід
 SOURCES = [
     {
         "id": "yavshoke",
@@ -49,6 +49,37 @@ SOURCES = [
         "domain": "aveon.net.ua",
         "prefix": "3001_",
         "url": "https://aveon.net.ua/products_feed.xml?hash_tag=7b71fadcc4a12f03cf26a304da032fba&sales_notes=&product_ids=&label_ids=&exclude_fields=&html_description=0&yandex_cpa=&process_presence_sure=&languages=uk%2Cru&extra_fields=keywords&group_ids="
+    },
+    {
+        "id": "websklad",
+        "domain": "www.websklad.biz.ua",
+        "prefix": "9999_",
+        "url": "https://www.websklad.biz.ua/wp-content/uploads/randomize_prom_84230_2026_09_25_07_02.xml"
+    },
+    {
+        "id": "royal-toys",
+        "domain": "dwn.royaltoys.com.ua",
+        "prefix": "5555_",
+        "cat_prefix": "",  # Категорії вже мають префікс у вивантаженні (напр. 12001185)
+        "url": "https://dwn.royaltoys.com.ua/my/export/v2/fea90e63-40d8-46c9-8dc8-67b34d0f958b.xml"
+    },
+    {
+        "id": "lugi",
+        "domain": "feed.lugi.com.ua",
+        "prefix": "3333_",
+        "url": "https://feed.lugi.com.ua/index.php?route=extension/feed/unixml/ukr_ru"
+    },
+    {
+        "id": "forus",
+        "domain": "forus.com.ua",
+        "prefix": "1100_",
+        "url": "https://forus.com.ua/vugruzka/forus_opt_prom_stock.xml"
+    },
+    {
+        "id": "posudograd",
+        "domain": "posudograd.ua",
+        "prefix": "7777_",
+        "url": "https://posudograd.ua/dropship/19155/prom"
     }
 ]
 
@@ -255,6 +286,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
         for s_idx, source in enumerate(sources, 1):
             s_name = source["id"]
             prefix = source["prefix"]
+            cat_prefix = source.get("cat_prefix", prefix)
             domain = source["domain"]
 
             print(f"\n--- [{s_idx}/{len(sources)}] Обробка: {s_name} (префікс: {prefix}, домен: {domain}) ---")
@@ -265,7 +297,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                 context = ET.iterparse(
                     stream,
                     events=("end",),
-                    tag=("category", "offer"),
+                    tag=("category", "offer", "item"),
                     recover=True,
                     huge_tree=True
                 )
@@ -278,25 +310,25 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
 
                 for event, elem in context:
                     if elem.tag == "category":
-                        raw_cid = (elem.get("id") or "").strip()
+                        raw_cid = (elem.get("id") or "").strip().rstrip('\\')
                         if not raw_cid:
                             elem.clear()
                             continue
 
-                        raw_pid = (elem.get("parentId") or elem.get("parent_id") or "").strip()
+                        raw_pid = (elem.get("parentId") or elem.get("parentID") or elem.get("parent_id") or "").strip().rstrip('\\')
                         if raw_pid in ("0", "-1", "none", "None", ""):
                             raw_pid = ""
 
                         cname = (elem.text or "").strip()
-                        prefixed_cid = f"{prefix}{raw_cid}"
-                        prefixed_pid = f"{prefix}{raw_pid}" if raw_pid else None
+                        prefixed_cid = f"{cat_prefix}{raw_cid}"
+                        prefixed_pid = f"{cat_prefix}{raw_pid}" if raw_pid else None
                         all_categories[prefixed_cid] = (cname, prefixed_pid)
 
                         elem.clear()
                         while elem.getprevious() is not None:
                             del elem.getparent()[0]
 
-                    elif elem.tag == "offer":
+                    elif elem.tag in ("offer", "item"):
                         stats["total_source_offers"] += 1
                         supplier_offers_count += 1
                         raw_id = (elem.get("id") or "").strip()
@@ -313,7 +345,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
 
                         # 2. Категорія товару
                         cat_el = elem.find("categoryId")
-                        raw_cat_id = cat_el.text.strip() if cat_el is not None and cat_el.text else ""
+                        raw_cat_id = (cat_el.text or "").strip().rstrip('\\') if cat_el is not None else ""
                         if not raw_cat_id or raw_cat_id in ("0", "None"):
                             stats["invalid_offers"] += 1
                             elem.clear()
@@ -321,7 +353,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
                                 del elem.getparent()[0]
                             continue
 
-                        prefixed_cat_id = f"{prefix}{raw_cat_id}"
+                        prefixed_cat_id = f"{cat_prefix}{raw_cat_id}"
                         cat_name_raw, _ = all_categories.get(prefixed_cat_id, ("", None))
 
                         # 3. Назва товару
@@ -419,7 +451,7 @@ def generate_maudau_feed(sources: List[dict] = SOURCES, output_file: str = "maud
 
                         # 6. Фотографії (1-12 шт, валідні URL без пробілів та кирилиці)
                         pictures = []
-                        for pic in elem.findall("picture"):
+                        for pic in elem.findall("picture") + elem.findall("image"):
                             purl = (pic.text or "").strip()
                             if purl and " " not in purl and not re.search(r'[\u0400-\u04FF]', purl):
                                 pictures.append(escape_xml(purl))

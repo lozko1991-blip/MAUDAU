@@ -34,7 +34,7 @@ def get_category_info(cat_id: str, default_name: str = "") -> Tuple[str, Optiona
             info = CATEGORY_MAP[raw]
             return info.get("name_ua", default_name), info.get("portal_id")
     else:
-        for prefix in ["321_", "1000_", "2010_", "3001_"]:
+        for prefix in ["321_", "1000_", "2010_", "3001_", "9999_", "5555_", "3333_", "1100_", "7777_"]:
             prefixed = f"{prefix}{cat_id_str}"
             if prefixed in CATEGORY_MAP:
                 info = CATEGORY_MAP[prefixed]

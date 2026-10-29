@@ -54,6 +54,27 @@ class TestMarkupConfig(unittest.TestCase):
     def test_supplier_prefix_321(self):
         from markup_config import SUPPLIER_CONFIGS
         self.assertEqual(SUPPLIER_CONFIGS["crm.yavshoke.ua"]["id_prefix"], "321_")
+        self.assertEqual(SUPPLIER_CONFIGS["websklad.biz.ua"]["id_prefix"], "9999_")
+        self.assertEqual(SUPPLIER_CONFIGS["dwn.royaltoys.com.ua"]["id_prefix"], "5555_")
+        self.assertEqual(SUPPLIER_CONFIGS["feed.lugi.com.ua"]["id_prefix"], "3333_")
+        self.assertEqual(SUPPLIER_CONFIGS["forus.com.ua"]["id_prefix"], "1100_")
+        self.assertEqual(SUPPLIER_CONFIGS["posudograd.ua"]["id_prefix"], "7777_")
+
+    def test_new_suppliers_price_calculation(self):
+        # Lugi: +10% + 50 грн, 300 грн -> 300 * 1.10 + 50 = 380 грн
+        final_p, old_p, allowed = calculate_prices("feed.lugi.com.ua", 300.0)
+        self.assertTrue(allowed)
+        self.assertEqual(final_p, 380)
+
+        # RoyalToys: +35% + 50 грн, 200 грн -> 200 * 1.35 + 50 = 320 грн
+        final_p, old_p, allowed = calculate_prices("dwn.royaltoys.com.ua", 200.0)
+        self.assertTrue(allowed)
+        self.assertEqual(final_p, 320)
+
+        # Posudograd: +17% + 50 грн, 300 грн -> 300 * 1.17 + 50 = 401 грн
+        final_p, old_p, allowed = calculate_prices("posudograd.ua", 300.0)
+        self.assertTrue(allowed)
+        self.assertEqual(final_p, 401)
 
 if __name__ == "__main__":
     unittest.main()

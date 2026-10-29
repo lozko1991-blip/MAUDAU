@@ -32,6 +32,54 @@ SUPPLIER_CONFIGS = {
         "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
         "old_price_multiplier": 1.25,
         "id_prefix": "3001_",         # Префікс 3001 для offer id та категорій
+    },
+    "websklad.biz.ua": {
+        "name": "websklad",
+        "markup_percent": 1.35,       # +35%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "9999_",
+    },
+    "www.websklad.biz.ua": {
+        "name": "websklad",
+        "markup_percent": 1.35,       # +35%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,
+        "old_price_multiplier": 1.25,
+        "id_prefix": "9999_",
+    },
+    "dwn.royaltoys.com.ua": {
+        "name": "royal-toys",
+        "markup_percent": 1.35,       # +35%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 300.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 300 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "5555_",
+    },
+    "feed.lugi.com.ua": {
+        "name": "lugi",
+        "markup_percent": 1.10,       # +10%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "3333_",
+    },
+    "forus.com.ua": {
+        "name": "forus",
+        "markup_percent": 1.10,       # +10%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "1100_",
+    },
+    "posudograd.ua": {
+        "name": "posudograd",
+        "markup_percent": 1.17,       # +17%
+        "markup_fixed": 50,           # +50 грн
+        "min_price_final": 350.0,     # Тільки товари, де фінальна ціна на MAUDAU >= 350 грн
+        "old_price_multiplier": 1.25,
+        "id_prefix": "7777_",
     }
 }
 
