@@ -107,10 +107,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "28788177": {
-        "portal_id": "1436",
+        "portal_id": "1447",
         "name_ua": "Точилки ножей",
-        "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-        "is_leaf": False
+        "maudau_official_name": "Точила для ножів",
+        "is_leaf": True
     },
     "41899249": {
         "portal_id": "1642",
@@ -167,10 +167,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "255393374": {
-        "portal_id": "1436",
+        "portal_id": "1444",
         "name_ua": "Набори ножів",
-        "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-        "is_leaf": False
+        "maudau_official_name": "Набори кухонних ножів",
+        "is_leaf": True
     },
     "271237322": {
         "portal_id": "2219",
@@ -239,10 +239,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "369855034": {
-        "portal_id": "1398",
+        "portal_id": "1508",
         "name_ua": "Тертки/овочерізки",
-        "maudau_official_name": "Кухонне приладдя",
-        "is_leaf": False
+        "maudau_official_name": "Тертки",
+        "is_leaf": True
     },
     "389440355": {
         "portal_id": "130",
@@ -413,10 +413,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "782384383": {
-        "portal_id": "1040",
+        "portal_id": "1175",
         "name_ua": "Зеркала",
-        "maudau_official_name": "Інструменти для манікюру та педикюру",
-        "is_leaf": False
+        "maudau_official_name": "Дзеркала косметичні",
+        "is_leaf": True
     },
     "782751450": {
         "portal_id": "2272",
@@ -425,10 +425,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "793589270": {
-        "portal_id": "1398",
+        "portal_id": "1508",
         "name_ua": "Терки/овощерезки",
-        "maudau_official_name": "Кухонне приладдя",
-        "is_leaf": False
+        "maudau_official_name": "Тертки",
+        "is_leaf": True
     },
     "818731137": {
         "portal_id": "568",
@@ -641,10 +641,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "1339229095": {
-        "portal_id": "1719",
+        "portal_id": "1721",
         "name_ua": "Ланцюгові пили",
-        "maudau_official_name": "Ланцюгові пили",
-        "is_leaf": False
+        "maudau_official_name": "Електропили",
+        "is_leaf": True
     },
     "1340357579": {
         "portal_id": "1445",
@@ -707,10 +707,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "1488523854": {
-        "portal_id": "1398",
+        "portal_id": "1456",
         "name_ua": "Подрібнювачі спецій",
-        "maudau_official_name": "Кухонне приладдя",
-        "is_leaf": False
+        "maudau_official_name": "Млини для спецій",
+        "is_leaf": True
     },
     "1496736048": {
         "portal_id": "1120",
@@ -917,10 +917,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "1962343657": {
-        "portal_id": "2210",
+        "portal_id": "2326",
         "name_ua": "FM модулятори",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "FM-трансмітери",
+        "is_leaf": True
     },
     "1968925532": {
         "portal_id": "1709",
@@ -1085,10 +1085,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "2299663395": {
-        "portal_id": "2210",
+        "portal_id": "1729",
         "name_ua": "Автомийки",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "Мийки високого тиску",
+        "is_leaf": True
     },
     "2321134810": {
         "portal_id": "118",
@@ -1235,16 +1235,16 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "2729261311": {
-        "portal_id": "1719",
+        "portal_id": "1721",
         "name_ua": "Цепные пилы",
-        "maudau_official_name": "Ланцюгові пили",
-        "is_leaf": False
+        "maudau_official_name": "Електропили",
+        "is_leaf": True
     },
     "2759624059": {
-        "portal_id": "1436",
+        "portal_id": "1444",
         "name_ua": "Наборы ножей",
-        "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-        "is_leaf": False
+        "maudau_official_name": "Набори кухонних ножів",
+        "is_leaf": True
     },
     "2791721759": {
         "portal_id": "1120",
@@ -1517,10 +1517,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "3381956501": {
-        "portal_id": "2210",
+        "portal_id": "2080",
         "name_ua": "Автомагнітоли",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "Автомагнітоли",
+        "is_leaf": True
     },
     "3396386917": {
         "portal_id": "691",
@@ -1529,10 +1529,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "3400461773": {
-        "portal_id": "2210",
+        "portal_id": "2080",
         "name_ua": "Автомагнитолы",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "Автомагнітоли",
+        "is_leaf": True
     },
     "3403788938": {
         "portal_id": "1971",
@@ -1589,16 +1589,16 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "3527257278": {
-        "portal_id": "2210",
+        "portal_id": "2326",
         "name_ua": "FM модуляторы",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "FM-трансмітери",
+        "is_leaf": True
     },
     "3534945393": {
-        "portal_id": "1436",
+        "portal_id": "1447",
         "name_ua": "Точила ножів",
-        "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-        "is_leaf": False
+        "maudau_official_name": "Точила для ножів",
+        "is_leaf": True
     },
     "3540713263": {
         "portal_id": "691",
@@ -1817,10 +1817,10 @@ WEBSKLAD_MAPPINGS = {
         "is_leaf": True
     },
     "3938591001": {
-        "portal_id": "2210",
+        "portal_id": "1729",
         "name_ua": "Автомойки",
-        "maudau_official_name": "Автоаксесуари",
-        "is_leaf": False
+        "maudau_official_name": "Мийки високого тиску",
+        "is_leaf": True
     },
     "3948579596": {
         "portal_id": "277",

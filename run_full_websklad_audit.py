@@ -29,11 +29,8 @@ def main():
             }
     print(f"Loaded {len(maudau_catalog)} official MAUDAU categories.")
 
-    # 2. Load websklad_audit_prep.json
-    with open("websklad_audit_prep.json", "r", encoding="utf-8") as f:
-        prep_data = json.load(f)
-    categories = prep_data.get("categories", {})
-    all_raw_ids = sorted(list(categories.keys()), key=lambda x: int(x) if x.isdigit() else x)
+    # 2. Categories from WEBSKLAD_MAPPINGS
+    all_raw_ids = sorted(list(WEBSKLAD_MAPPINGS.keys()), key=lambda x: int(x) if x.isdigit() else x)
     total_cats = len(all_raw_ids)
     print(f"Total Websklad categories to audit: {total_cats}")
 
@@ -80,16 +77,11 @@ def main():
             print(f"\n[PART {part_num} | BATCH {b_num:02d}] Processing categories {b_idx + 1} to {min(b_idx + 5, len(part_keys))} of Part {part_num}:")
             
             for cid in batch:
-                cat_info = categories[cid]
-                cname = cat_info["name_ua"]
-                full_path = cat_info["full_path"]
-                offers = cat_info["offers_count"]
-                
-                # Retrieve from resolver
                 resolver_entry = WEBSKLAD_MAPPINGS.get(cid)
                 if not resolver_entry:
-                    raise ValueError(f"CRITICAL: Missing mapping in resolver for category {cid} ({cname})")
+                    raise ValueError(f"CRITICAL: Missing mapping in resolver for category {cid}")
                     
+                cname = resolver_entry["name_ua"]
                 pid = resolver_entry["portal_id"]
                 official_name = resolver_entry["maudau_official_name"]
                 is_leaf = resolver_entry["is_leaf"]
@@ -103,7 +95,7 @@ def main():
                 else:
                     stats["parent_count"] += 1
                     
-                print(f"  * [9999_{cid}] '{full_path}' (offers: {offers})")
+                print(f"  * [9999_{cid}] '{cname}'")
                 print(f"    --> MAUDAU [{pid}] '{official_name}' [{leaf_tag}]")
                 
                 # Apply dual-key mapping

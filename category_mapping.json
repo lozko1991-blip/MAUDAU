@@ -16759,20 +16759,20 @@
     "is_leaf": true
   },
   "9999_28788177": {
-    "portal_id": "1436",
+    "portal_id": "1447",
     "name_ua": "Точилки ножей",
     "name_ru": "Точилки ножей",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
   },
   "28788177": {
-    "portal_id": "1436",
+    "portal_id": "1447",
     "name_ua": "Точилки ножей",
     "name_ru": "Точилки ножей",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
   },
   "9999_41899249": {
     "portal_id": "1642",
@@ -16919,20 +16919,20 @@
     "is_leaf": true
   },
   "9999_255393374": {
-    "portal_id": "1436",
+    "portal_id": "1444",
     "name_ua": "Набори ножів",
     "name_ru": "Набори ножів",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Набори кухонних ножів",
+    "is_leaf": true
   },
   "255393374": {
-    "portal_id": "1436",
+    "portal_id": "1444",
     "name_ua": "Набори ножів",
     "name_ru": "Набори ножів",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Набори кухонних ножів",
+    "is_leaf": true
   },
   "9999_271237322": {
     "portal_id": "2219",
@@ -17111,20 +17111,20 @@
     "is_leaf": true
   },
   "9999_369855034": {
-    "portal_id": "1398",
+    "portal_id": "1508",
     "name_ua": "Тертки/овочерізки",
     "name_ru": "Тертки/овочерізки",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
   },
   "369855034": {
-    "portal_id": "1398",
+    "portal_id": "1508",
     "name_ua": "Тертки/овочерізки",
     "name_ru": "Тертки/овочерізки",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
   },
   "9999_389440355": {
     "portal_id": "130",
@@ -17575,20 +17575,20 @@
     "is_leaf": true
   },
   "9999_782384383": {
-    "portal_id": "1040",
+    "portal_id": "1175",
     "name_ua": "Зеркала",
     "name_ru": "Зеркала",
     "supplier": "websklad",
-    "maudau_official_name": "Інструменти для манікюру та педикюру",
-    "is_leaf": false
+    "maudau_official_name": "Дзеркала косметичні",
+    "is_leaf": true
   },
   "782384383": {
-    "portal_id": "1040",
+    "portal_id": "1175",
     "name_ua": "Зеркала",
     "name_ru": "Зеркала",
     "supplier": "websklad",
-    "maudau_official_name": "Інструменти для манікюру та педикюру",
-    "is_leaf": false
+    "maudau_official_name": "Дзеркала косметичні",
+    "is_leaf": true
   },
   "9999_782751450": {
     "portal_id": "2272",
@@ -17607,20 +17607,20 @@
     "is_leaf": true
   },
   "9999_793589270": {
-    "portal_id": "1398",
+    "portal_id": "1508",
     "name_ua": "Терки/овощерезки",
     "name_ru": "Терки/овощерезки",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
   },
   "793589270": {
-    "portal_id": "1398",
+    "portal_id": "1508",
     "name_ua": "Терки/овощерезки",
     "name_ru": "Терки/овощерезки",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
   },
   "9999_818731137": {
     "portal_id": "568",
@@ -18183,20 +18183,20 @@
     "is_leaf": true
   },
   "9999_1339229095": {
-    "portal_id": "1719",
+    "portal_id": "1721",
     "name_ua": "Ланцюгові пили",
     "name_ru": "Ланцюгові пили",
     "supplier": "websklad",
-    "maudau_official_name": "Ланцюгові пили",
-    "is_leaf": false
+    "maudau_official_name": "Електропили",
+    "is_leaf": true
   },
   "1339229095": {
-    "portal_id": "1719",
+    "portal_id": "1721",
     "name_ua": "Ланцюгові пили",
     "name_ru": "Ланцюгові пили",
     "supplier": "websklad",
-    "maudau_official_name": "Ланцюгові пили",
-    "is_leaf": false
+    "maudau_official_name": "Електропили",
+    "is_leaf": true
   },
   "9999_1340357579": {
     "portal_id": "1445",
@@ -18359,20 +18359,20 @@
     "is_leaf": true
   },
   "9999_1488523854": {
-    "portal_id": "1398",
+    "portal_id": "1456",
     "name_ua": "Подрібнювачі спецій",
     "name_ru": "Подрібнювачі спецій",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
   },
   "1488523854": {
-    "portal_id": "1398",
+    "portal_id": "1456",
     "name_ua": "Подрібнювачі спецій",
     "name_ru": "Подрібнювачі спецій",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонне приладдя",
-    "is_leaf": false
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
   },
   "9999_1496736048": {
     "portal_id": "1120",
@@ -18919,20 +18919,20 @@
     "is_leaf": true
   },
   "9999_1962343657": {
-    "portal_id": "2210",
+    "portal_id": "2326",
     "name_ua": "FM модулятори",
     "name_ru": "FM модулятори",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "FM-трансмітери",
+    "is_leaf": true
   },
   "1962343657": {
-    "portal_id": "2210",
+    "portal_id": "2326",
     "name_ua": "FM модулятори",
     "name_ru": "FM модулятори",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "FM-трансмітери",
+    "is_leaf": true
   },
   "9999_1968925532": {
     "portal_id": "1709",
@@ -19367,20 +19367,20 @@
     "is_leaf": true
   },
   "9999_2299663395": {
-    "portal_id": "2210",
+    "portal_id": "1729",
     "name_ua": "Автомийки",
     "name_ru": "Автомийки",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Мийки високого тиску",
+    "is_leaf": true
   },
   "2299663395": {
-    "portal_id": "2210",
+    "portal_id": "1729",
     "name_ua": "Автомийки",
     "name_ru": "Автомийки",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Мийки високого тиску",
+    "is_leaf": true
   },
   "9999_2321134810": {
     "portal_id": "118",
@@ -19767,36 +19767,36 @@
     "is_leaf": true
   },
   "9999_2729261311": {
-    "portal_id": "1719",
+    "portal_id": "1721",
     "name_ua": "Цепные пилы",
     "name_ru": "Цепные пилы",
     "supplier": "websklad",
-    "maudau_official_name": "Ланцюгові пили",
-    "is_leaf": false
+    "maudau_official_name": "Електропили",
+    "is_leaf": true
   },
   "2729261311": {
-    "portal_id": "1719",
+    "portal_id": "1721",
     "name_ua": "Цепные пилы",
     "name_ru": "Цепные пилы",
     "supplier": "websklad",
-    "maudau_official_name": "Ланцюгові пили",
-    "is_leaf": false
+    "maudau_official_name": "Електропили",
+    "is_leaf": true
   },
   "9999_2759624059": {
-    "portal_id": "1436",
+    "portal_id": "1444",
     "name_ua": "Наборы ножей",
     "name_ru": "Наборы ножей",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Набори кухонних ножів",
+    "is_leaf": true
   },
   "2759624059": {
-    "portal_id": "1436",
+    "portal_id": "1444",
     "name_ua": "Наборы ножей",
     "name_ru": "Наборы ножей",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Набори кухонних ножів",
+    "is_leaf": true
   },
   "9999_2791721759": {
     "portal_id": "1120",
@@ -20519,20 +20519,20 @@
     "is_leaf": true
   },
   "9999_3381956501": {
-    "portal_id": "2210",
+    "portal_id": "2080",
     "name_ua": "Автомагнітоли",
     "name_ru": "Автомагнітоли",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Автомагнітоли",
+    "is_leaf": true
   },
   "3381956501": {
-    "portal_id": "2210",
+    "portal_id": "2080",
     "name_ua": "Автомагнітоли",
     "name_ru": "Автомагнітоли",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Автомагнітоли",
+    "is_leaf": true
   },
   "9999_3396386917": {
     "portal_id": "691",
@@ -20551,20 +20551,20 @@
     "is_leaf": true
   },
   "9999_3400461773": {
-    "portal_id": "2210",
+    "portal_id": "2080",
     "name_ua": "Автомагнитолы",
     "name_ru": "Автомагнитолы",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Автомагнітоли",
+    "is_leaf": true
   },
   "3400461773": {
-    "portal_id": "2210",
+    "portal_id": "2080",
     "name_ua": "Автомагнитолы",
     "name_ru": "Автомагнитолы",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Автомагнітоли",
+    "is_leaf": true
   },
   "9999_3403788938": {
     "portal_id": "1971",
@@ -20711,36 +20711,36 @@
     "is_leaf": true
   },
   "9999_3527257278": {
-    "portal_id": "2210",
+    "portal_id": "2326",
     "name_ua": "FM модуляторы",
     "name_ru": "FM модуляторы",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "FM-трансмітери",
+    "is_leaf": true
   },
   "3527257278": {
-    "portal_id": "2210",
+    "portal_id": "2326",
     "name_ua": "FM модуляторы",
     "name_ru": "FM модуляторы",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "FM-трансмітери",
+    "is_leaf": true
   },
   "9999_3534945393": {
-    "portal_id": "1436",
+    "portal_id": "1447",
     "name_ua": "Точила ножів",
     "name_ru": "Точила ножів",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
   },
   "3534945393": {
-    "portal_id": "1436",
+    "portal_id": "1447",
     "name_ua": "Точила ножів",
     "name_ru": "Точила ножів",
     "supplier": "websklad",
-    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
-    "is_leaf": false
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
   },
   "9999_3540713263": {
     "portal_id": "691",
@@ -21319,20 +21319,20 @@
     "is_leaf": true
   },
   "9999_3938591001": {
-    "portal_id": "2210",
+    "portal_id": "1729",
     "name_ua": "Автомойки",
     "name_ru": "Автомойки",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Мийки високого тиску",
+    "is_leaf": true
   },
   "3938591001": {
-    "portal_id": "2210",
+    "portal_id": "1729",
     "name_ua": "Автомойки",
     "name_ru": "Автомойки",
     "supplier": "websklad",
-    "maudau_official_name": "Автоаксесуари",
-    "is_leaf": false
+    "maudau_official_name": "Мийки високого тиску",
+    "is_leaf": true
   },
   "9999_3948579596": {
     "portal_id": "277",
@@ -21748,6 +21748,1702 @@
     "name_ru": "Стиральные машины",
     "supplier": "websklad",
     "maudau_official_name": "Пральні машини",
+    "is_leaf": true
+  },
+  "7777_19": {
+    "portal_id": "253",
+    "name_ua": "Кухонний посуд",
+    "name_ru": "Кухонний посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "19": {
+    "portal_id": "253",
+    "name_ua": "Кухонний посуд",
+    "name_ru": "Кухонний посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "7777_37": {
+    "portal_id": "253",
+    "name_ua": "Столовий посуд",
+    "name_ru": "Столовий посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "37": {
+    "portal_id": "253",
+    "name_ua": "Столовий посуд",
+    "name_ru": "Столовий посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "7777_70": {
+    "portal_id": "1446",
+    "name_ua": "Чарки",
+    "name_ru": "Чарки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "70": {
+    "portal_id": "1446",
+    "name_ua": "Чарки",
+    "name_ru": "Чарки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "7777_71": {
+    "portal_id": "1448",
+    "name_ua": "Стакани",
+    "name_ru": "Стакани",
+    "supplier": "posudograd",
+    "maudau_official_name": "Склянки",
+    "is_leaf": true
+  },
+  "71": {
+    "portal_id": "1448",
+    "name_ua": "Стакани",
+    "name_ru": "Стакани",
+    "supplier": "posudograd",
+    "maudau_official_name": "Склянки",
+    "is_leaf": true
+  },
+  "7777_72": {
+    "portal_id": "1480",
+    "name_ua": "Морозивниці, креманки",
+    "name_ru": "Морозивниці, креманки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Креманки",
+    "is_leaf": true
+  },
+  "72": {
+    "portal_id": "1480",
+    "name_ua": "Морозивниці, креманки",
+    "name_ru": "Морозивниці, креманки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Креманки",
+    "is_leaf": true
+  },
+  "7777_74": {
+    "portal_id": "468",
+    "name_ua": "Попільнички",
+    "name_ru": "Попільнички",
+    "supplier": "posudograd",
+    "maudau_official_name": "Аксесуари для цигарок та самокруток",
+    "is_leaf": true
+  },
+  "74": {
+    "portal_id": "468",
+    "name_ua": "Попільнички",
+    "name_ru": "Попільнички",
+    "supplier": "posudograd",
+    "maudau_official_name": "Аксесуари для цигарок та самокруток",
+    "is_leaf": true
+  },
+  "7777_75": {
+    "portal_id": "1469",
+    "name_ua": "Блюда сервіровочні",
+    "name_ru": "Блюда сервіровочні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "75": {
+    "portal_id": "1469",
+    "name_ua": "Блюда сервіровочні",
+    "name_ru": "Блюда сервіровочні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "7777_76": {
+    "portal_id": "578",
+    "name_ua": "Салатниці, піали",
+    "name_ru": "Салатниці, піали",
+    "supplier": "posudograd",
+    "maudau_official_name": "Салатники",
+    "is_leaf": true
+  },
+  "76": {
+    "portal_id": "578",
+    "name_ua": "Салатниці, піали",
+    "name_ru": "Салатниці, піали",
+    "supplier": "posudograd",
+    "maudau_official_name": "Салатники",
+    "is_leaf": true
+  },
+  "7777_79": {
+    "portal_id": "1494",
+    "name_ua": "Банки, ємності",
+    "name_ru": "Банки, ємності",
+    "supplier": "posudograd",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "79": {
+    "portal_id": "1494",
+    "name_ua": "Банки, ємності",
+    "name_ru": "Банки, ємності",
+    "supplier": "posudograd",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "7777_80": {
+    "portal_id": "280",
+    "name_ua": "Штофи",
+    "name_ru": "Штофи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "80": {
+    "portal_id": "280",
+    "name_ua": "Штофи",
+    "name_ru": "Штофи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "7777_81": {
+    "portal_id": "280",
+    "name_ua": "Декантери",
+    "name_ru": "Декантери",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "81": {
+    "portal_id": "280",
+    "name_ua": "Декантери",
+    "name_ru": "Декантери",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "7777_82": {
+    "portal_id": "279",
+    "name_ua": "Келихи",
+    "name_ru": "Келихи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "82": {
+    "portal_id": "279",
+    "name_ua": "Келихи",
+    "name_ru": "Келихи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "7777_83": {
+    "portal_id": "1464",
+    "name_ua": "Цукорниці",
+    "name_ru": "Цукорниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Цукорниці",
+    "is_leaf": true
+  },
+  "83": {
+    "portal_id": "1464",
+    "name_ua": "Цукорниці",
+    "name_ru": "Цукорниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Цукорниці",
+    "is_leaf": true
+  },
+  "7777_84": {
+    "portal_id": "1439",
+    "name_ua": "Чайні сервізи",
+    "name_ru": "Чайні сервізи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сервізи для чаю та кави",
+    "is_leaf": true
+  },
+  "84": {
+    "portal_id": "1439",
+    "name_ua": "Чайні сервізи",
+    "name_ru": "Чайні сервізи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сервізи для чаю та кави",
+    "is_leaf": true
+  },
+  "7777_85": {
+    "portal_id": "1439",
+    "name_ua": "Кавові сервізи",
+    "name_ru": "Кавові сервізи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сервізи для чаю та кави",
+    "is_leaf": true
+  },
+  "85": {
+    "portal_id": "1439",
+    "name_ua": "Кавові сервізи",
+    "name_ru": "Кавові сервізи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сервізи для чаю та кави",
+    "is_leaf": true
+  },
+  "7777_87": {
+    "portal_id": "279",
+    "name_ua": "Пиво",
+    "name_ru": "Пиво",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "87": {
+    "portal_id": "279",
+    "name_ua": "Пиво",
+    "name_ru": "Пиво",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "7777_88": {
+    "portal_id": "280",
+    "name_ua": "Глечики, графіни",
+    "name_ru": "Глечики, графіни",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "88": {
+    "portal_id": "280",
+    "name_ua": "Глечики, графіни",
+    "name_ru": "Глечики, графіни",
+    "supplier": "posudograd",
+    "maudau_official_name": "Глечики та графини",
+    "is_leaf": true
+  },
+  "7777_90": {
+    "portal_id": "273",
+    "name_ua": "Жароміцний скляний посуд",
+    "name_ru": "Жароміцний скляний посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "90": {
+    "portal_id": "273",
+    "name_ua": "Жароміцний скляний посуд",
+    "name_ru": "Жароміцний скляний посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "7777_91": {
+    "portal_id": "251",
+    "name_ua": "Для дому та кухні",
+    "name_ru": "Для дому та кухні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "91": {
+    "portal_id": "251",
+    "name_ua": "Для дому та кухні",
+    "name_ru": "Для дому та кухні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "7777_92": {
+    "portal_id": "282",
+    "name_ua": "Вази, кашпо",
+    "name_ru": "Вази, кашпо",
+    "supplier": "posudograd",
+    "maudau_official_name": "Вази",
+    "is_leaf": true
+  },
+  "92": {
+    "portal_id": "282",
+    "name_ua": "Вази, кашпо",
+    "name_ru": "Вази, кашпо",
+    "supplier": "posudograd",
+    "maudau_official_name": "Вази",
+    "is_leaf": true
+  },
+  "7777_96": {
+    "portal_id": "253",
+    "name_ua": "Посуд для напоїв",
+    "name_ru": "Посуд для напоїв",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "96": {
+    "portal_id": "253",
+    "name_ua": "Посуд для напоїв",
+    "name_ru": "Посуд для напоїв",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "7777_97": {
+    "portal_id": "1446",
+    "name_ua": "Стопки",
+    "name_ru": "Стопки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "97": {
+    "portal_id": "1446",
+    "name_ua": "Стопки",
+    "name_ru": "Стопки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "7777_99": {
+    "portal_id": "1523",
+    "name_ua": "Ваги кухонні",
+    "name_ru": "Ваги кухонні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "99": {
+    "portal_id": "1523",
+    "name_ua": "Ваги кухонні",
+    "name_ru": "Ваги кухонні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "7777_100": {
+    "portal_id": "273",
+    "name_ua": "Форми для випікання",
+    "name_ru": "Форми для випікання",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "100": {
+    "portal_id": "273",
+    "name_ua": "Форми для випікання",
+    "name_ru": "Форми для випікання",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "7777_101": {
+    "portal_id": "1978",
+    "name_ua": "Кавомолки",
+    "name_ru": "Кавомолки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Млини для кави",
+    "is_leaf": true
+  },
+  "101": {
+    "portal_id": "1978",
+    "name_ua": "Кавомолки",
+    "name_ru": "Кавомолки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Млини для кави",
+    "is_leaf": true
+  },
+  "7777_103": {
+    "portal_id": "275",
+    "name_ua": "Кришки",
+    "name_ru": "Кришки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кришки для посуду",
+    "is_leaf": true
+  },
+  "103": {
+    "portal_id": "275",
+    "name_ua": "Кришки",
+    "name_ru": "Кришки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кришки для посуду",
+    "is_leaf": true
+  },
+  "7777_104": {
+    "portal_id": "584",
+    "name_ua": "Ножі кухонні",
+    "name_ru": "Ножі кухонні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ножі кухонні",
+    "is_leaf": true
+  },
+  "104": {
+    "portal_id": "584",
+    "name_ua": "Ножі кухонні",
+    "name_ru": "Ножі кухонні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ножі кухонні",
+    "is_leaf": true
+  },
+  "7777_105": {
+    "portal_id": "273",
+    "name_ua": "Силіконові форми",
+    "name_ru": "Силіконові форми",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "105": {
+    "portal_id": "273",
+    "name_ua": "Силіконові форми",
+    "name_ru": "Силіконові форми",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "7777_106": {
+    "portal_id": "580",
+    "name_ua": "Каструлі, казани",
+    "name_ru": "Каструлі, казани",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "106": {
+    "portal_id": "580",
+    "name_ua": "Каструлі, казани",
+    "name_ru": "Каструлі, казани",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "7777_118": {
+    "portal_id": "580",
+    "name_ua": "Каструлі керамічні",
+    "name_ru": "Каструлі керамічні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "118": {
+    "portal_id": "580",
+    "name_ua": "Каструлі керамічні",
+    "name_ru": "Каструлі керамічні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "7777_122": {
+    "portal_id": "1458",
+    "name_ua": "Марміти",
+    "name_ru": "Марміти",
+    "supplier": "posudograd",
+    "maudau_official_name": "Марміти",
+    "is_leaf": true
+  },
+  "122": {
+    "portal_id": "1458",
+    "name_ua": "Марміти",
+    "name_ru": "Марміти",
+    "supplier": "posudograd",
+    "maudau_official_name": "Марміти",
+    "is_leaf": true
+  },
+  "7777_124": {
+    "portal_id": "1473",
+    "name_ua": "Підноси",
+    "name_ru": "Підноси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "124": {
+    "portal_id": "1473",
+    "name_ua": "Підноси",
+    "name_ru": "Підноси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "7777_126": {
+    "portal_id": "1435",
+    "name_ua": "Сито, сушки, друшляки",
+    "name_ru": "Сито, сушки, друшляки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Друшляки і сита",
+    "is_leaf": true
+  },
+  "126": {
+    "portal_id": "1435",
+    "name_ua": "Сито, сушки, друшляки",
+    "name_ru": "Сито, сушки, друшляки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Друшляки і сита",
+    "is_leaf": true
+  },
+  "7777_127": {
+    "portal_id": "1457",
+    "name_ua": "Штопори ключі преси",
+    "name_ru": "Штопори ключі преси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Штопори та відкривалки для пляшок",
+    "is_leaf": true
+  },
+  "127": {
+    "portal_id": "1457",
+    "name_ua": "Штопори ключі преси",
+    "name_ru": "Штопори ключі преси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Штопори та відкривалки для пляшок",
+    "is_leaf": true
+  },
+  "7777_129": {
+    "portal_id": "1512",
+    "name_ua": "Кухонне приладдя",
+    "name_ru": "Кухонне приладдя",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори кухонного приладдя",
+    "is_leaf": true
+  },
+  "129": {
+    "portal_id": "1512",
+    "name_ua": "Кухонне приладдя",
+    "name_ru": "Кухонне приладдя",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори кухонного приладдя",
+    "is_leaf": true
+  },
+  "7777_131": {
+    "portal_id": "277",
+    "name_ua": "Столові прибори",
+    "name_ru": "Столові прибори",
+    "supplier": "posudograd",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "131": {
+    "portal_id": "277",
+    "name_ua": "Столові прибори",
+    "name_ru": "Столові прибори",
+    "supplier": "posudograd",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "7777_132": {
+    "portal_id": "276",
+    "name_ua": "Кружки, чашки",
+    "name_ru": "Кружки, чашки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "132": {
+    "portal_id": "276",
+    "name_ua": "Кружки, чашки",
+    "name_ru": "Кружки, чашки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "7777_179": {
+    "portal_id": "271",
+    "name_ua": "Сковороди, вок, сотейники",
+    "name_ru": "Сковороди, вок, сотейники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "179": {
+    "portal_id": "271",
+    "name_ua": "Сковороди, вок, сотейники",
+    "name_ru": "Сковороди, вок, сотейники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "7777_180": {
+    "portal_id": "581",
+    "name_ua": "Ковші",
+    "name_ru": "Ковші",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ковші для кухні",
+    "is_leaf": true
+  },
+  "180": {
+    "portal_id": "581",
+    "name_ua": "Ковші",
+    "name_ru": "Ковші",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ковші для кухні",
+    "is_leaf": true
+  },
+  "7777_181": {
+    "portal_id": "1486",
+    "name_ua": "Набори посуду",
+    "name_ru": "Набори посуду",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори посуду для приготування",
+    "is_leaf": true
+  },
+  "181": {
+    "portal_id": "1486",
+    "name_ua": "Набори посуду",
+    "name_ru": "Набори посуду",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори посуду для приготування",
+    "is_leaf": true
+  },
+  "7777_189": {
+    "portal_id": "1459",
+    "name_ua": "Чайники заварники",
+    "name_ru": "Чайники заварники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "189": {
+    "portal_id": "1459",
+    "name_ua": "Чайники заварники",
+    "name_ru": "Чайники заварники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "7777_195": {
+    "portal_id": "1816",
+    "name_ua": "Барні аксесуари",
+    "name_ru": "Барні аксесуари",
+    "supplier": "posudograd",
+    "maudau_official_name": "Аксесуари для бару",
+    "is_leaf": true
+  },
+  "195": {
+    "portal_id": "1816",
+    "name_ua": "Барні аксесуари",
+    "name_ru": "Барні аксесуари",
+    "supplier": "posudograd",
+    "maudau_official_name": "Аксесуари для бару",
+    "is_leaf": true
+  },
+  "7777_197": {
+    "portal_id": "1491",
+    "name_ua": "Хлібниці",
+    "name_ru": "Хлібниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Хлібниці",
+    "is_leaf": true
+  },
+  "197": {
+    "portal_id": "1491",
+    "name_ua": "Хлібниці",
+    "name_ru": "Хлібниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Хлібниці",
+    "is_leaf": true
+  },
+  "7777_199": {
+    "portal_id": "1508",
+    "name_ua": "Тертки, овочерізки, подрібнювачі",
+    "name_ru": "Тертки, овочерізки, подрібнювачі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
+  },
+  "199": {
+    "portal_id": "1508",
+    "name_ua": "Тертки, овочерізки, подрібнювачі",
+    "name_ru": "Тертки, овочерізки, подрібнювачі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тертки",
+    "is_leaf": true
+  },
+  "7777_209": {
+    "portal_id": "283",
+    "name_ua": "Годинники",
+    "name_ru": "Годинники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "209": {
+    "portal_id": "283",
+    "name_ua": "Годинники",
+    "name_ru": "Годинники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "7777_210": {
+    "portal_id": "44",
+    "name_ua": "Столові набори",
+    "name_ru": "Столові набори",
+    "supplier": "posudograd",
+    "maudau_official_name": "Дитячий посуд",
+    "is_leaf": true
+  },
+  "210": {
+    "portal_id": "44",
+    "name_ua": "Столові набори",
+    "name_ru": "Столові набори",
+    "supplier": "posudograd",
+    "maudau_official_name": "Дитячий посуд",
+    "is_leaf": true
+  },
+  "7777_218": {
+    "portal_id": "1426",
+    "name_ua": "Тарілки",
+    "name_ru": "Тарілки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "218": {
+    "portal_id": "1426",
+    "name_ua": "Тарілки",
+    "name_ru": "Тарілки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "7777_220": {
+    "portal_id": "1453",
+    "name_ua": "Френч-преси",
+    "name_ru": "Френч-преси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Френч-преси",
+    "is_leaf": true
+  },
+  "220": {
+    "portal_id": "1453",
+    "name_ua": "Френч-преси",
+    "name_ru": "Френч-преси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Френч-преси",
+    "is_leaf": true
+  },
+  "7777_221": {
+    "portal_id": "1469",
+    "name_ua": "Предмети сервіровки",
+    "name_ru": "Предмети сервіровки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "221": {
+    "portal_id": "1469",
+    "name_ua": "Предмети сервіровки",
+    "name_ru": "Предмети сервіровки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "7777_230": {
+    "portal_id": "1672",
+    "name_ua": "Пароварки, скороварки, мантоварки",
+    "name_ru": "Пароварки, скороварки, мантоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пароварки",
+    "is_leaf": true
+  },
+  "230": {
+    "portal_id": "1672",
+    "name_ua": "Пароварки, скороварки, мантоварки",
+    "name_ru": "Пароварки, скороварки, мантоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пароварки",
+    "is_leaf": true
+  },
+  "7777_250": {
+    "portal_id": "1771",
+    "name_ua": "Фондю",
+    "name_ru": "Фондю",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори для фондю",
+    "is_leaf": true
+  },
+  "250": {
+    "portal_id": "1771",
+    "name_ua": "Фондю",
+    "name_ru": "Фондю",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори для фондю",
+    "is_leaf": true
+  },
+  "7777_252": {
+    "portal_id": "178",
+    "name_ua": "Для активного відпочинку",
+    "name_ru": "Для активного відпочинку",
+    "supplier": "posudograd",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "252": {
+    "portal_id": "178",
+    "name_ua": "Для активного відпочинку",
+    "name_ru": "Для активного відпочинку",
+    "supplier": "posudograd",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "7777_256": {
+    "portal_id": "272",
+    "name_ua": "Термоси і пляшки",
+    "name_ru": "Термоси і пляшки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "256": {
+    "portal_id": "272",
+    "name_ua": "Термоси і пляшки",
+    "name_ru": "Термоси і пляшки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "7777_258": {
+    "portal_id": "586",
+    "name_ua": "Чайники",
+    "name_ru": "Чайники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чайники для плити",
+    "is_leaf": true
+  },
+  "258": {
+    "portal_id": "586",
+    "name_ua": "Чайники",
+    "name_ru": "Чайники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чайники для плити",
+    "is_leaf": true
+  },
+  "7777_259": {
+    "portal_id": "1454",
+    "name_ua": "Турки",
+    "name_ru": "Турки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Турки",
+    "is_leaf": true
+  },
+  "259": {
+    "portal_id": "1454",
+    "name_ua": "Турки",
+    "name_ru": "Турки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Турки",
+    "is_leaf": true
+  },
+  "7777_261": {
+    "portal_id": "1450",
+    "name_ua": "Підставки та колоди для ножів",
+    "name_ru": "Підставки та колоди для ножів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Підставки та планки для ножів",
+    "is_leaf": true
+  },
+  "261": {
+    "portal_id": "1450",
+    "name_ua": "Підставки та колоди для ножів",
+    "name_ru": "Підставки та колоди для ножів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Підставки та планки для ножів",
+    "is_leaf": true
+  },
+  "7777_262": {
+    "portal_id": "1456",
+    "name_ua": "Млини, подрібнювачі",
+    "name_ru": "Млини, подрібнювачі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
+  },
+  "262": {
+    "portal_id": "1456",
+    "name_ua": "Млини, подрібнювачі",
+    "name_ru": "Млини, подрібнювачі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
+  },
+  "7777_263": {
+    "portal_id": "580",
+    "name_ua": "Каструлі емальовані",
+    "name_ru": "Каструлі емальовані",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "263": {
+    "portal_id": "580",
+    "name_ua": "Каструлі емальовані",
+    "name_ru": "Каструлі емальовані",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "7777_266": {
+    "portal_id": "575",
+    "name_ua": "Маслянки, сирниці, лимонниці",
+    "name_ru": "Маслянки, сирниці, лимонниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Маслянки (масельнички)",
+    "is_leaf": true
+  },
+  "266": {
+    "portal_id": "575",
+    "name_ua": "Маслянки, сирниці, лимонниці",
+    "name_ru": "Маслянки, сирниці, лимонниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Маслянки (масельнички)",
+    "is_leaf": true
+  },
+  "7777_267": {
+    "portal_id": "580",
+    "name_ua": "Каструлі з нержавіючої сталі",
+    "name_ru": "Каструлі з нержавіючої сталі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "267": {
+    "portal_id": "580",
+    "name_ua": "Каструлі з нержавіючої сталі",
+    "name_ru": "Каструлі з нержавіючої сталі",
+    "supplier": "posudograd",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "7777_268": {
+    "portal_id": "1498",
+    "name_ua": "Посуд багаторазовий пластиковий",
+    "name_ru": "Посуд багаторазовий пластиковий",
+    "supplier": "posudograd",
+    "maudau_official_name": "Харчові контейнери",
+    "is_leaf": true
+  },
+  "268": {
+    "portal_id": "1498",
+    "name_ua": "Посуд багаторазовий пластиковий",
+    "name_ru": "Посуд багаторазовий пластиковий",
+    "supplier": "posudograd",
+    "maudau_official_name": "Харчові контейнери",
+    "is_leaf": true
+  },
+  "7777_269": {
+    "portal_id": "801",
+    "name_ua": "Набори для пікніку",
+    "name_ru": "Набори для пікніку",
+    "supplier": "posudograd",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "269": {
+    "portal_id": "801",
+    "name_ua": "Набори для пікніку",
+    "name_ru": "Набори для пікніку",
+    "supplier": "posudograd",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "7777_270": {
+    "portal_id": "1498",
+    "name_ua": "Контейнери для продуктів",
+    "name_ru": "Контейнери для продуктів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Харчові контейнери",
+    "is_leaf": true
+  },
+  "270": {
+    "portal_id": "1498",
+    "name_ua": "Контейнери для продуктів",
+    "name_ru": "Контейнери для продуктів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Харчові контейнери",
+    "is_leaf": true
+  },
+  "7777_271": {
+    "portal_id": "585",
+    "name_ua": "Дошки обробні",
+    "name_ru": "Дошки обробні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "271": {
+    "portal_id": "585",
+    "name_ua": "Дошки обробні",
+    "name_ru": "Дошки обробні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "7777_272": {
+    "portal_id": "1398",
+    "name_ua": "Кухонні аксесуари",
+    "name_ru": "Кухонні аксесуари",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "272": {
+    "portal_id": "1398",
+    "name_ua": "Кухонні аксесуари",
+    "name_ru": "Кухонні аксесуари",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "7777_274": {
+    "portal_id": "253",
+    "name_ua": "Посуд для чаю та кави",
+    "name_ru": "Посуд для чаю та кави",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "274": {
+    "portal_id": "253",
+    "name_ua": "Посуд для чаю та кави",
+    "name_ru": "Посуд для чаю та кави",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "7777_275": {
+    "portal_id": "276",
+    "name_ua": "Кружки-заварники",
+    "name_ru": "Кружки-заварники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "275": {
+    "portal_id": "276",
+    "name_ua": "Кружки-заварники",
+    "name_ru": "Кружки-заварники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "7777_276": {
+    "portal_id": "1514",
+    "name_ua": "Кондитерські інструменти",
+    "name_ru": "Кондитерські інструменти",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кондитерське приладдя",
+    "is_leaf": true
+  },
+  "276": {
+    "portal_id": "1514",
+    "name_ua": "Кондитерські інструменти",
+    "name_ru": "Кондитерські інструменти",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кондитерське приладдя",
+    "is_leaf": true
+  },
+  "7777_277": {
+    "portal_id": "595",
+    "name_ua": "Миски",
+    "name_ru": "Миски",
+    "supplier": "posudograd",
+    "maudau_official_name": "Миски",
+    "is_leaf": true
+  },
+  "277": {
+    "portal_id": "595",
+    "name_ua": "Миски",
+    "name_ru": "Миски",
+    "supplier": "posudograd",
+    "maudau_official_name": "Миски",
+    "is_leaf": true
+  },
+  "7777_278": {
+    "portal_id": "1479",
+    "name_ua": "Серветниці",
+    "name_ru": "Серветниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Серветниці",
+    "is_leaf": true
+  },
+  "278": {
+    "portal_id": "1479",
+    "name_ua": "Серветниці",
+    "name_ru": "Серветниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Серветниці",
+    "is_leaf": true
+  },
+  "7777_279": {
+    "portal_id": "1493",
+    "name_ua": "Спецовники",
+    "name_ru": "Спецовники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ємності для олії та оцту",
+    "is_leaf": true
+  },
+  "279": {
+    "portal_id": "1493",
+    "name_ua": "Спецовники",
+    "name_ru": "Спецовники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ємності для олії та оцту",
+    "is_leaf": true
+  },
+  "7777_280": {
+    "portal_id": "279",
+    "name_ua": "Весільна пара",
+    "name_ru": "Весільна пара",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "280": {
+    "portal_id": "279",
+    "name_ua": "Весільна пара",
+    "name_ru": "Весільна пара",
+    "supplier": "posudograd",
+    "maudau_official_name": "Келихи",
+    "is_leaf": true
+  },
+  "7777_281": {
+    "portal_id": "647",
+    "name_ua": "Настільні ігри",
+    "name_ru": "Настільні ігри",
+    "supplier": "posudograd",
+    "maudau_official_name": "Настільні ігри",
+    "is_leaf": true
+  },
+  "281": {
+    "portal_id": "647",
+    "name_ua": "Настільні ігри",
+    "name_ru": "Настільні ігри",
+    "supplier": "posudograd",
+    "maudau_official_name": "Настільні ігри",
+    "is_leaf": true
+  },
+  "7777_282": {
+    "portal_id": "1418",
+    "name_ua": "Дозатори і мильниці",
+    "name_ru": "Дозатори і мильниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "282": {
+    "portal_id": "1418",
+    "name_ua": "Дозатори і мильниці",
+    "name_ru": "Дозатори і мильниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "7777_283": {
+    "portal_id": "1517",
+    "name_ua": "Підставки під гаряче",
+    "name_ru": "Підставки під гаряче",
+    "supplier": "posudograd",
+    "maudau_official_name": "Підставки для посуду",
+    "is_leaf": true
+  },
+  "283": {
+    "portal_id": "1517",
+    "name_ua": "Підставки під гаряче",
+    "name_ru": "Підставки під гаряче",
+    "supplier": "posudograd",
+    "maudau_official_name": "Підставки для посуду",
+    "is_leaf": true
+  },
+  "7777_284": {
+    "portal_id": "276",
+    "name_ua": "Посуд WARNER BROTHERS",
+    "name_ru": "Посуд WARNER BROTHERS",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "284": {
+    "portal_id": "276",
+    "name_ua": "Посуд WARNER BROTHERS",
+    "name_ru": "Посуд WARNER BROTHERS",
+    "supplier": "posudograd",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "7777_285": {
+    "portal_id": "2063",
+    "name_ua": "Суші, японська кухня",
+    "name_ru": "Суші, японська кухня",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для суші",
+    "is_leaf": true
+  },
+  "285": {
+    "portal_id": "2063",
+    "name_ua": "Суші, японська кухня",
+    "name_ru": "Суші, японська кухня",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для суші",
+    "is_leaf": true
+  },
+  "7777_286": {
+    "portal_id": "1549",
+    "name_ua": "Кошики і ящики",
+    "name_ru": "Кошики і ящики",
+    "supplier": "posudograd",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "286": {
+    "portal_id": "1549",
+    "name_ua": "Кошики і ящики",
+    "name_ru": "Кошики і ящики",
+    "supplier": "posudograd",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "7777_287": {
+    "portal_id": "1481",
+    "name_ua": "Форми для льоду",
+    "name_ru": "Форми для льоду",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для льоду",
+    "is_leaf": true
+  },
+  "287": {
+    "portal_id": "1481",
+    "name_ua": "Форми для льоду",
+    "name_ru": "Форми для льоду",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для льоду",
+    "is_leaf": true
+  },
+  "7777_288": {
+    "portal_id": "1535",
+    "name_ua": "Килимки сервіровочні",
+    "name_ru": "Килимки сервіровочні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Килимки сервірувальні",
+    "is_leaf": true
+  },
+  "288": {
+    "portal_id": "1535",
+    "name_ua": "Килимки сервіровочні",
+    "name_ru": "Килимки сервіровочні",
+    "supplier": "posudograd",
+    "maudau_official_name": "Килимки сервірувальні",
+    "is_leaf": true
+  },
+  "7777_289": {
+    "portal_id": "273",
+    "name_ua": "Кокотниці",
+    "name_ru": "Кокотниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "289": {
+    "portal_id": "273",
+    "name_ua": "Кокотниці",
+    "name_ru": "Кокотниці",
+    "supplier": "posudograd",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "7777_291": {
+    "portal_id": "598",
+    "name_ua": "Скриньки і шкатулки",
+    "name_ru": "Скриньки і шкатулки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "291": {
+    "portal_id": "598",
+    "name_ua": "Скриньки і шкатулки",
+    "name_ru": "Скриньки і шкатулки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "7777_292": {
+    "portal_id": "1426",
+    "name_ua": "Ексклюзивний порцеляновий посуд",
+    "name_ru": "Ексклюзивний порцеляновий посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "292": {
+    "portal_id": "1426",
+    "name_ua": "Ексклюзивний порцеляновий посуд",
+    "name_ru": "Ексклюзивний порцеляновий посуд",
+    "supplier": "posudograd",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "7777_293": {
+    "portal_id": "1494",
+    "name_ua": "Коробки для чаю та цукру",
+    "name_ru": "Коробки для чаю та цукру",
+    "supplier": "posudograd",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "293": {
+    "portal_id": "1494",
+    "name_ua": "Коробки для чаю та цукру",
+    "name_ru": "Коробки для чаю та цукру",
+    "supplier": "posudograd",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "7777_294": {
+    "portal_id": "252",
+    "name_ua": "Домашній текстиль",
+    "name_ru": "Домашній текстиль",
+    "supplier": "posudograd",
+    "maudau_official_name": "Текстиль для дому",
+    "is_leaf": false
+  },
+  "294": {
+    "portal_id": "252",
+    "name_ua": "Домашній текстиль",
+    "name_ru": "Домашній текстиль",
+    "supplier": "posudograd",
+    "maudau_official_name": "Текстиль для дому",
+    "is_leaf": false
+  },
+  "7777_295": {
+    "portal_id": "255",
+    "name_ua": "Постільна білизна",
+    "name_ru": "Постільна білизна",
+    "supplier": "posudograd",
+    "maudau_official_name": "Комплекти постільної білизни",
+    "is_leaf": true
+  },
+  "295": {
+    "portal_id": "255",
+    "name_ua": "Постільна білизна",
+    "name_ru": "Постільна білизна",
+    "supplier": "posudograd",
+    "maudau_official_name": "Комплекти постільної білизни",
+    "is_leaf": true
+  },
+  "7777_296": {
+    "portal_id": "258",
+    "name_ua": "Покривала і пледи",
+    "name_ru": "Покривала і пледи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "296": {
+    "portal_id": "258",
+    "name_ua": "Покривала і пледи",
+    "name_ru": "Покривала і пледи",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "7777_298": {
+    "portal_id": "257",
+    "name_ua": "Ковдри і подушки",
+    "name_ru": "Ковдри і подушки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Подушки",
+    "is_leaf": true
+  },
+  "298": {
+    "portal_id": "257",
+    "name_ua": "Ковдри і подушки",
+    "name_ru": "Ковдри і подушки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Подушки",
+    "is_leaf": true
+  },
+  "7777_300": {
+    "portal_id": "1469",
+    "name_ua": "Ексклюзивна кераміка",
+    "name_ru": "Ексклюзивна кераміка",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "300": {
+    "portal_id": "1469",
+    "name_ua": "Ексклюзивна кераміка",
+    "name_ru": "Ексклюзивна кераміка",
+    "supplier": "posudograd",
+    "maudau_official_name": "Посуд для подачі страв",
+    "is_leaf": true
+  },
+  "7777_301": {
+    "portal_id": "1447",
+    "name_ua": "Точила для ножів",
+    "name_ru": "Точила для ножів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
+  },
+  "301": {
+    "portal_id": "1447",
+    "name_ua": "Точила для ножів",
+    "name_ru": "Точила для ножів",
+    "supplier": "posudograd",
+    "maudau_official_name": "Точила для ножів",
+    "is_leaf": true
+  },
+  "7777_302": {
+    "portal_id": "1460",
+    "name_ua": "Кавоварки",
+    "name_ru": "Кавоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "302": {
+    "portal_id": "1460",
+    "name_ua": "Кавоварки",
+    "name_ru": "Кавоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "7777_303": {
+    "portal_id": "2086",
+    "name_ua": "Апарати для газування",
+    "name_ru": "Апарати для газування",
+    "supplier": "posudograd",
+    "maudau_official_name": "Апарати для газування води",
+    "is_leaf": true
+  },
+  "303": {
+    "portal_id": "2086",
+    "name_ua": "Апарати для газування",
+    "name_ru": "Апарати для газування",
+    "supplier": "posudograd",
+    "maudau_official_name": "Апарати для газування води",
+    "is_leaf": true
+  },
+  "7777_304": {
+    "portal_id": "1709",
+    "name_ua": "Побутова техніка",
+    "name_ru": "Побутова техніка",
+    "supplier": "posudograd",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "304": {
+    "portal_id": "1709",
+    "name_ua": "Побутова техніка",
+    "name_ru": "Побутова техніка",
+    "supplier": "posudograd",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "7777_305": {
+    "portal_id": "1465",
+    "name_ua": "Кавомолки, кавоварки",
+    "name_ru": "Кавомолки, кавоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "305": {
+    "portal_id": "1465",
+    "name_ua": "Кавомолки, кавоварки",
+    "name_ru": "Кавомолки, кавоварки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "7777_306": {
+    "portal_id": "1418",
+    "name_ua": "Аксесуари для ванної кімнати",
+    "name_ru": "Аксесуари для ванної кімнати",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "306": {
+    "portal_id": "1418",
+    "name_ua": "Аксесуари для ванної кімнати",
+    "name_ru": "Аксесуари для ванної кімнати",
+    "supplier": "posudograd",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "7777_307": {
+    "portal_id": "1686",
+    "name_ua": "Блендери",
+    "name_ru": "Блендери",
+    "supplier": "posudograd",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "307": {
+    "portal_id": "1686",
+    "name_ua": "Блендери",
+    "name_ru": "Блендери",
+    "supplier": "posudograd",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "7777_308": {
+    "portal_id": "1693",
+    "name_ua": "Соковижималки",
+    "name_ru": "Соковижималки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "308": {
+    "portal_id": "1693",
+    "name_ua": "Соковижималки",
+    "name_ru": "Соковижималки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "7777_309": {
+    "portal_id": "260",
+    "name_ua": "Рушники",
+    "name_ru": "Рушники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Рушники",
+    "is_leaf": true
+  },
+  "309": {
+    "portal_id": "260",
+    "name_ua": "Рушники",
+    "name_ru": "Рушники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Рушники",
+    "is_leaf": true
+  },
+  "7777_310": {
+    "portal_id": "570",
+    "name_ua": "Статуетки і фігурки",
+    "name_ru": "Статуетки і фігурки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Статуетки",
+    "is_leaf": true
+  },
+  "310": {
+    "portal_id": "570",
+    "name_ua": "Статуетки і фігурки",
+    "name_ru": "Статуетки і фігурки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Статуетки",
+    "is_leaf": true
+  },
+  "7777_311": {
+    "portal_id": "1276",
+    "name_ua": "Новорічний декор та прикраси",
+    "name_ru": "Новорічний декор та прикраси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "311": {
+    "portal_id": "1276",
+    "name_ua": "Новорічний декор та прикраси",
+    "name_ru": "Новорічний декор та прикраси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "7777_312": {
+    "portal_id": "266",
+    "name_ua": "Скатертини і серветки",
+    "name_ru": "Скатертини і серветки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Скатертини",
+    "is_leaf": true
+  },
+  "312": {
+    "portal_id": "266",
+    "name_ua": "Скатертини і серветки",
+    "name_ru": "Скатертини і серветки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Скатертини",
+    "is_leaf": true
+  },
+  "7777_313": {
+    "portal_id": "1560",
+    "name_ua": "Фоторамки",
+    "name_ru": "Фоторамки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Фоторамки",
+    "is_leaf": true
+  },
+  "313": {
+    "portal_id": "1560",
+    "name_ua": "Фоторамки",
+    "name_ru": "Фоторамки",
+    "supplier": "posudograd",
+    "maudau_official_name": "Фоторамки",
+    "is_leaf": true
+  },
+  "7777_314": {
+    "portal_id": "38",
+    "name_ua": "Дитячі пляшки з соскою",
+    "name_ru": "Дитячі пляшки з соскою",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пляшечки для годування",
+    "is_leaf": true
+  },
+  "314": {
+    "portal_id": "38",
+    "name_ua": "Дитячі пляшки з соскою",
+    "name_ru": "Дитячі пляшки з соскою",
+    "supplier": "posudograd",
+    "maudau_official_name": "Пляшечки для годування",
+    "is_leaf": true
+  },
+  "7777_315": {
+    "portal_id": "1546",
+    "name_ua": "Свічники",
+    "name_ru": "Свічники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Свічники",
+    "is_leaf": true
+  },
+  "315": {
+    "portal_id": "1546",
+    "name_ua": "Свічники",
+    "name_ru": "Свічники",
+    "supplier": "posudograd",
+    "maudau_official_name": "Свічники",
+    "is_leaf": true
+  },
+  "7777_316": {
+    "portal_id": "114",
+    "name_ua": "М'які іграшки",
+    "name_ru": "М'які іграшки",
+    "supplier": "posudograd",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "316": {
+    "portal_id": "114",
+    "name_ua": "М'які іграшки",
+    "name_ru": "М'які іграшки",
+    "supplier": "posudograd",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "7777_317": {
+    "portal_id": "1492",
+    "name_ua": "Ланч-бокси",
+    "name_ru": "Ланч-бокси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ланч-бокси",
+    "is_leaf": true
+  },
+  "317": {
+    "portal_id": "1492",
+    "name_ua": "Ланч-бокси",
+    "name_ru": "Ланч-бокси",
+    "supplier": "posudograd",
+    "maudau_official_name": "Ланч-бокси",
     "is_leaf": true
   }
 }

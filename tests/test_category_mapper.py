@@ -54,5 +54,34 @@ class TestCategoryMapper(unittest.TestCase):
         _, pid_skmei = get_category_info("9999_2393578841")
         self.assertEqual(pid_skmei, "2389")
 
+    def test_posudograd_mapped_categories(self):
+        # Shot glasses / чарки
+        name_ua, pid = get_category_info("7777_70")
+        self.assertEqual(pid, "1446")
+        # Dual key parity
+        name_raw, pid_raw = get_category_info("70")
+        self.assertEqual(pid_raw, "1446")
+        self.assertEqual(name_ua, name_raw)
+
+        # Stemware / келихи
+        _, pid_glasses = get_category_info("7777_82")
+        self.assertEqual(pid_glasses, "279")
+
+        # Kitchen knives
+        _, pid_knives = get_category_info("7777_104")
+        self.assertEqual(pid_knives, "584")
+
+        # Cookware pots
+        _, pid_pots = get_category_info("7777_106")
+        self.assertEqual(pid_pots, "580")
+
+        # Baby feeding bottles
+        _, pid_bottles = get_category_info("7777_314")
+        self.assertEqual(pid_bottles, "38")
+
+        # Decorative figurines
+        _, pid_figurines = get_category_info("7777_310")
+        self.assertEqual(pid_figurines, "570")
+
 if __name__ == "__main__":
     unittest.main()
