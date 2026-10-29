@@ -83,5 +83,34 @@ class TestCategoryMapper(unittest.TestCase):
         _, pid_figurines = get_category_info("7777_310")
         self.assertEqual(pid_figurines, "570")
 
+    def test_forus_mapped_categories(self):
+        # Cosmetic bags / косметички
+        name_ua, pid = get_category_info("1100_00710")
+        self.assertEqual(pid, "1177")
+        # Dual key parity
+        name_raw, pid_raw = get_category_info("00710")
+        self.assertEqual(pid_raw, "1177")
+        self.assertEqual(name_ua, name_raw)
+
+        # Camp burners
+        _, pid_burners = get_category_info("1100_0079")
+        self.assertEqual(pid_burners, "1171")
+
+        # Mugs / cups
+        _, pid_cups = get_category_info("1100_007108")
+        self.assertEqual(pid_cups, "276")
+
+        # Aprons
+        _, pid_aprons = get_category_info("1100_007170")
+        self.assertEqual(pid_aprons, "1533")
+
+        # Doormats
+        _, pid_mats = get_category_info("1100_007243")
+        self.assertEqual(pid_mats, "1530")
+
+        # Electric kettles
+        _, pid_kettles = get_category_info("1100_007387")
+        self.assertEqual(pid_kettles, "1675")
+
 if __name__ == "__main__":
     unittest.main()

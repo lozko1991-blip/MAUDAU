@@ -23445,5 +23445,2517 @@
     "supplier": "posudograd",
     "maudau_official_name": "Ланч-бокси",
     "is_leaf": true
+  },
+  "1100_1": {
+    "portal_id": "251",
+    "name_ua": "Аксессуары/Одежда",
+    "name_ru": "Аксессуары/Одежда",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "1": {
+    "portal_id": "251",
+    "name_ua": "Аксессуары/Одежда",
+    "name_ru": "Аксессуары/Одежда",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "1100_2": {
+    "portal_id": "251",
+    "name_ua": "Все для Дома",
+    "name_ru": "Все для Дома",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "2": {
+    "portal_id": "251",
+    "name_ua": "Все для Дома",
+    "name_ru": "Все для Дома",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "1100_3": {
+    "portal_id": "521",
+    "name_ua": "Оригинальные подарки",
+    "name_ru": "Оригинальные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "3": {
+    "portal_id": "521",
+    "name_ua": "Оригинальные подарки",
+    "name_ru": "Оригинальные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_4": {
+    "portal_id": "178",
+    "name_ua": "Здоровье и Туризм",
+    "name_ru": "Здоровье и Туризм",
+    "supplier": "forus",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "4": {
+    "portal_id": "178",
+    "name_ua": "Здоровье и Туризм",
+    "name_ru": "Здоровье и Туризм",
+    "supplier": "forus",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "1100_7": {
+    "portal_id": "1",
+    "name_ua": "Все для детей",
+    "name_ru": "Все для детей",
+    "supplier": "forus",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "7": {
+    "portal_id": "1",
+    "name_ua": "Все для детей",
+    "name_ru": "Все для детей",
+    "supplier": "forus",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "1100_10": {
+    "portal_id": "231",
+    "name_ua": "Канцелярия и Блокноты",
+    "name_ru": "Канцелярия и Блокноты",
+    "supplier": "forus",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "10": {
+    "portal_id": "231",
+    "name_ua": "Канцелярия и Блокноты",
+    "name_ru": "Канцелярия и Блокноты",
+    "supplier": "forus",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "1100_11": {
+    "portal_id": "1709",
+    "name_ua": "Бытовая техника и электроника",
+    "name_ru": "Бытовая техника и электроника",
+    "supplier": "forus",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "11": {
+    "portal_id": "1709",
+    "name_ua": "Бытовая техника и электроника",
+    "name_ru": "Бытовая техника и электроника",
+    "supplier": "forus",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "1100_0079": {
+    "portal_id": "1171",
+    "name_ua": "Рыбалка и охота",
+    "name_ru": "Рыбалка и охота",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "0079": {
+    "portal_id": "1171",
+    "name_ua": "Рыбалка и охота",
+    "name_ru": "Рыбалка и охота",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "1100_00710": {
+    "portal_id": "1177",
+    "name_ua": "Косметички",
+    "name_ru": "Косметички",
+    "supplier": "forus",
+    "maudau_official_name": "Косметички та несесери",
+    "is_leaf": true
+  },
+  "00710": {
+    "portal_id": "1177",
+    "name_ua": "Косметички",
+    "name_ru": "Косметички",
+    "supplier": "forus",
+    "maudau_official_name": "Косметички та несесери",
+    "is_leaf": true
+  },
+  "1100_00711": {
+    "portal_id": "553",
+    "name_ua": "Жвачки Love is ...",
+    "name_ru": "Жвачки Love is ...",
+    "supplier": "forus",
+    "maudau_official_name": "Жувальна гумка",
+    "is_leaf": true
+  },
+  "00711": {
+    "portal_id": "553",
+    "name_ua": "Жвачки Love is ...",
+    "name_ru": "Жвачки Love is ...",
+    "supplier": "forus",
+    "maudau_official_name": "Жувальна гумка",
+    "is_leaf": true
+  },
+  "1100_00712": {
+    "portal_id": "667",
+    "name_ua": "Подставки и держатели",
+    "name_ru": "Подставки и держатели",
+    "supplier": "forus",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "00712": {
+    "portal_id": "667",
+    "name_ua": "Подставки и держатели",
+    "name_ru": "Подставки и держатели",
+    "supplier": "forus",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "1100_00713": {
+    "portal_id": "114",
+    "name_ua": "Интерактивные игрушки",
+    "name_ru": "Интерактивные игрушки",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "00713": {
+    "portal_id": "114",
+    "name_ua": "Интерактивные игрушки",
+    "name_ru": "Интерактивные игрушки",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "1100_00714": {
+    "portal_id": "2210",
+    "name_ua": "Все для авто",
+    "name_ru": "Все для авто",
+    "supplier": "forus",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "00714": {
+    "portal_id": "2210",
+    "name_ua": "Все для авто",
+    "name_ru": "Все для авто",
+    "supplier": "forus",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "1100_00716": {
+    "portal_id": "598",
+    "name_ua": "Шкатулки для украшений",
+    "name_ru": "Шкатулки для украшений",
+    "supplier": "forus",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "00716": {
+    "portal_id": "598",
+    "name_ua": "Шкатулки для украшений",
+    "name_ru": "Шкатулки для украшений",
+    "supplier": "forus",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "1100_00717": {
+    "portal_id": "1615",
+    "name_ua": "Спорт",
+    "name_ru": "Спорт",
+    "supplier": "forus",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "00717": {
+    "portal_id": "1615",
+    "name_ua": "Спорт",
+    "name_ru": "Спорт",
+    "supplier": "forus",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "1100_00719": {
+    "portal_id": "1120",
+    "name_ua": "Светильники и ночники",
+    "name_ru": "Светильники и ночники",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "00719": {
+    "portal_id": "1120",
+    "name_ua": "Светильники и ночники",
+    "name_ru": "Светильники и ночники",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1100_00720": {
+    "portal_id": "283",
+    "name_ua": "Оригинальные Будильники",
+    "name_ru": "Оригинальные Будильники",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "00720": {
+    "portal_id": "283",
+    "name_ua": "Оригинальные Будильники",
+    "name_ru": "Оригинальные Будильники",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "1100_00721": {
+    "portal_id": "2007",
+    "name_ua": "Красота и Здоровье",
+    "name_ru": "Красота и Здоровье",
+    "supplier": "forus",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "00721": {
+    "portal_id": "2007",
+    "name_ua": "Красота и Здоровье",
+    "name_ru": "Красота и Здоровье",
+    "supplier": "forus",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "1100_00722": {
+    "portal_id": "1450",
+    "name_ua": "Все для Кухни",
+    "name_ru": "Все для Кухни",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки та планки для ножів",
+    "is_leaf": true
+  },
+  "00722": {
+    "portal_id": "1450",
+    "name_ua": "Все для Кухни",
+    "name_ru": "Все для Кухни",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки та планки для ножів",
+    "is_leaf": true
+  },
+  "1100_00725": {
+    "portal_id": "1276",
+    "name_ua": "Подарки для девочек",
+    "name_ru": "Подарки для девочек",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "00725": {
+    "portal_id": "1276",
+    "name_ua": "Подарки для девочек",
+    "name_ru": "Подарки для девочек",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "1100_00727": {
+    "portal_id": "130",
+    "name_ua": "Подарки Детям",
+    "name_ru": "Подарки Детям",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "00727": {
+    "portal_id": "130",
+    "name_ua": "Подарки Детям",
+    "name_ru": "Подарки Детям",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "1100_00745": {
+    "portal_id": "759",
+    "name_ua": "Для дачи",
+    "name_ru": "Для дачи",
+    "supplier": "forus",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "00745": {
+    "portal_id": "759",
+    "name_ua": "Для дачи",
+    "name_ru": "Для дачи",
+    "supplier": "forus",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "1100_00764": {
+    "portal_id": "1021",
+    "name_ua": "Зонты",
+    "name_ru": "Зонты",
+    "supplier": "forus",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "00764": {
+    "portal_id": "1021",
+    "name_ua": "Зонты",
+    "name_ru": "Зонты",
+    "supplier": "forus",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "1100_00765": {
+    "portal_id": "791",
+    "name_ua": "Пляж и бассейн",
+    "name_ru": "Пляж и бассейн",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні килимки",
+    "is_leaf": true
+  },
+  "00765": {
+    "portal_id": "791",
+    "name_ua": "Пляж и бассейн",
+    "name_ru": "Пляж и бассейн",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні килимки",
+    "is_leaf": true
+  },
+  "1100_00766": {
+    "portal_id": "811",
+    "name_ua": "Мангалы и Решетки",
+    "name_ru": "Мангалы и Решетки",
+    "supplier": "forus",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "00766": {
+    "portal_id": "811",
+    "name_ua": "Мангалы и Решетки",
+    "name_ru": "Мангалы и Решетки",
+    "supplier": "forus",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "1100_00770": {
+    "portal_id": "130",
+    "name_ua": "Магнитные досточки",
+    "name_ru": "Магнитные досточки",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "00770": {
+    "portal_id": "130",
+    "name_ua": "Магнитные досточки",
+    "name_ru": "Магнитные досточки",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "1100_00774": {
+    "portal_id": "1286",
+    "name_ua": "Зоотовары",
+    "name_ru": "Зоотовары",
+    "supplier": "forus",
+    "maudau_official_name": "Аксесуари до амуніції собак",
+    "is_leaf": true
+  },
+  "00774": {
+    "portal_id": "1286",
+    "name_ua": "Зоотовары",
+    "name_ru": "Зоотовары",
+    "supplier": "forus",
+    "maudau_official_name": "Аксесуари до амуніції собак",
+    "is_leaf": true
+  },
+  "1100_00775": {
+    "portal_id": "1560",
+    "name_ua": "Фоторамки",
+    "name_ru": "Фоторамки",
+    "supplier": "forus",
+    "maudau_official_name": "Фоторамки",
+    "is_leaf": true
+  },
+  "00775": {
+    "portal_id": "1560",
+    "name_ua": "Фоторамки",
+    "name_ru": "Фоторамки",
+    "supplier": "forus",
+    "maudau_official_name": "Фоторамки",
+    "is_leaf": true
+  },
+  "1100_00776": {
+    "portal_id": "1418",
+    "name_ua": "Все для Ванны",
+    "name_ru": "Все для Ванны",
+    "supplier": "forus",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "00776": {
+    "portal_id": "1418",
+    "name_ua": "Все для Ванны",
+    "name_ru": "Все для Ванны",
+    "supplier": "forus",
+    "maudau_official_name": "Набори аксесуарів для ванної кімнати",
+    "is_leaf": true
+  },
+  "1100_00777": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры для вещей и обуви",
+    "name_ru": "Органайзеры для вещей и обуви",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "00777": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры для вещей и обуви",
+    "name_ru": "Органайзеры для вещей и обуви",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_00782": {
+    "portal_id": "231",
+    "name_ua": "Веселая канцелярия",
+    "name_ru": "Веселая канцелярия",
+    "supplier": "forus",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "00782": {
+    "portal_id": "231",
+    "name_ua": "Веселая канцелярия",
+    "name_ru": "Веселая канцелярия",
+    "supplier": "forus",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "1100_00784": {
+    "portal_id": "1965",
+    "name_ua": "Зажигалки",
+    "name_ru": "Зажигалки",
+    "supplier": "forus",
+    "maudau_official_name": "Запальнички та аксесуари",
+    "is_leaf": true
+  },
+  "00784": {
+    "portal_id": "1965",
+    "name_ua": "Зажигалки",
+    "name_ru": "Зажигалки",
+    "supplier": "forus",
+    "maudau_official_name": "Запальнички та аксесуари",
+    "is_leaf": true
+  },
+  "1100_00785": {
+    "portal_id": "1596",
+    "name_ua": "Фляги",
+    "name_ru": "Фляги",
+    "supplier": "forus",
+    "maudau_official_name": "Фляги для алкоголю",
+    "is_leaf": true
+  },
+  "00785": {
+    "portal_id": "1596",
+    "name_ua": "Фляги",
+    "name_ru": "Фляги",
+    "supplier": "forus",
+    "maudau_official_name": "Фляги для алкоголю",
+    "is_leaf": true
+  },
+  "1100_00787": {
+    "portal_id": "659",
+    "name_ua": "Аксессуары к телефонам и планшетам",
+    "name_ru": "Аксессуары к телефонам и планшетам",
+    "supplier": "forus",
+    "maudau_official_name": "Зарядні пристрої для телефонів",
+    "is_leaf": true
+  },
+  "00787": {
+    "portal_id": "659",
+    "name_ua": "Аксессуары к телефонам и планшетам",
+    "name_ru": "Аксессуары к телефонам и планшетам",
+    "supplier": "forus",
+    "maudau_official_name": "Зарядні пристрої для телефонів",
+    "is_leaf": true
+  },
+  "1100_00789": {
+    "portal_id": "1809",
+    "name_ua": "Охлаждающие подставки",
+    "name_ru": "Охлаждающие подставки",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "00789": {
+    "portal_id": "1809",
+    "name_ua": "Охлаждающие подставки",
+    "name_ru": "Охлаждающие подставки",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "1100_00790": {
+    "portal_id": "283",
+    "name_ua": "Настенные часы",
+    "name_ru": "Настенные часы",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "00790": {
+    "portal_id": "283",
+    "name_ua": "Настенные часы",
+    "name_ru": "Настенные часы",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "1100_00791": {
+    "portal_id": "263",
+    "name_ua": "Подушки интерьерные",
+    "name_ru": "Подушки интерьерные",
+    "supplier": "forus",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "00791": {
+    "portal_id": "263",
+    "name_ua": "Подушки интерьерные",
+    "name_ru": "Подушки интерьерные",
+    "supplier": "forus",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "1100_007104": {
+    "portal_id": "1265",
+    "name_ua": "Гирлянды 2021-2022",
+    "name_ru": "Гирлянды 2021-2022",
+    "supplier": "forus",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "007104": {
+    "portal_id": "1265",
+    "name_ua": "Гирлянды 2021-2022",
+    "name_ru": "Гирлянды 2021-2022",
+    "supplier": "forus",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "1100_007108": {
+    "portal_id": "276",
+    "name_ua": "Оригинальные чашки и кружки",
+    "name_ru": "Оригинальные чашки и кружки",
+    "supplier": "forus",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "007108": {
+    "portal_id": "276",
+    "name_ua": "Оригинальные чашки и кружки",
+    "name_ru": "Оригинальные чашки и кружки",
+    "supplier": "forus",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "1100_007116": {
+    "portal_id": "521",
+    "name_ua": "Магниты на холодильник",
+    "name_ru": "Магниты на холодильник",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007116": {
+    "portal_id": "521",
+    "name_ua": "Магниты на холодильник",
+    "name_ru": "Магниты на холодильник",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007120": {
+    "portal_id": "598",
+    "name_ua": "Книги Сейф",
+    "name_ru": "Книги Сейф",
+    "supplier": "forus",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "007120": {
+    "portal_id": "598",
+    "name_ua": "Книги Сейф",
+    "name_ru": "Книги Сейф",
+    "supplier": "forus",
+    "maudau_official_name": "Шкатулки, футляри та скрині",
+    "is_leaf": true
+  },
+  "1100_007122": {
+    "portal_id": "1549",
+    "name_ua": "Ключницы",
+    "name_ru": "Ключницы",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007122": {
+    "portal_id": "1549",
+    "name_ua": "Ключницы",
+    "name_ru": "Ключницы",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007123": {
+    "portal_id": "617",
+    "name_ua": "Вкусные подарки",
+    "name_ru": "Вкусные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні солодкі подарунки",
+    "is_leaf": true
+  },
+  "007123": {
+    "portal_id": "617",
+    "name_ua": "Вкусные подарки",
+    "name_ru": "Вкусные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні солодкі подарунки",
+    "is_leaf": true
+  },
+  "1100_007124": {
+    "portal_id": "1561",
+    "name_ua": "Фотоальбомы",
+    "name_ru": "Фотоальбомы",
+    "supplier": "forus",
+    "maudau_official_name": "Фотоальбоми",
+    "is_leaf": true
+  },
+  "007124": {
+    "portal_id": "1561",
+    "name_ua": "Фотоальбомы",
+    "name_ru": "Фотоальбомы",
+    "supplier": "forus",
+    "maudau_official_name": "Фотоальбоми",
+    "is_leaf": true
+  },
+  "1100_007126": {
+    "portal_id": "2026",
+    "name_ua": "Водонепроницаемые чехлы",
+    "name_ru": "Водонепроницаемые чехлы",
+    "supplier": "forus",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "007126": {
+    "portal_id": "2026",
+    "name_ua": "Водонепроницаемые чехлы",
+    "name_ru": "Водонепроницаемые чехлы",
+    "supplier": "forus",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "1100_007128": {
+    "portal_id": "576",
+    "name_ua": "Солонки и перечницы",
+    "name_ru": "Солонки и перечницы",
+    "supplier": "forus",
+    "maudau_official_name": "Ємності для спецій",
+    "is_leaf": true
+  },
+  "007128": {
+    "portal_id": "576",
+    "name_ua": "Солонки и перечницы",
+    "name_ru": "Солонки и перечницы",
+    "supplier": "forus",
+    "maudau_official_name": "Ємності для спецій",
+    "is_leaf": true
+  },
+  "1100_007130": {
+    "portal_id": "1276",
+    "name_ua": "Оригинальные копилки",
+    "name_ru": "Оригинальные копилки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "007130": {
+    "portal_id": "1276",
+    "name_ua": "Оригинальные копилки",
+    "name_ru": "Оригинальные копилки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "1100_007132": {
+    "portal_id": "272",
+    "name_ua": "Термосы и ланч-боксы",
+    "name_ru": "Термосы и ланч-боксы",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "007132": {
+    "portal_id": "272",
+    "name_ua": "Термосы и ланч-боксы",
+    "name_ru": "Термосы и ланч-боксы",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "1100_007133": {
+    "portal_id": "2289",
+    "name_ua": "Женские сумки",
+    "name_ru": "Женские сумки",
+    "supplier": "forus",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "007133": {
+    "portal_id": "2289",
+    "name_ua": "Женские сумки",
+    "name_ru": "Женские сумки",
+    "supplier": "forus",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "1100_007135": {
+    "portal_id": "2279",
+    "name_ua": "Рюкзаки",
+    "name_ru": "Рюкзаки",
+    "supplier": "forus",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "007135": {
+    "portal_id": "2279",
+    "name_ua": "Рюкзаки",
+    "name_ru": "Рюкзаки",
+    "supplier": "forus",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "1100_007137": {
+    "portal_id": "2289",
+    "name_ua": "Зажимы для денег",
+    "name_ru": "Зажимы для денег",
+    "supplier": "forus",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "007137": {
+    "portal_id": "2289",
+    "name_ua": "Зажимы для денег",
+    "name_ru": "Зажимы для денег",
+    "supplier": "forus",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "1100_007138": {
+    "portal_id": "1120",
+    "name_ua": "Прикольные подарки",
+    "name_ru": "Прикольные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "007138": {
+    "portal_id": "1120",
+    "name_ua": "Прикольные подарки",
+    "name_ru": "Прикольные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1100_007139": {
+    "portal_id": "44",
+    "name_ua": "Детская посуда",
+    "name_ru": "Детская посуда",
+    "supplier": "forus",
+    "maudau_official_name": "Дитячий посуд",
+    "is_leaf": true
+  },
+  "007139": {
+    "portal_id": "44",
+    "name_ua": "Детская посуда",
+    "name_ru": "Детская посуда",
+    "supplier": "forus",
+    "maudau_official_name": "Дитячий посуд",
+    "is_leaf": true
+  },
+  "1100_007146": {
+    "portal_id": "1459",
+    "name_ua": "Заварники для чая и кофе",
+    "name_ru": "Заварники для чая и кофе",
+    "supplier": "forus",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "007146": {
+    "portal_id": "1459",
+    "name_ua": "Заварники для чая и кофе",
+    "name_ru": "Заварники для чая и кофе",
+    "supplier": "forus",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "1100_007148": {
+    "portal_id": "661",
+    "name_ua": "Универсальные портативные батареи",
+    "name_ru": "Универсальные портативные батареи",
+    "supplier": "forus",
+    "maudau_official_name": "Повербанки",
+    "is_leaf": true
+  },
+  "007148": {
+    "portal_id": "661",
+    "name_ua": "Универсальные портативные батареи",
+    "name_ru": "Универсальные портативные батареи",
+    "supplier": "forus",
+    "maudau_official_name": "Повербанки",
+    "is_leaf": true
+  },
+  "1100_007151": {
+    "portal_id": "1473",
+    "name_ua": "Подносы на подушке",
+    "name_ru": "Подносы на подушке",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "007151": {
+    "portal_id": "1473",
+    "name_ua": "Подносы на подушке",
+    "name_ru": "Подносы на подушке",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "1100_007152": {
+    "portal_id": "258",
+    "name_ua": "Пледы",
+    "name_ru": "Пледы",
+    "supplier": "forus",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "007152": {
+    "portal_id": "258",
+    "name_ua": "Пледы",
+    "name_ru": "Пледы",
+    "supplier": "forus",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "1100_007154": {
+    "portal_id": "2424",
+    "name_ua": "Наборы по уходу за обувью",
+    "name_ru": "Наборы по уходу за обувью",
+    "supplier": "forus",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "007154": {
+    "portal_id": "2424",
+    "name_ua": "Наборы по уходу за обувью",
+    "name_ru": "Наборы по уходу за обувью",
+    "supplier": "forus",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "1100_007156": {
+    "portal_id": "272",
+    "name_ua": "Чашки Starbucks",
+    "name_ru": "Чашки Starbucks",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "007156": {
+    "portal_id": "272",
+    "name_ua": "Чашки Starbucks",
+    "name_ru": "Чашки Starbucks",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "1100_007157": {
+    "portal_id": "1",
+    "name_ua": "Новорожденным и младенцам",
+    "name_ru": "Новорожденным и младенцам",
+    "supplier": "forus",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "007157": {
+    "portal_id": "1",
+    "name_ua": "Новорожденным и младенцам",
+    "name_ru": "Новорожденным и младенцам",
+    "supplier": "forus",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "1100_007159": {
+    "portal_id": "130",
+    "name_ua": "Скретч-карты мира",
+    "name_ru": "Скретч-карты мира",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "007159": {
+    "portal_id": "130",
+    "name_ua": "Скретч-карты мира",
+    "name_ru": "Скретч-карты мира",
+    "supplier": "forus",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "1100_007162": {
+    "portal_id": "1549",
+    "name_ua": "Креативные настенные вешалки",
+    "name_ru": "Креативные настенные вешалки",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007162": {
+    "portal_id": "1549",
+    "name_ua": "Креативные настенные вешалки",
+    "name_ru": "Креативные настенные вешалки",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007164": {
+    "portal_id": "1549",
+    "name_ua": "Вакуумные пакеты",
+    "name_ru": "Вакуумные пакеты",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007164": {
+    "portal_id": "1549",
+    "name_ua": "Вакуумные пакеты",
+    "name_ru": "Вакуумные пакеты",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007165": {
+    "portal_id": "272",
+    "name_ua": "Термокружки",
+    "name_ru": "Термокружки",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "007165": {
+    "portal_id": "272",
+    "name_ua": "Термокружки",
+    "name_ru": "Термокружки",
+    "supplier": "forus",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "1100_007170": {
+    "portal_id": "1533",
+    "name_ua": "Прикольные фартуки",
+    "name_ru": "Прикольные фартуки",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні фартухи та передники",
+    "is_leaf": true
+  },
+  "007170": {
+    "portal_id": "1533",
+    "name_ua": "Прикольные фартуки",
+    "name_ru": "Прикольные фартуки",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні фартухи та передники",
+    "is_leaf": true
+  },
+  "1100_007172": {
+    "portal_id": "521",
+    "name_ua": "Подарочные наборы",
+    "name_ru": "Подарочные наборы",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007172": {
+    "portal_id": "521",
+    "name_ua": "Подарочные наборы",
+    "name_ru": "Подарочные наборы",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007179": {
+    "portal_id": "521",
+    "name_ua": "Открытки и конвертики",
+    "name_ru": "Открытки и конвертики",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007179": {
+    "portal_id": "521",
+    "name_ua": "Открытки и конвертики",
+    "name_ru": "Открытки и конвертики",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007182": {
+    "portal_id": "570",
+    "name_ua": "Медали и кубки",
+    "name_ru": "Медали и кубки",
+    "supplier": "forus",
+    "maudau_official_name": "Статуетки",
+    "is_leaf": true
+  },
+  "007182": {
+    "portal_id": "570",
+    "name_ua": "Медали и кубки",
+    "name_ru": "Медали и кубки",
+    "supplier": "forus",
+    "maudau_official_name": "Статуетки",
+    "is_leaf": true
+  },
+  "1100_007183": {
+    "portal_id": "1549",
+    "name_ua": "Подставки под бижутерию",
+    "name_ru": "Подставки под бижутерию",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007183": {
+    "portal_id": "1549",
+    "name_ua": "Подставки под бижутерию",
+    "name_ru": "Подставки под бижутерию",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007187": {
+    "portal_id": "719",
+    "name_ua": "Стулья и Столы",
+    "name_ru": "Стулья и Столы",
+    "supplier": "forus",
+    "maudau_official_name": "Садові та пляжні парасолі",
+    "is_leaf": true
+  },
+  "007187": {
+    "portal_id": "719",
+    "name_ua": "Стулья и Столы",
+    "name_ru": "Стулья и Столы",
+    "supplier": "forus",
+    "maudau_official_name": "Садові та пляжні парасолі",
+    "is_leaf": true
+  },
+  "1100_007188": {
+    "portal_id": "811",
+    "name_ua": "Наборы для пикника",
+    "name_ru": "Наборы для пикника",
+    "supplier": "forus",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "007188": {
+    "portal_id": "811",
+    "name_ua": "Наборы для пикника",
+    "name_ru": "Наборы для пикника",
+    "supplier": "forus",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "1100_007190": {
+    "portal_id": "1426",
+    "name_ua": "Оригинальные тарелки",
+    "name_ru": "Оригинальные тарелки",
+    "supplier": "forus",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "007190": {
+    "portal_id": "1426",
+    "name_ua": "Оригинальные тарелки",
+    "name_ru": "Оригинальные тарелки",
+    "supplier": "forus",
+    "maudau_official_name": "Тарілки",
+    "is_leaf": true
+  },
+  "1100_007192": {
+    "portal_id": "1522",
+    "name_ua": "Термосумки и холодогенераторы",
+    "name_ru": "Термосумки и холодогенераторы",
+    "supplier": "forus",
+    "maudau_official_name": "Автохолодильники",
+    "is_leaf": true
+  },
+  "007192": {
+    "portal_id": "1522",
+    "name_ua": "Термосумки и холодогенераторы",
+    "name_ru": "Термосумки и холодогенераторы",
+    "supplier": "forus",
+    "maudau_official_name": "Автохолодильники",
+    "is_leaf": true
+  },
+  "1100_007195": {
+    "portal_id": "1175",
+    "name_ua": "Косметические зеркала",
+    "name_ru": "Косметические зеркала",
+    "supplier": "forus",
+    "maudau_official_name": "Дзеркала косметичні",
+    "is_leaf": true
+  },
+  "007195": {
+    "portal_id": "1175",
+    "name_ua": "Косметические зеркала",
+    "name_ru": "Косметические зеркала",
+    "supplier": "forus",
+    "maudau_official_name": "Дзеркала косметичні",
+    "is_leaf": true
+  },
+  "1100_007196": {
+    "portal_id": "1546",
+    "name_ua": "Свадьба",
+    "name_ru": "Свадьба",
+    "supplier": "forus",
+    "maudau_official_name": "Свічники",
+    "is_leaf": true
+  },
+  "007196": {
+    "portal_id": "1546",
+    "name_ua": "Свадьба",
+    "name_ru": "Свадьба",
+    "supplier": "forus",
+    "maudau_official_name": "Свічники",
+    "is_leaf": true
+  },
+  "1100_007197": {
+    "portal_id": "576",
+    "name_ua": "Наборы для специй",
+    "name_ru": "Наборы для специй",
+    "supplier": "forus",
+    "maudau_official_name": "Ємності для спецій",
+    "is_leaf": true
+  },
+  "007197": {
+    "portal_id": "576",
+    "name_ua": "Наборы для специй",
+    "name_ru": "Наборы для специй",
+    "supplier": "forus",
+    "maudau_official_name": "Ємності для спецій",
+    "is_leaf": true
+  },
+  "1100_007198": {
+    "portal_id": "1494",
+    "name_ua": "Банки для сыпучих",
+    "name_ru": "Банки для сыпучих",
+    "supplier": "forus",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "007198": {
+    "portal_id": "1494",
+    "name_ua": "Банки для сыпучих",
+    "name_ru": "Банки для сыпучих",
+    "supplier": "forus",
+    "maudau_official_name": "Банки для зберігання сипучих продуктів",
+    "is_leaf": true
+  },
+  "1100_007202": {
+    "portal_id": "521",
+    "name_ua": "Постеры",
+    "name_ru": "Постеры",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007202": {
+    "portal_id": "521",
+    "name_ua": "Постеры",
+    "name_ru": "Постеры",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007203": {
+    "portal_id": "1544",
+    "name_ua": "Подарочные свечи",
+    "name_ru": "Подарочные свечи",
+    "supplier": "forus",
+    "maudau_official_name": "Свічки",
+    "is_leaf": true
+  },
+  "007203": {
+    "portal_id": "1544",
+    "name_ua": "Подарочные свечи",
+    "name_ru": "Подарочные свечи",
+    "supplier": "forus",
+    "maudau_official_name": "Свічки",
+    "is_leaf": true
+  },
+  "1100_007206": {
+    "portal_id": "283",
+    "name_ua": "Будильники Механика",
+    "name_ru": "Будильники Механика",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "007206": {
+    "portal_id": "283",
+    "name_ua": "Будильники Механика",
+    "name_ru": "Будильники Механика",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "1100_007207": {
+    "portal_id": "585",
+    "name_ua": "Разделочные доски",
+    "name_ru": "Разделочные доски",
+    "supplier": "forus",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "007207": {
+    "portal_id": "585",
+    "name_ua": "Разделочные доски",
+    "name_ru": "Разделочные доски",
+    "supplier": "forus",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "1100_007208": {
+    "portal_id": "521",
+    "name_ua": "Подарки для взрослых",
+    "name_ru": "Подарки для взрослых",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007208": {
+    "portal_id": "521",
+    "name_ua": "Подарки для взрослых",
+    "name_ru": "Подарки для взрослых",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007209": {
+    "portal_id": "755",
+    "name_ua": "Шланги для полива X-hose",
+    "name_ru": "Шланги для полива X-hose",
+    "supplier": "forus",
+    "maudau_official_name": "Шланги для поливу",
+    "is_leaf": true
+  },
+  "007209": {
+    "portal_id": "755",
+    "name_ua": "Шланги для полива X-hose",
+    "name_ru": "Шланги для полива X-hose",
+    "supplier": "forus",
+    "maudau_official_name": "Шланги для поливу",
+    "is_leaf": true
+  },
+  "1100_007212": {
+    "portal_id": "719",
+    "name_ua": "Гамаки",
+    "name_ru": "Гамаки",
+    "supplier": "forus",
+    "maudau_official_name": "Садові та пляжні парасолі",
+    "is_leaf": true
+  },
+  "007212": {
+    "portal_id": "719",
+    "name_ua": "Гамаки",
+    "name_ru": "Гамаки",
+    "supplier": "forus",
+    "maudau_official_name": "Садові та пляжні парасолі",
+    "is_leaf": true
+  },
+  "1100_007213": {
+    "portal_id": "1276",
+    "name_ua": "Вечные календари",
+    "name_ru": "Вечные календари",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "007213": {
+    "portal_id": "1276",
+    "name_ua": "Вечные календари",
+    "name_ru": "Вечные календари",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "1100_007217": {
+    "portal_id": "1473",
+    "name_ua": "Столики для завтрака",
+    "name_ru": "Столики для завтрака",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "007217": {
+    "portal_id": "1473",
+    "name_ua": "Столики для завтрака",
+    "name_ru": "Столики для завтрака",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "1100_007218": {
+    "portal_id": "1481",
+    "name_ua": "Формы для льда",
+    "name_ru": "Формы для льда",
+    "supplier": "forus",
+    "maudau_official_name": "Форми для льоду",
+    "is_leaf": true
+  },
+  "007218": {
+    "portal_id": "1481",
+    "name_ua": "Формы для льда",
+    "name_ru": "Формы для льда",
+    "supplier": "forus",
+    "maudau_official_name": "Форми для льоду",
+    "is_leaf": true
+  },
+  "1100_007220": {
+    "portal_id": "276",
+    "name_ua": "Чашки хамелеон",
+    "name_ru": "Чашки хамелеон",
+    "supplier": "forus",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "007220": {
+    "portal_id": "276",
+    "name_ua": "Чашки хамелеон",
+    "name_ru": "Чашки хамелеон",
+    "supplier": "forus",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "1100_007224": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры в сумку",
+    "name_ru": "Органайзеры в сумку",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007224": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры в сумку",
+    "name_ru": "Органайзеры в сумку",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007230": {
+    "portal_id": "521",
+    "name_ua": "Подарочные пакеты",
+    "name_ru": "Подарочные пакеты",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007230": {
+    "portal_id": "521",
+    "name_ua": "Подарочные пакеты",
+    "name_ru": "Подарочные пакеты",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007237": {
+    "portal_id": "521",
+    "name_ua": "Печенье с предсказаниями",
+    "name_ru": "Печенье с предсказаниями",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007237": {
+    "portal_id": "521",
+    "name_ua": "Печенье с предсказаниями",
+    "name_ru": "Печенье с предсказаниями",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007241": {
+    "portal_id": "677",
+    "name_ua": "Электропростыни и обогреватели",
+    "name_ru": "Электропростыни и обогреватели",
+    "supplier": "forus",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "007241": {
+    "portal_id": "677",
+    "name_ua": "Электропростыни и обогреватели",
+    "name_ru": "Электропростыни и обогреватели",
+    "supplier": "forus",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "1100_007242": {
+    "portal_id": "1276",
+    "name_ua": "Шары со снегом",
+    "name_ru": "Шары со снегом",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "007242": {
+    "portal_id": "1276",
+    "name_ua": "Шары со снегом",
+    "name_ru": "Шары со снегом",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "1100_007243": {
+    "portal_id": "1530",
+    "name_ua": "Коврики для прихожей",
+    "name_ru": "Коврики для прихожей",
+    "supplier": "forus",
+    "maudau_official_name": "Придверні килимки",
+    "is_leaf": true
+  },
+  "007243": {
+    "portal_id": "1530",
+    "name_ua": "Коврики для прихожей",
+    "name_ru": "Коврики для прихожей",
+    "supplier": "forus",
+    "maudau_official_name": "Придверні килимки",
+    "is_leaf": true
+  },
+  "1100_007244": {
+    "portal_id": "1401",
+    "name_ua": "Кухонные таймеры",
+    "name_ru": "Кухонные таймеры",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні таймери",
+    "is_leaf": true
+  },
+  "007244": {
+    "portal_id": "1401",
+    "name_ua": "Кухонные таймеры",
+    "name_ru": "Кухонные таймеры",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні таймери",
+    "is_leaf": true
+  },
+  "1100_007247": {
+    "portal_id": "1456",
+    "name_ua": "Перцемолки и Солемолки",
+    "name_ru": "Перцемолки и Солемолки",
+    "supplier": "forus",
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
+  },
+  "007247": {
+    "portal_id": "1456",
+    "name_ua": "Перцемолки и Солемолки",
+    "name_ru": "Перцемолки и Солемолки",
+    "supplier": "forus",
+    "maudau_official_name": "Млини для спецій",
+    "is_leaf": true
+  },
+  "1100_007248": {
+    "portal_id": "1501",
+    "name_ua": "Кисточки и Лопатки",
+    "name_ru": "Кисточки и Лопатки",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні лопатки",
+    "is_leaf": true
+  },
+  "007248": {
+    "portal_id": "1501",
+    "name_ua": "Кисточки и Лопатки",
+    "name_ru": "Кисточки и Лопатки",
+    "supplier": "forus",
+    "maudau_official_name": "Кухонні лопатки",
+    "is_leaf": true
+  },
+  "1100_007252": {
+    "portal_id": "584",
+    "name_ua": "Кухонные ножи",
+    "name_ru": "Кухонные ножи",
+    "supplier": "forus",
+    "maudau_official_name": "Ножі кухонні",
+    "is_leaf": true
+  },
+  "007252": {
+    "portal_id": "584",
+    "name_ua": "Кухонные ножи",
+    "name_ru": "Кухонные ножи",
+    "supplier": "forus",
+    "maudau_official_name": "Ножі кухонні",
+    "is_leaf": true
+  },
+  "1100_007255": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные маски",
+    "name_ru": "Карнавальные маски",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007255": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные маски",
+    "name_ru": "Карнавальные маски",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007256": {
+    "portal_id": "1275",
+    "name_ua": "Детские карнавальные костюмы",
+    "name_ru": "Детские карнавальные костюмы",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007256": {
+    "portal_id": "1275",
+    "name_ua": "Детские карнавальные костюмы",
+    "name_ru": "Детские карнавальные костюмы",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007263": {
+    "portal_id": "258",
+    "name_ua": "Детские пледы",
+    "name_ru": "Детские пледы",
+    "supplier": "forus",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "007263": {
+    "portal_id": "258",
+    "name_ua": "Детские пледы",
+    "name_ru": "Детские пледы",
+    "supplier": "forus",
+    "maudau_official_name": "Пледи",
+    "is_leaf": true
+  },
+  "1100_007265": {
+    "portal_id": "2474",
+    "name_ua": "Маски для сна",
+    "name_ru": "Маски для сна",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "007265": {
+    "portal_id": "2474",
+    "name_ua": "Маски для сна",
+    "name_ru": "Маски для сна",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "1100_007266": {
+    "portal_id": "267",
+    "name_ua": "Прикольные тапки",
+    "name_ru": "Прикольные тапки",
+    "supplier": "forus",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "007266": {
+    "portal_id": "267",
+    "name_ua": "Прикольные тапки",
+    "name_ru": "Прикольные тапки",
+    "supplier": "forus",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "1100_007267": {
+    "portal_id": "1120",
+    "name_ua": "Фонари для кемпинга",
+    "name_ru": "Фонари для кемпинга",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "007267": {
+    "portal_id": "1120",
+    "name_ua": "Фонари для кемпинга",
+    "name_ru": "Фонари для кемпинга",
+    "supplier": "forus",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1100_007268": {
+    "portal_id": "275",
+    "name_ua": "Кухонные принадлежности",
+    "name_ru": "Кухонные принадлежности",
+    "supplier": "forus",
+    "maudau_official_name": "Кришки для посуду",
+    "is_leaf": true
+  },
+  "007268": {
+    "portal_id": "275",
+    "name_ua": "Кухонные принадлежности",
+    "name_ru": "Кухонные принадлежности",
+    "supplier": "forus",
+    "maudau_official_name": "Кришки для посуду",
+    "is_leaf": true
+  },
+  "1100_007272": {
+    "portal_id": "521",
+    "name_ua": "Шлемы для пива",
+    "name_ru": "Шлемы для пива",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007272": {
+    "portal_id": "521",
+    "name_ua": "Шлемы для пива",
+    "name_ru": "Шлемы для пива",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007275": {
+    "portal_id": "1549",
+    "name_ua": "Ящики для инструментов",
+    "name_ru": "Ящики для инструментов",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007275": {
+    "portal_id": "1549",
+    "name_ua": "Ящики для инструментов",
+    "name_ru": "Ящики для инструментов",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007277": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные головные уборы",
+    "name_ru": "Карнавальные головные уборы",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007277": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные головные уборы",
+    "name_ru": "Карнавальные головные уборы",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007286": {
+    "portal_id": "1517",
+    "name_ua": "Скатерти",
+    "name_ru": "Скатерти",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки для посуду",
+    "is_leaf": true
+  },
+  "007286": {
+    "portal_id": "1517",
+    "name_ua": "Скатерти",
+    "name_ru": "Скатерти",
+    "supplier": "forus",
+    "maudau_official_name": "Підставки для посуду",
+    "is_leaf": true
+  },
+  "1100_007289": {
+    "portal_id": "1549",
+    "name_ua": "Ванные принадлежности",
+    "name_ru": "Ванные принадлежности",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007289": {
+    "portal_id": "1549",
+    "name_ua": "Ванные принадлежности",
+    "name_ru": "Ванные принадлежности",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007290": {
+    "portal_id": "1012",
+    "name_ua": "Коврики для ванной",
+    "name_ru": "Коврики для ванной",
+    "supplier": "forus",
+    "maudau_official_name": "Килимки для ванної кімнати",
+    "is_leaf": true
+  },
+  "007290": {
+    "portal_id": "1012",
+    "name_ua": "Коврики для ванной",
+    "name_ru": "Коврики для ванной",
+    "supplier": "forus",
+    "maudau_official_name": "Килимки для ванної кімнати",
+    "is_leaf": true
+  },
+  "1100_007294": {
+    "portal_id": "2442",
+    "name_ua": "Массажеры",
+    "name_ru": "Массажеры",
+    "supplier": "forus",
+    "maudau_official_name": "Ручні масажери",
+    "is_leaf": true
+  },
+  "007294": {
+    "portal_id": "2442",
+    "name_ua": "Массажеры",
+    "name_ru": "Массажеры",
+    "supplier": "forus",
+    "maudau_official_name": "Ручні масажери",
+    "is_leaf": true
+  },
+  "1100_007295": {
+    "portal_id": "1473",
+    "name_ua": "Декоративные подносы",
+    "name_ru": "Декоративные подносы",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "007295": {
+    "portal_id": "1473",
+    "name_ua": "Декоративные подносы",
+    "name_ru": "Декоративные подносы",
+    "supplier": "forus",
+    "maudau_official_name": "Таці",
+    "is_leaf": true
+  },
+  "1100_007296": {
+    "portal_id": "1025",
+    "name_ua": "Соломенные шляпы",
+    "name_ru": "Соломенные шляпы",
+    "supplier": "forus",
+    "maudau_official_name": "Сонцезахисні окуляри",
+    "is_leaf": true
+  },
+  "007296": {
+    "portal_id": "1025",
+    "name_ua": "Соломенные шляпы",
+    "name_ru": "Соломенные шляпы",
+    "supplier": "forus",
+    "maudau_official_name": "Сонцезахисні окуляри",
+    "is_leaf": true
+  },
+  "1100_007298": {
+    "portal_id": "791",
+    "name_ua": "Пледы для пикника",
+    "name_ru": "Пледы для пикника",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні килимки",
+    "is_leaf": true
+  },
+  "007298": {
+    "portal_id": "791",
+    "name_ua": "Пледы для пикника",
+    "name_ru": "Пледы для пикника",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичні килимки",
+    "is_leaf": true
+  },
+  "1100_007300": {
+    "portal_id": "1644",
+    "name_ua": "Инструменты для авто",
+    "name_ru": "Инструменты для авто",
+    "supplier": "forus",
+    "maudau_official_name": "Ключі та набори ключів",
+    "is_leaf": true
+  },
+  "007300": {
+    "portal_id": "1644",
+    "name_ua": "Инструменты для авто",
+    "name_ru": "Инструменты для авто",
+    "supplier": "forus",
+    "maudau_official_name": "Ключі та набори ключів",
+    "is_leaf": true
+  },
+  "1100_007301": {
+    "portal_id": "1446",
+    "name_ua": "Подарочные рюмки и бокалы",
+    "name_ru": "Подарочные рюмки и бокалы",
+    "supplier": "forus",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "007301": {
+    "portal_id": "1446",
+    "name_ua": "Подарочные рюмки и бокалы",
+    "name_ru": "Подарочные рюмки и бокалы",
+    "supplier": "forus",
+    "maudau_official_name": "Чарки",
+    "is_leaf": true
+  },
+  "1100_007302": {
+    "portal_id": "575",
+    "name_ua": "Контейнеры для хранения продуктов",
+    "name_ru": "Контейнеры для хранения продуктов",
+    "supplier": "forus",
+    "maudau_official_name": "Маслянки (масельнички)",
+    "is_leaf": true
+  },
+  "007302": {
+    "portal_id": "575",
+    "name_ua": "Контейнеры для хранения продуктов",
+    "name_ru": "Контейнеры для хранения продуктов",
+    "supplier": "forus",
+    "maudau_official_name": "Маслянки (масельнички)",
+    "is_leaf": true
+  },
+  "1100_007305": {
+    "portal_id": "2474",
+    "name_ua": "Органайзеры для путешествий",
+    "name_ru": "Органайзеры для путешествий",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "007305": {
+    "portal_id": "2474",
+    "name_ua": "Органайзеры для путешествий",
+    "name_ru": "Органайзеры для путешествий",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "1100_007311": {
+    "portal_id": "260",
+    "name_ua": "Полотенце",
+    "name_ru": "Полотенце",
+    "supplier": "forus",
+    "maudau_official_name": "Рушники",
+    "is_leaf": true
+  },
+  "007311": {
+    "portal_id": "260",
+    "name_ua": "Полотенце",
+    "name_ru": "Полотенце",
+    "supplier": "forus",
+    "maudau_official_name": "Рушники",
+    "is_leaf": true
+  },
+  "1100_007313": {
+    "portal_id": "583",
+    "name_ua": "Бутылочки для воды",
+    "name_ru": "Бутылочки для воды",
+    "supplier": "forus",
+    "maudau_official_name": "Пляшки для води",
+    "is_leaf": true
+  },
+  "007313": {
+    "portal_id": "583",
+    "name_ua": "Бутылочки для воды",
+    "name_ru": "Бутылочки для воды",
+    "supplier": "forus",
+    "maudau_official_name": "Пляшки для води",
+    "is_leaf": true
+  },
+  "1100_007317": {
+    "portal_id": "521",
+    "name_ua": "Все для праздника",
+    "name_ru": "Все для праздника",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007317": {
+    "portal_id": "521",
+    "name_ua": "Все для праздника",
+    "name_ru": "Все для праздника",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007318": {
+    "portal_id": "1442",
+    "name_ua": "Формы для яиц",
+    "name_ru": "Формы для яиц",
+    "supplier": "forus",
+    "maudau_official_name": "Яйцерізки",
+    "is_leaf": true
+  },
+  "007318": {
+    "portal_id": "1442",
+    "name_ua": "Формы для яиц",
+    "name_ru": "Формы для яиц",
+    "supplier": "forus",
+    "maudau_official_name": "Яйцерізки",
+    "is_leaf": true
+  },
+  "1100_007319": {
+    "portal_id": "114",
+    "name_ua": "Детские забавы",
+    "name_ru": "Детские забавы",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "007319": {
+    "portal_id": "114",
+    "name_ua": "Детские забавы",
+    "name_ru": "Детские забавы",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "1100_007323": {
+    "portal_id": "1816",
+    "name_ua": "Все для бара",
+    "name_ru": "Все для бара",
+    "supplier": "forus",
+    "maudau_official_name": "Аксесуари для бару",
+    "is_leaf": true
+  },
+  "007323": {
+    "portal_id": "1816",
+    "name_ua": "Все для бара",
+    "name_ru": "Все для бара",
+    "supplier": "forus",
+    "maudau_official_name": "Аксесуари для бару",
+    "is_leaf": true
+  },
+  "1100_007328": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные костюмы для взрослых",
+    "name_ru": "Карнавальные костюмы для взрослых",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007328": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные костюмы для взрослых",
+    "name_ru": "Карнавальные костюмы для взрослых",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007329": {
+    "portal_id": "1275",
+    "name_ua": "Пижамы Кигуруми",
+    "name_ru": "Пижамы Кигуруми",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007329": {
+    "portal_id": "1275",
+    "name_ua": "Пижамы Кигуруми",
+    "name_ru": "Пижамы Кигуруми",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007330": {
+    "portal_id": "1276",
+    "name_ua": "Елочные игрушки",
+    "name_ru": "Елочные игрушки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "007330": {
+    "portal_id": "1276",
+    "name_ua": "Елочные игрушки",
+    "name_ru": "Елочные игрушки",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "1100_007333": {
+    "portal_id": "1275",
+    "name_ua": "Парики",
+    "name_ru": "Парики",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007333": {
+    "portal_id": "1275",
+    "name_ua": "Парики",
+    "name_ru": "Парики",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007337": {
+    "portal_id": "1275",
+    "name_ua": "Маскарадные крылья",
+    "name_ru": "Маскарадные крылья",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "007337": {
+    "portal_id": "1275",
+    "name_ua": "Маскарадные крылья",
+    "name_ru": "Маскарадные крылья",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "1100_007346": {
+    "portal_id": "283",
+    "name_ua": "Часы в Обратную сторону",
+    "name_ru": "Часы в Обратную сторону",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "007346": {
+    "portal_id": "283",
+    "name_ua": "Часы в Обратную сторону",
+    "name_ru": "Часы в Обратную сторону",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "1100_007347": {
+    "portal_id": "1549",
+    "name_ua": "Крючки-вешалки для одежды",
+    "name_ru": "Крючки-вешалки для одежды",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007347": {
+    "portal_id": "1549",
+    "name_ua": "Крючки-вешалки для одежды",
+    "name_ru": "Крючки-вешалки для одежды",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007351": {
+    "portal_id": "1523",
+    "name_ua": "Измерительные Приборы",
+    "name_ru": "Измерительные Приборы",
+    "supplier": "forus",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "007351": {
+    "portal_id": "1523",
+    "name_ua": "Измерительные Приборы",
+    "name_ru": "Измерительные Приборы",
+    "supplier": "forus",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "1100_007356": {
+    "portal_id": "769",
+    "name_ua": "Блокноты",
+    "name_ru": "Блокноты",
+    "supplier": "forus",
+    "maudau_official_name": "Блокноти",
+    "is_leaf": true
+  },
+  "007356": {
+    "portal_id": "769",
+    "name_ua": "Блокноты",
+    "name_ru": "Блокноты",
+    "supplier": "forus",
+    "maudau_official_name": "Блокноти",
+    "is_leaf": true
+  },
+  "1100_007358": {
+    "portal_id": "801",
+    "name_ua": "Все для Отдыха",
+    "name_ru": "Все для Отдыха",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "007358": {
+    "portal_id": "801",
+    "name_ua": "Все для Отдыха",
+    "name_ru": "Все для Отдыха",
+    "supplier": "forus",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "1100_007362": {
+    "portal_id": "283",
+    "name_ua": "Настольные Часы",
+    "name_ru": "Настольные Часы",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "007362": {
+    "portal_id": "283",
+    "name_ua": "Настольные Часы",
+    "name_ru": "Настольные Часы",
+    "supplier": "forus",
+    "maudau_official_name": "Годинники настінні",
+    "is_leaf": true
+  },
+  "1100_007364": {
+    "portal_id": "1549",
+    "name_ua": "Хозяйственные мелочи",
+    "name_ru": "Хозяйственные мелочи",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007364": {
+    "portal_id": "1549",
+    "name_ua": "Хозяйственные мелочи",
+    "name_ru": "Хозяйственные мелочи",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007365": {
+    "portal_id": "114",
+    "name_ua": "Антистресс",
+    "name_ru": "Антистресс",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "007365": {
+    "portal_id": "114",
+    "name_ua": "Антистресс",
+    "name_ru": "Антистресс",
+    "supplier": "forus",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "1100_007368": {
+    "portal_id": "1448",
+    "name_ua": "Стаканы",
+    "name_ru": "Стаканы",
+    "supplier": "forus",
+    "maudau_official_name": "Склянки",
+    "is_leaf": true
+  },
+  "007368": {
+    "portal_id": "1448",
+    "name_ua": "Стаканы",
+    "name_ru": "Стаканы",
+    "supplier": "forus",
+    "maudau_official_name": "Склянки",
+    "is_leaf": true
+  },
+  "1100_007370": {
+    "portal_id": "521",
+    "name_ua": "Подарочные коробки",
+    "name_ru": "Подарочные коробки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007370": {
+    "portal_id": "521",
+    "name_ua": "Подарочные коробки",
+    "name_ru": "Подарочные коробки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007372": {
+    "portal_id": "521",
+    "name_ua": "Именные подарки",
+    "name_ru": "Именные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007372": {
+    "portal_id": "521",
+    "name_ua": "Именные подарки",
+    "name_ru": "Именные подарки",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007374": {
+    "portal_id": "743",
+    "name_ua": "Увлажнитель воздуха",
+    "name_ru": "Увлажнитель воздуха",
+    "supplier": "forus",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "007374": {
+    "portal_id": "743",
+    "name_ua": "Увлажнитель воздуха",
+    "name_ru": "Увлажнитель воздуха",
+    "supplier": "forus",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "1100_007375": {
+    "portal_id": "2096",
+    "name_ua": "Электроника и гаджеты",
+    "name_ru": "Электроника и гаджеты",
+    "supplier": "forus",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "007375": {
+    "portal_id": "2096",
+    "name_ua": "Электроника и гаджеты",
+    "name_ru": "Электроника и гаджеты",
+    "supplier": "forus",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "1100_007376": {
+    "portal_id": "1549",
+    "name_ua": "Мудборд",
+    "name_ru": "Мудборд",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "007376": {
+    "portal_id": "1549",
+    "name_ua": "Мудборд",
+    "name_ru": "Мудборд",
+    "supplier": "forus",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1100_007379": {
+    "portal_id": "2474",
+    "name_ua": "Дорожные подушки",
+    "name_ru": "Дорожные подушки",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "007379": {
+    "portal_id": "2474",
+    "name_ua": "Дорожные подушки",
+    "name_ru": "Дорожные подушки",
+    "supplier": "forus",
+    "maudau_official_name": "Дорожні аксесуари",
+    "is_leaf": true
+  },
+  "1100_007380": {
+    "portal_id": "521",
+    "name_ua": "Металлические таблички",
+    "name_ru": "Металлические таблички",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "007380": {
+    "portal_id": "521",
+    "name_ua": "Металлические таблички",
+    "name_ru": "Металлические таблички",
+    "supplier": "forus",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1100_007386": {
+    "portal_id": "1686",
+    "name_ua": "Блендеры",
+    "name_ru": "Блендеры",
+    "supplier": "forus",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "007386": {
+    "portal_id": "1686",
+    "name_ua": "Блендеры",
+    "name_ru": "Блендеры",
+    "supplier": "forus",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "1100_007387": {
+    "portal_id": "1675",
+    "name_ua": "Электрочайники",
+    "name_ru": "Электрочайники",
+    "supplier": "forus",
+    "maudau_official_name": "Електрочайники",
+    "is_leaf": true
+  },
+  "007387": {
+    "portal_id": "1675",
+    "name_ua": "Электрочайники",
+    "name_ru": "Электрочайники",
+    "supplier": "forus",
+    "maudau_official_name": "Електрочайники",
+    "is_leaf": true
+  },
+  "1100_007388": {
+    "portal_id": "1042",
+    "name_ua": "Электробритвы",
+    "name_ru": "Электробритвы",
+    "supplier": "forus",
+    "maudau_official_name": "Машинки для стрижки",
+    "is_leaf": true
+  },
+  "007388": {
+    "portal_id": "1042",
+    "name_ua": "Электробритвы",
+    "name_ru": "Электробритвы",
+    "supplier": "forus",
+    "maudau_official_name": "Машинки для стрижки",
+    "is_leaf": true
+  },
+  "1100_007389": {
+    "portal_id": "1052",
+    "name_ua": "Триммеры",
+    "name_ru": "Триммеры",
+    "supplier": "forus",
+    "maudau_official_name": "Тримери для стрижки",
+    "is_leaf": true
+  },
+  "007389": {
+    "portal_id": "1052",
+    "name_ua": "Триммеры",
+    "name_ru": "Триммеры",
+    "supplier": "forus",
+    "maudau_official_name": "Тримери для стрижки",
+    "is_leaf": true
+  },
+  "1100_007390": {
+    "portal_id": "1024",
+    "name_ua": "Фены",
+    "name_ru": "Фены",
+    "supplier": "forus",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "007390": {
+    "portal_id": "1024",
+    "name_ua": "Фены",
+    "name_ru": "Фены",
+    "supplier": "forus",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "1100_007391": {
+    "portal_id": "1709",
+    "name_ua": "Прочая мелкая техника",
+    "name_ru": "Прочая мелкая техника",
+    "supplier": "forus",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "007391": {
+    "portal_id": "1709",
+    "name_ua": "Прочая мелкая техника",
+    "name_ru": "Прочая мелкая техника",
+    "supplier": "forus",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "1100_007392": {
+    "portal_id": "1696",
+    "name_ua": "Утюги и гладильные системы",
+    "name_ru": "Утюги и гладильные системы",
+    "supplier": "forus",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "007392": {
+    "portal_id": "1696",
+    "name_ua": "Утюги и гладильные системы",
+    "name_ru": "Утюги и гладильные системы",
+    "supplier": "forus",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "1100_007394": {
+    "portal_id": "1692",
+    "name_ua": "Машинки для стрижки катышков",
+    "name_ru": "Машинки для стрижки катышков",
+    "supplier": "forus",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "007394": {
+    "portal_id": "1692",
+    "name_ua": "Машинки для стрижки катышков",
+    "name_ru": "Машинки для стрижки катышков",
+    "supplier": "forus",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "1100_007402": {
+    "portal_id": "1037",
+    "name_ua": "Приборы для укладки волос",
+    "name_ru": "Приборы для укладки волос",
+    "supplier": "forus",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "007402": {
+    "portal_id": "1037",
+    "name_ua": "Приборы для укладки волос",
+    "name_ru": "Приборы для укладки волос",
+    "supplier": "forus",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "1100_007403": {
+    "portal_id": "2245",
+    "name_ua": "Парные футболки",
+    "name_ru": "Парные футболки",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "007403": {
+    "portal_id": "2245",
+    "name_ua": "Парные футболки",
+    "name_ru": "Парные футболки",
+    "supplier": "forus",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "1100_007408": {
+    "portal_id": "1276",
+    "name_ua": "Адвент Календари",
+    "name_ru": "Адвент Календари",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "007408": {
+    "portal_id": "1276",
+    "name_ua": "Адвент Календари",
+    "name_ru": "Адвент Календари",
+    "supplier": "forus",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
   }
 }
