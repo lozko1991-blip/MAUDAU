@@ -16485,5 +16485,5269 @@
     "portal_id": "1539",
     "parentId": "13713",
     "maudau_official_name": "Зберігання та організація простору"
+  },
+  "9999_333": {
+    "portal_id": "683",
+    "name_ua": "Годинники, смарт, фітнес браслети",
+    "name_ru": "Годинники, смарт, фітнес браслети",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "333": {
+    "portal_id": "683",
+    "name_ua": "Годинники, смарт, фітнес браслети",
+    "name_ru": "Годинники, смарт, фітнес браслети",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "9999_334": {
+    "portal_id": "663",
+    "name_ua": "Електроніка",
+    "name_ru": "Електроніка",
+    "supplier": "websklad",
+    "maudau_official_name": "Кабелі і адаптери",
+    "is_leaf": true
+  },
+  "334": {
+    "portal_id": "663",
+    "name_ua": "Електроніка",
+    "name_ru": "Електроніка",
+    "supplier": "websklad",
+    "maudau_official_name": "Кабелі і адаптери",
+    "is_leaf": true
+  },
+  "9999_335": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі, лампи, запальнички",
+    "name_ru": "Ліхтарі, лампи, запальнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "335": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі, лампи, запальнички",
+    "name_ru": "Ліхтарі, лампи, запальнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_336": {
+    "portal_id": "251",
+    "name_ua": "Товари для дому та саду",
+    "name_ru": "Товари для дому та саду",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "336": {
+    "portal_id": "251",
+    "name_ua": "Товари для дому та саду",
+    "name_ru": "Товари для дому та саду",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для дому",
+    "is_leaf": false
+  },
+  "9999_337": {
+    "portal_id": "1",
+    "name_ua": "Товари для дітей",
+    "name_ru": "Товари для дітей",
+    "supplier": "websklad",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "337": {
+    "portal_id": "1",
+    "name_ua": "Товари для дітей",
+    "name_ru": "Товари для дітей",
+    "supplier": "websklad",
+    "maudau_official_name": "Каталог",
+    "is_leaf": false
+  },
+  "9999_339": {
+    "portal_id": "2279",
+    "name_ua": "Сумки, клатчі, гаманці, окуляри",
+    "name_ru": "Сумки, клатчі, гаманці, окуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "339": {
+    "portal_id": "2279",
+    "name_ua": "Сумки, клатчі, гаманці, окуляри",
+    "name_ru": "Сумки, клатчі, гаманці, окуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "9999_340": {
+    "portal_id": "178",
+    "name_ua": "Спорт, здоровя, відпочинок",
+    "name_ru": "Спорт, здоровя, відпочинок",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "340": {
+    "portal_id": "178",
+    "name_ua": "Спорт, здоровя, відпочинок",
+    "name_ru": "Спорт, здоровя, відпочинок",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "9999_341": {
+    "portal_id": "651",
+    "name_ua": "Навушники та гарнітура",
+    "name_ru": "Навушники та гарнітура",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "341": {
+    "portal_id": "651",
+    "name_ua": "Навушники та гарнітура",
+    "name_ru": "Навушники та гарнітура",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_343": {
+    "portal_id": "568",
+    "name_ua": "Колонки та акустика",
+    "name_ru": "Колонки та акустика",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "343": {
+    "portal_id": "568",
+    "name_ua": "Колонки та акустика",
+    "name_ru": "Колонки та акустика",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_344": {
+    "portal_id": "253",
+    "name_ua": "Все для кухні",
+    "name_ru": "Все для кухні",
+    "supplier": "websklad",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "344": {
+    "portal_id": "253",
+    "name_ua": "Все для кухні",
+    "name_ru": "Все для кухні",
+    "supplier": "websklad",
+    "maudau_official_name": "Посуд",
+    "is_leaf": false
+  },
+  "9999_345": {
+    "portal_id": "2210",
+    "name_ua": "Автотовари",
+    "name_ru": "Автотовари",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "345": {
+    "portal_id": "2210",
+    "name_ua": "Автотовари",
+    "name_ru": "Автотовари",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_349": {
+    "portal_id": "88",
+    "name_ua": "Косметика",
+    "name_ru": "Косметика",
+    "supplier": "websklad",
+    "maudau_official_name": "Догляд за обличчям",
+    "is_leaf": false
+  },
+  "349": {
+    "portal_id": "88",
+    "name_ua": "Косметика",
+    "name_ru": "Косметика",
+    "supplier": "websklad",
+    "maudau_official_name": "Догляд за обличчям",
+    "is_leaf": false
+  },
+  "9999_350": {
+    "portal_id": "1286",
+    "name_ua": "Товари для тварин",
+    "name_ru": "Товари для тварин",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари до амуніції собак",
+    "is_leaf": true
+  },
+  "350": {
+    "portal_id": "1286",
+    "name_ua": "Товари для тварин",
+    "name_ru": "Товари для тварин",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари до амуніції собак",
+    "is_leaf": true
+  },
+  "9999_352": {
+    "portal_id": "2245",
+    "name_ua": "Взуття",
+    "name_ru": "Взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "352": {
+    "portal_id": "2245",
+    "name_ua": "Взуття",
+    "name_ru": "Взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "9999_12293047": {
+    "portal_id": "2210",
+    "name_ua": "Перекачка топлива",
+    "name_ru": "Перекачка топлива",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "12293047": {
+    "portal_id": "2210",
+    "name_ua": "Перекачка топлива",
+    "name_ru": "Перекачка топлива",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_17628515": {
+    "portal_id": "2096",
+    "name_ua": "Видеонаблюдение",
+    "name_ru": "Видеонаблюдение",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "17628515": {
+    "portal_id": "2096",
+    "name_ua": "Видеонаблюдение",
+    "name_ru": "Видеонаблюдение",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "9999_26469531": {
+    "portal_id": "1659",
+    "name_ua": "Лазерные уровни",
+    "name_ru": "Лазерные уровни",
+    "supplier": "websklad",
+    "maudau_official_name": "Лазерні рівні та нівеліри",
+    "is_leaf": true
+  },
+  "26469531": {
+    "portal_id": "1659",
+    "name_ua": "Лазерные уровни",
+    "name_ru": "Лазерные уровни",
+    "supplier": "websklad",
+    "maudau_official_name": "Лазерні рівні та нівеліри",
+    "is_leaf": true
+  },
+  "9999_28788177": {
+    "portal_id": "1436",
+    "name_ua": "Точилки ножей",
+    "name_ru": "Точилки ножей",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "28788177": {
+    "portal_id": "1436",
+    "name_ua": "Точилки ножей",
+    "name_ru": "Точилки ножей",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "9999_41899249": {
+    "portal_id": "1642",
+    "name_ua": "Набори ел. інструментів",
+    "name_ru": "Набори ел. інструментів",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "41899249": {
+    "portal_id": "1642",
+    "name_ua": "Набори ел. інструментів",
+    "name_ru": "Набори ел. інструментів",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_57824536": {
+    "portal_id": "1676",
+    "name_ua": "Мікрохвильовки",
+    "name_ru": "Мікрохвильовки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мікрохвильові печі",
+    "is_leaf": true
+  },
+  "57824536": {
+    "portal_id": "1676",
+    "name_ua": "Мікрохвильовки",
+    "name_ru": "Мікрохвильовки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мікрохвильові печі",
+    "is_leaf": true
+  },
+  "9999_78724509": {
+    "portal_id": "691",
+    "name_ua": "Літаючі іграшки",
+    "name_ru": "Літаючі іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "78724509": {
+    "portal_id": "691",
+    "name_ua": "Літаючі іграшки",
+    "name_ru": "Літаючі іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "9999_125032666": {
+    "portal_id": "1659",
+    "name_ua": "Лазерні рівні",
+    "name_ru": "Лазерні рівні",
+    "supplier": "websklad",
+    "maudau_official_name": "Лазерні рівні та нівеліри",
+    "is_leaf": true
+  },
+  "125032666": {
+    "portal_id": "1659",
+    "name_ua": "Лазерні рівні",
+    "name_ru": "Лазерні рівні",
+    "supplier": "websklad",
+    "maudau_official_name": "Лазерні рівні та нівеліри",
+    "is_leaf": true
+  },
+  "9999_137633551": {
+    "portal_id": "2095",
+    "name_ua": "Штативы",
+    "name_ru": "Штативы",
+    "supplier": "websklad",
+    "maudau_official_name": "Штативи",
+    "is_leaf": true
+  },
+  "137633551": {
+    "portal_id": "2095",
+    "name_ua": "Штативы",
+    "name_ru": "Штативы",
+    "supplier": "websklad",
+    "maudau_official_name": "Штативи",
+    "is_leaf": true
+  },
+  "9999_179426938": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі прожектори",
+    "name_ru": "Ліхтарі прожектори",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "179426938": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі прожектори",
+    "name_ru": "Ліхтарі прожектори",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_196158285": {
+    "portal_id": "2310",
+    "name_ua": "VR очки",
+    "name_ru": "VR очки",
+    "supplier": "websklad",
+    "maudau_official_name": "Окуляри віртуальної реальності",
+    "is_leaf": true
+  },
+  "196158285": {
+    "portal_id": "2310",
+    "name_ua": "VR очки",
+    "name_ru": "VR очки",
+    "supplier": "websklad",
+    "maudau_official_name": "Окуляри віртуальної реальності",
+    "is_leaf": true
+  },
+  "9999_213709320": {
+    "portal_id": "1642",
+    "name_ua": "Инструменты",
+    "name_ru": "Инструменты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "213709320": {
+    "portal_id": "1642",
+    "name_ua": "Инструменты",
+    "name_ru": "Инструменты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_213726499": {
+    "portal_id": "178",
+    "name_ua": "Для риболовлі",
+    "name_ru": "Для риболовлі",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "213726499": {
+    "portal_id": "178",
+    "name_ua": "Для риболовлі",
+    "name_ru": "Для риболовлі",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "9999_255393374": {
+    "portal_id": "1436",
+    "name_ua": "Набори ножів",
+    "name_ru": "Набори ножів",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "255393374": {
+    "portal_id": "1436",
+    "name_ua": "Набори ножів",
+    "name_ru": "Набори ножів",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "9999_271237322": {
+    "portal_id": "2219",
+    "name_ua": "Водонагрівачі",
+    "name_ru": "Водонагрівачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Проточні водонагрівачі",
+    "is_leaf": true
+  },
+  "271237322": {
+    "portal_id": "2219",
+    "name_ua": "Водонагрівачі",
+    "name_ru": "Водонагрівачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Проточні водонагрівачі",
+    "is_leaf": true
+  },
+  "9999_273581677": {
+    "portal_id": "1024",
+    "name_ua": "Фены",
+    "name_ru": "Фены",
+    "supplier": "websklad",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "273581677": {
+    "portal_id": "1024",
+    "name_ua": "Фены",
+    "name_ru": "Фены",
+    "supplier": "websklad",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "9999_274548020": {
+    "portal_id": "1686",
+    "name_ua": "Блендери",
+    "name_ru": "Блендери",
+    "supplier": "websklad",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "274548020": {
+    "portal_id": "1686",
+    "name_ua": "Блендери",
+    "name_ru": "Блендери",
+    "supplier": "websklad",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "9999_274777645": {
+    "portal_id": "2289",
+    "name_ua": "Кошельки",
+    "name_ru": "Кошельки",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "274777645": {
+    "portal_id": "2289",
+    "name_ua": "Кошельки",
+    "name_ru": "Кошельки",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_276665455": {
+    "portal_id": "1037",
+    "name_ua": "Щипцы / плойки",
+    "name_ru": "Щипцы / плойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "276665455": {
+    "portal_id": "1037",
+    "name_ua": "Щипцы / плойки",
+    "name_ru": "Щипцы / плойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "9999_282294941": {
+    "portal_id": "123",
+    "name_ua": "Магнітні іграшки",
+    "name_ru": "Магнітні іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "Конструктори",
+    "is_leaf": true
+  },
+  "282294941": {
+    "portal_id": "123",
+    "name_ua": "Магнітні іграшки",
+    "name_ru": "Магнітні іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "Конструктори",
+    "is_leaf": true
+  },
+  "9999_320183985": {
+    "portal_id": "114",
+    "name_ua": "Мягкие игрушки",
+    "name_ru": "Мягкие игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "320183985": {
+    "portal_id": "114",
+    "name_ua": "Мягкие игрушки",
+    "name_ru": "Мягкие игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "9999_324510419": {
+    "portal_id": "1445",
+    "name_ua": "Швабри / щітки",
+    "name_ru": "Швабри / щітки",
+    "supplier": "websklad",
+    "maudau_official_name": "Швабри",
+    "is_leaf": true
+  },
+  "324510419": {
+    "portal_id": "1445",
+    "name_ua": "Швабри / щітки",
+    "name_ru": "Швабри / щітки",
+    "supplier": "websklad",
+    "maudau_official_name": "Швабри",
+    "is_leaf": true
+  },
+  "9999_331591236": {
+    "portal_id": "811",
+    "name_ua": "Мангали",
+    "name_ru": "Мангали",
+    "supplier": "websklad",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "331591236": {
+    "portal_id": "811",
+    "name_ua": "Мангали",
+    "name_ru": "Мангали",
+    "supplier": "websklad",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "9999_340611524": {
+    "portal_id": "2350",
+    "name_ua": "Велокомпьютеры",
+    "name_ru": "Велокомпьютеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для велоспорту",
+    "is_leaf": false
+  },
+  "340611524": {
+    "portal_id": "2350",
+    "name_ua": "Велокомпьютеры",
+    "name_ru": "Велокомпьютеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для велоспорту",
+    "is_leaf": false
+  },
+  "9999_361687573": {
+    "portal_id": "1460",
+    "name_ua": "Кавоварки",
+    "name_ru": "Кавоварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "361687573": {
+    "portal_id": "1460",
+    "name_ua": "Кавоварки",
+    "name_ru": "Кавоварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "9999_369855034": {
+    "portal_id": "1398",
+    "name_ua": "Тертки/овочерізки",
+    "name_ru": "Тертки/овочерізки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "369855034": {
+    "portal_id": "1398",
+    "name_ua": "Тертки/овочерізки",
+    "name_ru": "Тертки/овочерізки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_389440355": {
+    "portal_id": "130",
+    "name_ua": "Для малювання",
+    "name_ru": "Для малювання",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "389440355": {
+    "portal_id": "130",
+    "name_ua": "Для малювання",
+    "name_ru": "Для малювання",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "9999_393410389": {
+    "portal_id": "1120",
+    "name_ua": "Фонари ручные",
+    "name_ru": "Фонари ручные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "393410389": {
+    "portal_id": "1120",
+    "name_ua": "Фонари ручные",
+    "name_ru": "Фонари ручные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_395911613": {
+    "portal_id": "118",
+    "name_ua": "Квадрокоптеры",
+    "name_ru": "Квадрокоптеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Іграшки на радіокеруванні",
+    "is_leaf": true
+  },
+  "395911613": {
+    "portal_id": "118",
+    "name_ua": "Квадрокоптеры",
+    "name_ru": "Квадрокоптеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Іграшки на радіокеруванні",
+    "is_leaf": true
+  },
+  "9999_406368620": {
+    "portal_id": "1688",
+    "name_ua": "Вакууматори",
+    "name_ru": "Вакууматори",
+    "supplier": "websklad",
+    "maudau_official_name": "Побутові вакуумні пакувальники",
+    "is_leaf": true
+  },
+  "406368620": {
+    "portal_id": "1688",
+    "name_ua": "Вакууматори",
+    "name_ru": "Вакууматори",
+    "supplier": "websklad",
+    "maudau_official_name": "Побутові вакуумні пакувальники",
+    "is_leaf": true
+  },
+  "9999_415867683": {
+    "portal_id": "1705",
+    "name_ua": "Попкорн",
+    "name_ru": "Попкорн",
+    "supplier": "websklad",
+    "maudau_official_name": "Мультипекарі (мультимейкери)",
+    "is_leaf": true
+  },
+  "415867683": {
+    "portal_id": "1705",
+    "name_ua": "Попкорн",
+    "name_ru": "Попкорн",
+    "supplier": "websklad",
+    "maudau_official_name": "Мультипекарі (мультимейкери)",
+    "is_leaf": true
+  },
+  "9999_423871757": {
+    "portal_id": "1523",
+    "name_ua": "Ваги ювелірні",
+    "name_ru": "Ваги ювелірні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "423871757": {
+    "portal_id": "1523",
+    "name_ua": "Ваги ювелірні",
+    "name_ru": "Ваги ювелірні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "9999_434812050": {
+    "portal_id": "1855",
+    "name_ua": "Пульсоксиметри",
+    "name_ru": "Пульсоксиметри",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "434812050": {
+    "portal_id": "1855",
+    "name_ua": "Пульсоксиметри",
+    "name_ru": "Пульсоксиметри",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "9999_441464379": {
+    "portal_id": "2350",
+    "name_ua": "Велокомп'ютери",
+    "name_ru": "Велокомп'ютери",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для велоспорту",
+    "is_leaf": false
+  },
+  "441464379": {
+    "portal_id": "2350",
+    "name_ua": "Велокомп'ютери",
+    "name_ru": "Велокомп'ютери",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для велоспорту",
+    "is_leaf": false
+  },
+  "9999_459200474": {
+    "portal_id": "568",
+    "name_ua": "Портативні колонки",
+    "name_ru": "Портативні колонки",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "459200474": {
+    "portal_id": "568",
+    "name_ua": "Портативні колонки",
+    "name_ru": "Портативні колонки",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_465211256": {
+    "portal_id": "123",
+    "name_ua": "Магнитные игрушки",
+    "name_ru": "Магнитные игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "Конструктори",
+    "is_leaf": true
+  },
+  "465211256": {
+    "portal_id": "123",
+    "name_ua": "Магнитные игрушки",
+    "name_ru": "Магнитные игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "Конструктори",
+    "is_leaf": true
+  },
+  "9999_478622893": {
+    "portal_id": "1549",
+    "name_ua": "Шкафы ткань",
+    "name_ru": "Шкафы ткань",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "478622893": {
+    "portal_id": "1549",
+    "name_ua": "Шкафы ткань",
+    "name_ru": "Шкафы ткань",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "9999_484202142": {
+    "portal_id": "1042",
+    "name_ua": "Машинки для стрижки",
+    "name_ru": "Машинки для стрижки",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки",
+    "is_leaf": true
+  },
+  "484202142": {
+    "portal_id": "1042",
+    "name_ua": "Машинки для стрижки",
+    "name_ru": "Машинки для стрижки",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки",
+    "is_leaf": true
+  },
+  "9999_507759522": {
+    "portal_id": "1523",
+    "name_ua": "Ваги кухонні",
+    "name_ru": "Ваги кухонні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "507759522": {
+    "portal_id": "1523",
+    "name_ua": "Ваги кухонні",
+    "name_ru": "Ваги кухонні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "9999_533504502": {
+    "portal_id": "1680",
+    "name_ua": "Мультиварки",
+    "name_ru": "Мультиварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мультиварки",
+    "is_leaf": true
+  },
+  "533504502": {
+    "portal_id": "1680",
+    "name_ua": "Мультиварки",
+    "name_ru": "Мультиварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мультиварки",
+    "is_leaf": true
+  },
+  "9999_549412377": {
+    "portal_id": "585",
+    "name_ua": "Доски",
+    "name_ru": "Доски",
+    "supplier": "websklad",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "549412377": {
+    "portal_id": "585",
+    "name_ua": "Доски",
+    "name_ru": "Доски",
+    "supplier": "websklad",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "9999_577041962": {
+    "portal_id": "1523",
+    "name_ua": "Весы ювелирные",
+    "name_ru": "Весы ювелирные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "577041962": {
+    "portal_id": "1523",
+    "name_ua": "Весы ювелирные",
+    "name_ru": "Весы ювелирные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "9999_592003634": {
+    "portal_id": "1120",
+    "name_ua": "Лампи настільні",
+    "name_ru": "Лампи настільні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "592003634": {
+    "portal_id": "1120",
+    "name_ua": "Лампи настільні",
+    "name_ru": "Лампи настільні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_605958021": {
+    "portal_id": "1398",
+    "name_ua": "Для специй",
+    "name_ru": "Для специй",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "605958021": {
+    "portal_id": "1398",
+    "name_ua": "Для специй",
+    "name_ru": "Для специй",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_624097722": {
+    "portal_id": "1032",
+    "name_ua": "Для похудения",
+    "name_ru": "Для похудения",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "624097722": {
+    "portal_id": "1032",
+    "name_ua": "Для похудения",
+    "name_ru": "Для похудения",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "9999_627659285": {
+    "portal_id": "1298",
+    "name_ua": "Стрижка тварин",
+    "name_ru": "Стрижка тварин",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки собак",
+    "is_leaf": true
+  },
+  "627659285": {
+    "portal_id": "1298",
+    "name_ua": "Стрижка тварин",
+    "name_ru": "Стрижка тварин",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки собак",
+    "is_leaf": true
+  },
+  "9999_636135331": {
+    "portal_id": "1120",
+    "name_ua": "Зажигалки",
+    "name_ru": "Зажигалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "636135331": {
+    "portal_id": "1120",
+    "name_ua": "Зажигалки",
+    "name_ru": "Зажигалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_645700161": {
+    "portal_id": "1398",
+    "name_ua": "Дозаторы масла",
+    "name_ru": "Дозаторы масла",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "645700161": {
+    "portal_id": "1398",
+    "name_ua": "Дозаторы масла",
+    "name_ru": "Дозаторы масла",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_663402398": {
+    "portal_id": "1757",
+    "name_ua": "Для педикюра",
+    "name_ru": "Для педикюра",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "663402398": {
+    "portal_id": "1757",
+    "name_ua": "Для педикюра",
+    "name_ru": "Для педикюра",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "9999_689609975": {
+    "portal_id": "1681",
+    "name_ua": "Міксери",
+    "name_ru": "Міксери",
+    "supplier": "websklad",
+    "maudau_official_name": "Міксери",
+    "is_leaf": true
+  },
+  "689609975": {
+    "portal_id": "1681",
+    "name_ua": "Міксери",
+    "name_ru": "Міксери",
+    "supplier": "websklad",
+    "maudau_official_name": "Міксери",
+    "is_leaf": true
+  },
+  "9999_703410448": {
+    "portal_id": "178",
+    "name_ua": "Для рыбалки",
+    "name_ru": "Для рыбалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "703410448": {
+    "portal_id": "178",
+    "name_ua": "Для рыбалки",
+    "name_ru": "Для рыбалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Спортивні снаряди та інвентар",
+    "is_leaf": true
+  },
+  "9999_717081500": {
+    "portal_id": "267",
+    "name_ua": "Мужская зимняя обувь",
+    "name_ru": "Мужская зимняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "717081500": {
+    "portal_id": "267",
+    "name_ua": "Мужская зимняя обувь",
+    "name_ru": "Мужская зимняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "9999_742007524": {
+    "portal_id": "1696",
+    "name_ua": "Відпарювачі",
+    "name_ru": "Відпарювачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "742007524": {
+    "portal_id": "1696",
+    "name_ua": "Відпарювачі",
+    "name_ru": "Відпарювачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "9999_766458984": {
+    "portal_id": "585",
+    "name_ua": "Дошки",
+    "name_ru": "Дошки",
+    "supplier": "websklad",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "766458984": {
+    "portal_id": "585",
+    "name_ua": "Дошки",
+    "name_ru": "Дошки",
+    "supplier": "websklad",
+    "maudau_official_name": "Обробні дошки",
+    "is_leaf": true
+  },
+  "9999_782384383": {
+    "portal_id": "1040",
+    "name_ua": "Зеркала",
+    "name_ru": "Зеркала",
+    "supplier": "websklad",
+    "maudau_official_name": "Інструменти для манікюру та педикюру",
+    "is_leaf": false
+  },
+  "782384383": {
+    "portal_id": "1040",
+    "name_ua": "Зеркала",
+    "name_ru": "Зеркала",
+    "supplier": "websklad",
+    "maudau_official_name": "Інструменти для манікюру та педикюру",
+    "is_leaf": false
+  },
+  "9999_782751450": {
+    "portal_id": "2272",
+    "name_ua": "Дорожні сумки",
+    "name_ru": "Дорожні сумки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дорожні сумки",
+    "is_leaf": true
+  },
+  "782751450": {
+    "portal_id": "2272",
+    "name_ua": "Дорожні сумки",
+    "name_ru": "Дорожні сумки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дорожні сумки",
+    "is_leaf": true
+  },
+  "9999_793589270": {
+    "portal_id": "1398",
+    "name_ua": "Терки/овощерезки",
+    "name_ru": "Терки/овощерезки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "793589270": {
+    "portal_id": "1398",
+    "name_ua": "Терки/овощерезки",
+    "name_ru": "Терки/овощерезки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_818731137": {
+    "portal_id": "568",
+    "name_ua": "Портативные колонки",
+    "name_ru": "Портативные колонки",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "818731137": {
+    "portal_id": "568",
+    "name_ua": "Портативные колонки",
+    "name_ru": "Портативные колонки",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_821360418": {
+    "portal_id": "1750",
+    "name_ua": "Фритюрницы",
+    "name_ru": "Фритюрницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Фритюрниці",
+    "is_leaf": true
+  },
+  "821360418": {
+    "portal_id": "1750",
+    "name_ua": "Фритюрницы",
+    "name_ru": "Фритюрницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Фритюрниці",
+    "is_leaf": true
+  },
+  "9999_831924067": {
+    "portal_id": "867",
+    "name_ua": "Детские рюкзачки",
+    "name_ru": "Детские рюкзачки",
+    "supplier": "websklad",
+    "maudau_official_name": "Шкільні рюкзаки та ранці",
+    "is_leaf": true
+  },
+  "831924067": {
+    "portal_id": "867",
+    "name_ua": "Детские рюкзачки",
+    "name_ru": "Детские рюкзачки",
+    "supplier": "websklad",
+    "maudau_official_name": "Шкільні рюкзаки та ранці",
+    "is_leaf": true
+  },
+  "9999_835600602": {
+    "portal_id": "276",
+    "name_ua": "Кружки / Чашки",
+    "name_ru": "Кружки / Чашки",
+    "supplier": "websklad",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "835600602": {
+    "portal_id": "276",
+    "name_ua": "Кружки / Чашки",
+    "name_ru": "Кружки / Чашки",
+    "supplier": "websklad",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "9999_899960183": {
+    "portal_id": "1120",
+    "name_ua": "Фонари прожекторы",
+    "name_ru": "Фонари прожекторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "899960183": {
+    "portal_id": "1120",
+    "name_ua": "Фонари прожекторы",
+    "name_ru": "Фонари прожекторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_932632137": {
+    "portal_id": "1257",
+    "name_ua": "Бритвы / эпиляторы",
+    "name_ru": "Бритвы / эпиляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Електробритви",
+    "is_leaf": true
+  },
+  "932632137": {
+    "portal_id": "1257",
+    "name_ua": "Бритвы / эпиляторы",
+    "name_ru": "Бритвы / эпиляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Електробритви",
+    "is_leaf": true
+  },
+  "9999_933033144": {
+    "portal_id": "651",
+    "name_ua": "Ігрові навушники",
+    "name_ru": "Ігрові навушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "933033144": {
+    "portal_id": "651",
+    "name_ua": "Ігрові навушники",
+    "name_ru": "Ігрові навушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_941419803": {
+    "portal_id": "1795",
+    "name_ua": "Яйцеварки",
+    "name_ru": "Яйцеварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Яйцеварки",
+    "is_leaf": true
+  },
+  "941419803": {
+    "portal_id": "1795",
+    "name_ua": "Яйцеварки",
+    "name_ru": "Яйцеварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Яйцеварки",
+    "is_leaf": true
+  },
+  "9999_945436053": {
+    "portal_id": "580",
+    "name_ua": "Посуд",
+    "name_ru": "Посуд",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "945436053": {
+    "portal_id": "580",
+    "name_ua": "Посуд",
+    "name_ru": "Посуд",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "9999_948733324": {
+    "portal_id": "1617",
+    "name_ua": "Тонометры",
+    "name_ru": "Тонометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Тонометри",
+    "is_leaf": true
+  },
+  "948733324": {
+    "portal_id": "1617",
+    "name_ua": "Тонометры",
+    "name_ru": "Тонометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Тонометри",
+    "is_leaf": true
+  },
+  "9999_962842255": {
+    "portal_id": "2174",
+    "name_ua": "Кондиционеры",
+    "name_ru": "Кондиционеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Кондиціонери",
+    "is_leaf": true
+  },
+  "962842255": {
+    "portal_id": "2174",
+    "name_ua": "Кондиционеры",
+    "name_ru": "Кондиционеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Кондиціонери",
+    "is_leaf": true
+  },
+  "9999_978416606": {
+    "portal_id": "1839",
+    "name_ua": "Клавіатури",
+    "name_ru": "Клавіатури",
+    "supplier": "websklad",
+    "maudau_official_name": "Клавіатури",
+    "is_leaf": true
+  },
+  "978416606": {
+    "portal_id": "1839",
+    "name_ua": "Клавіатури",
+    "name_ru": "Клавіатури",
+    "supplier": "websklad",
+    "maudau_official_name": "Клавіатури",
+    "is_leaf": true
+  },
+  "9999_989184280": {
+    "portal_id": "1677",
+    "name_ua": "Тостеры",
+    "name_ru": "Тостеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Тостери",
+    "is_leaf": true
+  },
+  "989184280": {
+    "portal_id": "1677",
+    "name_ua": "Тостеры",
+    "name_ru": "Тостеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Тостери",
+    "is_leaf": true
+  },
+  "9999_1007951490": {
+    "portal_id": "2463",
+    "name_ua": "Велофари",
+    "name_ru": "Велофари",
+    "supplier": "websklad",
+    "maudau_official_name": "Велосипедні ліхтарі",
+    "is_leaf": true
+  },
+  "1007951490": {
+    "portal_id": "2463",
+    "name_ua": "Велофари",
+    "name_ru": "Велофари",
+    "supplier": "websklad",
+    "maudau_official_name": "Велосипедні ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1019321317": {
+    "portal_id": "729",
+    "name_ua": "Секаторы",
+    "name_ru": "Секаторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Секатори",
+    "is_leaf": true
+  },
+  "1019321317": {
+    "portal_id": "729",
+    "name_ua": "Секаторы",
+    "name_ru": "Секаторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Секатори",
+    "is_leaf": true
+  },
+  "9999_1020500657": {
+    "portal_id": "521",
+    "name_ua": "Мишки из роз",
+    "name_ru": "Мишки из роз",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "1020500657": {
+    "portal_id": "521",
+    "name_ua": "Мишки из роз",
+    "name_ru": "Мишки из роз",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "9999_1029588068": {
+    "portal_id": "1021",
+    "name_ua": "Парасолі",
+    "name_ru": "Парасолі",
+    "supplier": "websklad",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "1029588068": {
+    "portal_id": "1021",
+    "name_ua": "Парасолі",
+    "name_ru": "Парасолі",
+    "supplier": "websklad",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "9999_1043286703": {
+    "portal_id": "1120",
+    "name_ua": "Лампы настольные",
+    "name_ru": "Лампы настольные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1043286703": {
+    "portal_id": "1120",
+    "name_ua": "Лампы настольные",
+    "name_ru": "Лампы настольные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1077890600": {
+    "portal_id": "231",
+    "name_ua": "Счетные машинки",
+    "name_ru": "Счетные машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "1077890600": {
+    "portal_id": "231",
+    "name_ua": "Счетные машинки",
+    "name_ru": "Счетные машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "9999_1080071985": {
+    "portal_id": "2210",
+    "name_ua": "Душ",
+    "name_ru": "Душ",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "1080071985": {
+    "portal_id": "2210",
+    "name_ua": "Душ",
+    "name_ru": "Душ",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_1091248175": {
+    "portal_id": "1674",
+    "name_ua": "Печи",
+    "name_ru": "Печи",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні печі",
+    "is_leaf": true
+  },
+  "1091248175": {
+    "portal_id": "1674",
+    "name_ua": "Печи",
+    "name_ru": "Печи",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні печі",
+    "is_leaf": true
+  },
+  "9999_1119891333": {
+    "portal_id": "1642",
+    "name_ua": "Краскопульты",
+    "name_ru": "Краскопульты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "1119891333": {
+    "portal_id": "1642",
+    "name_ua": "Краскопульты",
+    "name_ru": "Краскопульты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_1136358096": {
+    "portal_id": "1171",
+    "name_ua": "Горелки",
+    "name_ru": "Горелки",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "1136358096": {
+    "portal_id": "1171",
+    "name_ua": "Горелки",
+    "name_ru": "Горелки",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "9999_1158711841": {
+    "portal_id": "1753",
+    "name_ua": "Сушилки для нігтів",
+    "name_ru": "Сушилки для нігтів",
+    "supplier": "websklad",
+    "maudau_official_name": "Лампи для манікюру",
+    "is_leaf": true
+  },
+  "1158711841": {
+    "portal_id": "1753",
+    "name_ua": "Сушилки для нігтів",
+    "name_ru": "Сушилки для нігтів",
+    "supplier": "websklad",
+    "maudau_official_name": "Лампи для манікюру",
+    "is_leaf": true
+  },
+  "9999_1166350443": {
+    "portal_id": "1693",
+    "name_ua": "Соковитискачі",
+    "name_ru": "Соковитискачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "1166350443": {
+    "portal_id": "1693",
+    "name_ua": "Соковитискачі",
+    "name_ru": "Соковитискачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "9999_1170234678": {
+    "portal_id": "2123",
+    "name_ua": "Разгрузки",
+    "name_ru": "Разгрузки",
+    "supplier": "websklad",
+    "maudau_official_name": "Тактичні рюкзаки",
+    "is_leaf": true
+  },
+  "1170234678": {
+    "portal_id": "2123",
+    "name_ua": "Разгрузки",
+    "name_ru": "Разгрузки",
+    "supplier": "websklad",
+    "maudau_official_name": "Тактичні рюкзаки",
+    "is_leaf": true
+  },
+  "9999_1174147754": {
+    "portal_id": "149",
+    "name_ua": "Ручки 3D",
+    "name_ru": "Ручки 3D",
+    "supplier": "websklad",
+    "maudau_official_name": "3D-ручки",
+    "is_leaf": true
+  },
+  "1174147754": {
+    "portal_id": "149",
+    "name_ua": "Ручки 3D",
+    "name_ru": "Ручки 3D",
+    "supplier": "websklad",
+    "maudau_official_name": "3D-ручки",
+    "is_leaf": true
+  },
+  "9999_1252399518": {
+    "portal_id": "1809",
+    "name_ua": "Подставки для ноутбука",
+    "name_ru": "Подставки для ноутбука",
+    "supplier": "websklad",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "1252399518": {
+    "portal_id": "1809",
+    "name_ua": "Подставки для ноутбука",
+    "name_ru": "Подставки для ноутбука",
+    "supplier": "websklad",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "9999_1252402711": {
+    "portal_id": "1619",
+    "name_ua": "Глюкометры",
+    "name_ru": "Глюкометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Глюкометри",
+    "is_leaf": true
+  },
+  "1252402711": {
+    "portal_id": "1619",
+    "name_ua": "Глюкометры",
+    "name_ru": "Глюкометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Глюкометри",
+    "is_leaf": true
+  },
+  "9999_1257815672": {
+    "portal_id": "651",
+    "name_ua": "Безпровідні навушники",
+    "name_ru": "Безпровідні навушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "1257815672": {
+    "portal_id": "651",
+    "name_ua": "Безпровідні навушники",
+    "name_ru": "Безпровідні навушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_1280038824": {
+    "portal_id": "272",
+    "name_ua": "Термосы",
+    "name_ru": "Термосы",
+    "supplier": "websklad",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "1280038824": {
+    "portal_id": "272",
+    "name_ua": "Термосы",
+    "name_ru": "Термосы",
+    "supplier": "websklad",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "9999_1280695109": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры",
+    "name_ru": "Органайзеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1280695109": {
+    "portal_id": "1549",
+    "name_ua": "Органайзеры",
+    "name_ru": "Органайзеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "9999_1304201483": {
+    "portal_id": "267",
+    "name_ua": "Жіноче зимове взуття",
+    "name_ru": "Жіноче зимове взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "1304201483": {
+    "portal_id": "267",
+    "name_ua": "Жіноче зимове взуття",
+    "name_ru": "Жіноче зимове взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "9999_1316532479": {
+    "portal_id": "1671",
+    "name_ua": "Мясорубки",
+    "name_ru": "Мясорубки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'ясорубки",
+    "is_leaf": true
+  },
+  "1316532479": {
+    "portal_id": "1671",
+    "name_ua": "Мясорубки",
+    "name_ru": "Мясорубки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'ясорубки",
+    "is_leaf": true
+  },
+  "9999_1321355672": {
+    "portal_id": "277",
+    "name_ua": "Столовые приборы",
+    "name_ru": "Столовые приборы",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "1321355672": {
+    "portal_id": "277",
+    "name_ua": "Столовые приборы",
+    "name_ru": "Столовые приборы",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "9999_1339229095": {
+    "portal_id": "1719",
+    "name_ua": "Ланцюгові пили",
+    "name_ru": "Ланцюгові пили",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланцюгові пили",
+    "is_leaf": false
+  },
+  "1339229095": {
+    "portal_id": "1719",
+    "name_ua": "Ланцюгові пили",
+    "name_ru": "Ланцюгові пили",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланцюгові пили",
+    "is_leaf": false
+  },
+  "9999_1340357579": {
+    "portal_id": "1445",
+    "name_ua": "Швабры / щетки",
+    "name_ru": "Швабры / щетки",
+    "supplier": "websklad",
+    "maudau_official_name": "Швабри",
+    "is_leaf": true
+  },
+  "1340357579": {
+    "portal_id": "1445",
+    "name_ua": "Швабры / щетки",
+    "name_ru": "Швабры / щетки",
+    "supplier": "websklad",
+    "maudau_official_name": "Швабри",
+    "is_leaf": true
+  },
+  "9999_1359341130": {
+    "portal_id": "580",
+    "name_ua": "Посуда",
+    "name_ru": "Посуда",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "1359341130": {
+    "portal_id": "580",
+    "name_ua": "Посуда",
+    "name_ru": "Посуда",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "9999_1365663820": {
+    "portal_id": "276",
+    "name_ua": "Кухлі / Чашки",
+    "name_ru": "Кухлі / Чашки",
+    "supplier": "websklad",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "1365663820": {
+    "portal_id": "276",
+    "name_ua": "Кухлі / Чашки",
+    "name_ru": "Кухлі / Чашки",
+    "supplier": "websklad",
+    "maudau_official_name": "Чашки",
+    "is_leaf": true
+  },
+  "9999_1377637913": {
+    "portal_id": "1675",
+    "name_ua": "Чайники",
+    "name_ru": "Чайники",
+    "supplier": "websklad",
+    "maudau_official_name": "Електрочайники",
+    "is_leaf": true
+  },
+  "1377637913": {
+    "portal_id": "1675",
+    "name_ua": "Чайники",
+    "name_ru": "Чайники",
+    "supplier": "websklad",
+    "maudau_official_name": "Електрочайники",
+    "is_leaf": true
+  },
+  "9999_1407060326": {
+    "portal_id": "735",
+    "name_ua": "Вентиляторы",
+    "name_ru": "Вентиляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Вентилятори",
+    "is_leaf": true
+  },
+  "1407060326": {
+    "portal_id": "735",
+    "name_ua": "Вентиляторы",
+    "name_ru": "Вентиляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Вентилятори",
+    "is_leaf": true
+  },
+  "9999_1408408571": {
+    "portal_id": "1750",
+    "name_ua": "Фритюрниці",
+    "name_ru": "Фритюрниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Фритюрниці",
+    "is_leaf": true
+  },
+  "1408408571": {
+    "portal_id": "1750",
+    "name_ua": "Фритюрниці",
+    "name_ru": "Фритюрниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Фритюрниці",
+    "is_leaf": true
+  },
+  "9999_1427416844": {
+    "portal_id": "1398",
+    "name_ua": "Дозатори олії",
+    "name_ru": "Дозатори олії",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "1427416844": {
+    "portal_id": "1398",
+    "name_ua": "Дозатори олії",
+    "name_ru": "Дозатори олії",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_1429839245": {
+    "portal_id": "277",
+    "name_ua": "Столові прилади",
+    "name_ru": "Столові прилади",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "1429839245": {
+    "portal_id": "277",
+    "name_ua": "Столові прилади",
+    "name_ru": "Столові прилади",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "9999_1437940542": {
+    "portal_id": "1523",
+    "name_ua": "Весы кухонные",
+    "name_ru": "Весы кухонные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "1437940542": {
+    "portal_id": "1523",
+    "name_ua": "Весы кухонные",
+    "name_ru": "Весы кухонные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги кухонні",
+    "is_leaf": true
+  },
+  "9999_1472668117": {
+    "portal_id": "697",
+    "name_ua": "Куклы",
+    "name_ru": "Куклы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ляльки",
+    "is_leaf": true
+  },
+  "1472668117": {
+    "portal_id": "697",
+    "name_ua": "Куклы",
+    "name_ru": "Куклы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ляльки",
+    "is_leaf": true
+  },
+  "9999_1488523854": {
+    "portal_id": "1398",
+    "name_ua": "Подрібнювачі спецій",
+    "name_ru": "Подрібнювачі спецій",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "1488523854": {
+    "portal_id": "1398",
+    "name_ua": "Подрібнювачі спецій",
+    "name_ru": "Подрібнювачі спецій",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонне приладдя",
+    "is_leaf": false
+  },
+  "9999_1496736048": {
+    "portal_id": "1120",
+    "name_ua": "Кільцеві лампи",
+    "name_ru": "Кільцеві лампи",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1496736048": {
+    "portal_id": "1120",
+    "name_ua": "Кільцеві лампи",
+    "name_ru": "Кільцеві лампи",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1536376883": {
+    "portal_id": "667",
+    "name_ua": "Тримачі для телефону",
+    "name_ru": "Тримачі для телефону",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "1536376883": {
+    "portal_id": "667",
+    "name_ua": "Тримачі для телефону",
+    "name_ru": "Тримачі для телефону",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "9999_1561688103": {
+    "portal_id": "2097",
+    "name_ua": "Ігрові приставки",
+    "name_ru": "Ігрові приставки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ігрові приставки",
+    "is_leaf": true
+  },
+  "1561688103": {
+    "portal_id": "2097",
+    "name_ua": "Ігрові приставки",
+    "name_ru": "Ігрові приставки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ігрові приставки",
+    "is_leaf": true
+  },
+  "9999_1611545913": {
+    "portal_id": "2026",
+    "name_ua": "Чехлы для Iphone 12 Pro Max",
+    "name_ru": "Чехлы для Iphone 12 Pro Max",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "1611545913": {
+    "portal_id": "2026",
+    "name_ua": "Чехлы для Iphone 12 Pro Max",
+    "name_ru": "Чехлы для Iphone 12 Pro Max",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "9999_1649537034": {
+    "portal_id": "1171",
+    "name_ua": "Пальники",
+    "name_ru": "Пальники",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "1649537034": {
+    "portal_id": "1171",
+    "name_ua": "Пальники",
+    "name_ru": "Пальники",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичні пальники",
+    "is_leaf": true
+  },
+  "9999_1666847870": {
+    "portal_id": "2279",
+    "name_ua": "Рюкзаки",
+    "name_ru": "Рюкзаки",
+    "supplier": "websklad",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "1666847870": {
+    "portal_id": "2279",
+    "name_ua": "Рюкзаки",
+    "name_ru": "Рюкзаки",
+    "supplier": "websklad",
+    "maudau_official_name": "Рюкзаки",
+    "is_leaf": true
+  },
+  "9999_1677174784": {
+    "portal_id": "2154",
+    "name_ua": "Компресори",
+    "name_ru": "Компресори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні компресори",
+    "is_leaf": true
+  },
+  "1677174784": {
+    "portal_id": "2154",
+    "name_ua": "Компресори",
+    "name_ru": "Компресори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні компресори",
+    "is_leaf": true
+  },
+  "9999_1679776861": {
+    "portal_id": "1465",
+    "name_ua": "Кофемолки",
+    "name_ru": "Кофемолки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "1679776861": {
+    "portal_id": "1465",
+    "name_ua": "Кофемолки",
+    "name_ru": "Кофемолки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "9999_1687956717": {
+    "portal_id": "2082",
+    "name_ua": "Відеореєстратори",
+    "name_ru": "Відеореєстратори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні відеореєстратори",
+    "is_leaf": true
+  },
+  "1687956717": {
+    "portal_id": "2082",
+    "name_ua": "Відеореєстратори",
+    "name_ru": "Відеореєстратори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні відеореєстратори",
+    "is_leaf": true
+  },
+  "9999_1706102666": {
+    "portal_id": "263",
+    "name_ua": "Пледи",
+    "name_ru": "Пледи",
+    "supplier": "websklad",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "1706102666": {
+    "portal_id": "263",
+    "name_ua": "Пледи",
+    "name_ru": "Пледи",
+    "supplier": "websklad",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "9999_1738325886": {
+    "portal_id": "1855",
+    "name_ua": "Термометри",
+    "name_ru": "Термометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "1738325886": {
+    "portal_id": "1855",
+    "name_ua": "Термометри",
+    "name_ru": "Термометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "9999_1742579766": {
+    "portal_id": "2094",
+    "name_ua": "Держатели ТВ",
+    "name_ru": "Держатели ТВ",
+    "supplier": "websklad",
+    "maudau_official_name": "Кронштейни для телевізорів",
+    "is_leaf": true
+  },
+  "1742579766": {
+    "portal_id": "2094",
+    "name_ua": "Держатели ТВ",
+    "name_ru": "Держатели ТВ",
+    "supplier": "websklad",
+    "maudau_official_name": "Кронштейни для телевізорів",
+    "is_leaf": true
+  },
+  "9999_1744618505": {
+    "portal_id": "158",
+    "name_ua": "Коляски",
+    "name_ru": "Коляски",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитячі коляски",
+    "is_leaf": true
+  },
+  "1744618505": {
+    "portal_id": "158",
+    "name_ua": "Коляски",
+    "name_ru": "Коляски",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитячі коляски",
+    "is_leaf": true
+  },
+  "9999_1749487264": {
+    "portal_id": "1692",
+    "name_ua": "От катышков",
+    "name_ru": "От катышков",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "1749487264": {
+    "portal_id": "1692",
+    "name_ua": "От катышков",
+    "name_ru": "От катышков",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "9999_1756140664": {
+    "portal_id": "2096",
+    "name_ua": "Муляжі камери",
+    "name_ru": "Муляжі камери",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "1756140664": {
+    "portal_id": "2096",
+    "name_ua": "Муляжі камери",
+    "name_ru": "Муляжі камери",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "9999_1759402268": {
+    "portal_id": "1698",
+    "name_ua": "Пылесосы",
+    "name_ru": "Пылесосы",
+    "supplier": "websklad",
+    "maudau_official_name": "Пилососи",
+    "is_leaf": true
+  },
+  "1759402268": {
+    "portal_id": "1698",
+    "name_ua": "Пылесосы",
+    "name_ru": "Пылесосы",
+    "supplier": "websklad",
+    "maudau_official_name": "Пилососи",
+    "is_leaf": true
+  },
+  "9999_1771221751": {
+    "portal_id": "2025",
+    "name_ua": "Чехлы для AirPods",
+    "name_ru": "Чехлы для AirPods",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари для навушників",
+    "is_leaf": true
+  },
+  "1771221751": {
+    "portal_id": "2025",
+    "name_ua": "Чехлы для AirPods",
+    "name_ru": "Чехлы для AirPods",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари для навушників",
+    "is_leaf": true
+  },
+  "9999_1811740417": {
+    "portal_id": "1698",
+    "name_ua": "Пилососи",
+    "name_ru": "Пилососи",
+    "supplier": "websklad",
+    "maudau_official_name": "Пилососи",
+    "is_leaf": true
+  },
+  "1811740417": {
+    "portal_id": "1698",
+    "name_ua": "Пилососи",
+    "name_ru": "Пилососи",
+    "supplier": "websklad",
+    "maudau_official_name": "Пилососи",
+    "is_leaf": true
+  },
+  "9999_1820790105": {
+    "portal_id": "1685",
+    "name_ua": "Шашлычницы",
+    "name_ru": "Шашлычницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Електрошашличниці",
+    "is_leaf": true
+  },
+  "1820790105": {
+    "portal_id": "1685",
+    "name_ua": "Шашлычницы",
+    "name_ru": "Шашлычницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Електрошашличниці",
+    "is_leaf": true
+  },
+  "9999_1828806820": {
+    "portal_id": "1032",
+    "name_ua": "Массажеры",
+    "name_ru": "Массажеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "1828806820": {
+    "portal_id": "1032",
+    "name_ua": "Массажеры",
+    "name_ru": "Массажеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "9999_1831085404": {
+    "portal_id": "683",
+    "name_ua": "Смарт-годинники",
+    "name_ru": "Смарт-годинники",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "1831085404": {
+    "portal_id": "683",
+    "name_ua": "Смарт-годинники",
+    "name_ru": "Смарт-годинники",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "9999_1838122351": {
+    "portal_id": "1618",
+    "name_ua": "Слуховые аппараты",
+    "name_ru": "Слуховые аппараты",
+    "supplier": "websklad",
+    "maudau_official_name": "Запчастини та комплектуючі до приладів для здоров'я",
+    "is_leaf": true
+  },
+  "1838122351": {
+    "portal_id": "1618",
+    "name_ua": "Слуховые аппараты",
+    "name_ru": "Слуховые аппараты",
+    "supplier": "websklad",
+    "maudau_official_name": "Запчастини та комплектуючі до приладів для здоров'я",
+    "is_leaf": true
+  },
+  "9999_1849115502": {
+    "portal_id": "114",
+    "name_ua": "Іграшки повторюшки",
+    "name_ru": "Іграшки повторюшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "1849115502": {
+    "portal_id": "114",
+    "name_ua": "Іграшки повторюшки",
+    "name_ru": "Іграшки повторюшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "9999_1851525652": {
+    "portal_id": "1032",
+    "name_ua": "Масажери",
+    "name_ru": "Масажери",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "1851525652": {
+    "portal_id": "1032",
+    "name_ua": "Масажери",
+    "name_ru": "Масажери",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "9999_1857421696": {
+    "portal_id": "1642",
+    "name_ua": "Мультиметри",
+    "name_ru": "Мультиметри",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "1857421696": {
+    "portal_id": "1642",
+    "name_ua": "Мультиметри",
+    "name_ru": "Мультиметри",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_1883355892": {
+    "portal_id": "1120",
+    "name_ua": "Лазер",
+    "name_ru": "Лазер",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1883355892": {
+    "portal_id": "1120",
+    "name_ua": "Лазер",
+    "name_ru": "Лазер",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1895676765": {
+    "portal_id": "1549",
+    "name_ua": "Полки/Вешалки",
+    "name_ru": "Полки/Вешалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "1895676765": {
+    "portal_id": "1549",
+    "name_ua": "Полки/Вешалки",
+    "name_ru": "Полки/Вешалки",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "9999_1902326431": {
+    "portal_id": "2096",
+    "name_ua": "Муляжи камеры",
+    "name_ru": "Муляжи камеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "1902326431": {
+    "portal_id": "2096",
+    "name_ua": "Муляжи камеры",
+    "name_ru": "Муляжи камеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "9999_1909816835": {
+    "portal_id": "277",
+    "name_ua": "Наборы приборов",
+    "name_ru": "Наборы приборов",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "1909816835": {
+    "portal_id": "277",
+    "name_ua": "Наборы приборов",
+    "name_ru": "Наборы приборов",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "9999_1912136204": {
+    "portal_id": "697",
+    "name_ua": "Ляльки",
+    "name_ru": "Ляльки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ляльки",
+    "is_leaf": true
+  },
+  "1912136204": {
+    "portal_id": "697",
+    "name_ua": "Ляльки",
+    "name_ru": "Ляльки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ляльки",
+    "is_leaf": true
+  },
+  "9999_1928851746": {
+    "portal_id": "2424",
+    "name_ua": "Сушилки обуви",
+    "name_ru": "Сушилки обуви",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "1928851746": {
+    "portal_id": "2424",
+    "name_ua": "Сушилки обуви",
+    "name_ru": "Сушилки обуви",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "9999_1938901250": {
+    "portal_id": "1120",
+    "name_ua": "Фонари налобные",
+    "name_ru": "Фонари налобные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1938901250": {
+    "portal_id": "1120",
+    "name_ua": "Фонари налобные",
+    "name_ru": "Фонари налобные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1947788318": {
+    "portal_id": "1120",
+    "name_ua": "Кольцевые лампы",
+    "name_ru": "Кольцевые лампы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "1947788318": {
+    "portal_id": "1120",
+    "name_ua": "Кольцевые лампы",
+    "name_ru": "Кольцевые лампы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_1947912004": {
+    "portal_id": "568",
+    "name_ua": "Музыкальные центры",
+    "name_ru": "Музыкальные центры",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "1947912004": {
+    "portal_id": "568",
+    "name_ua": "Музыкальные центры",
+    "name_ru": "Музыкальные центры",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_1962343657": {
+    "portal_id": "2210",
+    "name_ua": "FM модулятори",
+    "name_ru": "FM модулятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "1962343657": {
+    "portal_id": "2210",
+    "name_ua": "FM модулятори",
+    "name_ru": "FM модулятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_1968925532": {
+    "portal_id": "1709",
+    "name_ua": "Швейні машини",
+    "name_ru": "Швейні машини",
+    "supplier": "websklad",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "1968925532": {
+    "portal_id": "1709",
+    "name_ua": "Швейні машини",
+    "name_ru": "Швейні машини",
+    "supplier": "websklad",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "9999_1975627640": {
+    "portal_id": "691",
+    "name_ua": "Автомати",
+    "name_ru": "Автомати",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "1975627640": {
+    "portal_id": "691",
+    "name_ua": "Автомати",
+    "name_ru": "Автомати",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "9999_1976387086": {
+    "portal_id": "231",
+    "name_ua": "Рахункові машинки",
+    "name_ru": "Рахункові машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "1976387086": {
+    "portal_id": "231",
+    "name_ua": "Рахункові машинки",
+    "name_ru": "Рахункові машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "9999_2004327326": {
+    "portal_id": "759",
+    "name_ua": "Отпугиватели",
+    "name_ru": "Отпугиватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "2004327326": {
+    "portal_id": "759",
+    "name_ua": "Отпугиватели",
+    "name_ru": "Отпугиватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "9999_2005668460": {
+    "portal_id": "1757",
+    "name_ua": "Фрезери",
+    "name_ru": "Фрезери",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "2005668460": {
+    "portal_id": "1757",
+    "name_ua": "Фрезери",
+    "name_ru": "Фрезери",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "9999_2021515629": {
+    "portal_id": "2289",
+    "name_ua": "Сумки слинг",
+    "name_ru": "Сумки слинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "2021515629": {
+    "portal_id": "2289",
+    "name_ua": "Сумки слинг",
+    "name_ru": "Сумки слинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_2033860450": {
+    "portal_id": "231",
+    "name_ua": "Детекторы валют",
+    "name_ru": "Детекторы валют",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "2033860450": {
+    "portal_id": "231",
+    "name_ua": "Детекторы валют",
+    "name_ru": "Детекторы валют",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "9999_2036110539": {
+    "portal_id": "1615",
+    "name_ua": "Корсети",
+    "name_ru": "Корсети",
+    "supplier": "websklad",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "2036110539": {
+    "portal_id": "1615",
+    "name_ua": "Корсети",
+    "name_ru": "Корсети",
+    "supplier": "websklad",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "9999_2037268062": {
+    "portal_id": "1120",
+    "name_ua": "Проекторы / ночники",
+    "name_ru": "Проекторы / ночники",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "2037268062": {
+    "portal_id": "1120",
+    "name_ua": "Проекторы / ночники",
+    "name_ru": "Проекторы / ночники",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_2049491157": {
+    "portal_id": "521",
+    "name_ua": "Декор квіти",
+    "name_ru": "Декор квіти",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "2049491157": {
+    "portal_id": "521",
+    "name_ua": "Декор квіти",
+    "name_ru": "Декор квіти",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "9999_2050502422": {
+    "portal_id": "1120",
+    "name_ua": "Фонари кемпинг",
+    "name_ru": "Фонари кемпинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "2050502422": {
+    "portal_id": "1120",
+    "name_ua": "Фонари кемпинг",
+    "name_ru": "Фонари кемпинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_2062437252": {
+    "portal_id": "271",
+    "name_ua": "Сковороды",
+    "name_ru": "Сковороды",
+    "supplier": "websklad",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "2062437252": {
+    "portal_id": "271",
+    "name_ua": "Сковороды",
+    "name_ru": "Сковороды",
+    "supplier": "websklad",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "9999_2068858479": {
+    "portal_id": "2007",
+    "name_ua": "Тренажеры",
+    "name_ru": "Тренажеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "2068858479": {
+    "portal_id": "2007",
+    "name_ua": "Тренажеры",
+    "name_ru": "Тренажеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "9999_2082425542": {
+    "portal_id": "2026",
+    "name_ua": "Чехлы для Iphone 11 Pro",
+    "name_ru": "Чехлы для Iphone 11 Pro",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "2082425542": {
+    "portal_id": "2026",
+    "name_ua": "Чехлы для Iphone 11 Pro",
+    "name_ru": "Чехлы для Iphone 11 Pro",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "9999_2085148990": {
+    "portal_id": "2245",
+    "name_ua": "Женская летняя обувь",
+    "name_ru": "Женская летняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "2085148990": {
+    "portal_id": "2245",
+    "name_ua": "Женская летняя обувь",
+    "name_ru": "Женская летняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "9999_2135200829": {
+    "portal_id": "1838",
+    "name_ua": "ПК мыши",
+    "name_ru": "ПК мыши",
+    "supplier": "websklad",
+    "maudau_official_name": "Комп'ютерні миші",
+    "is_leaf": true
+  },
+  "2135200829": {
+    "portal_id": "1838",
+    "name_ua": "ПК мыши",
+    "name_ru": "ПК мыши",
+    "supplier": "websklad",
+    "maudau_official_name": "Комп'ютерні миші",
+    "is_leaf": true
+  },
+  "9999_2160774323": {
+    "portal_id": "2289",
+    "name_ua": "Сумки месседжеры",
+    "name_ru": "Сумки месседжеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "2160774323": {
+    "portal_id": "2289",
+    "name_ua": "Сумки месседжеры",
+    "name_ru": "Сумки месседжеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_2168580041": {
+    "portal_id": "1757",
+    "name_ua": "Для педикюру",
+    "name_ru": "Для педикюру",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "2168580041": {
+    "portal_id": "1757",
+    "name_ua": "Для педикюру",
+    "name_ru": "Для педикюру",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "9999_2174328905": {
+    "portal_id": "1459",
+    "name_ua": "Заварники",
+    "name_ru": "Заварники",
+    "supplier": "websklad",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "2174328905": {
+    "portal_id": "1459",
+    "name_ua": "Заварники",
+    "name_ru": "Заварники",
+    "supplier": "websklad",
+    "maudau_official_name": "Заварювальні чайники",
+    "is_leaf": true
+  },
+  "9999_2176644510": {
+    "portal_id": "1618",
+    "name_ua": "Слухові апарати",
+    "name_ru": "Слухові апарати",
+    "supplier": "websklad",
+    "maudau_official_name": "Запчастини та комплектуючі до приладів для здоров'я",
+    "is_leaf": true
+  },
+  "2176644510": {
+    "portal_id": "1618",
+    "name_ua": "Слухові апарати",
+    "name_ru": "Слухові апарати",
+    "supplier": "websklad",
+    "maudau_official_name": "Запчастини та комплектуючі до приладів для здоров'я",
+    "is_leaf": true
+  },
+  "9999_2181007173": {
+    "portal_id": "1696",
+    "name_ua": "Отпариватели",
+    "name_ru": "Отпариватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "2181007173": {
+    "portal_id": "1696",
+    "name_ua": "Отпариватели",
+    "name_ru": "Отпариватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Відпарювачі",
+    "is_leaf": true
+  },
+  "9999_2184792319": {
+    "portal_id": "1676",
+    "name_ua": "Микроволновки",
+    "name_ru": "Микроволновки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мікрохвильові печі",
+    "is_leaf": true
+  },
+  "2184792319": {
+    "portal_id": "1676",
+    "name_ua": "Микроволновки",
+    "name_ru": "Микроволновки",
+    "supplier": "websklad",
+    "maudau_official_name": "Мікрохвильові печі",
+    "is_leaf": true
+  },
+  "9999_2190648022": {
+    "portal_id": "114",
+    "name_ua": "Игрушки повторюшки",
+    "name_ru": "Игрушки повторюшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "2190648022": {
+    "portal_id": "114",
+    "name_ua": "Игрушки повторюшки",
+    "name_ru": "Игрушки повторюшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "9999_2192599012": {
+    "portal_id": "1021",
+    "name_ua": "Зонты",
+    "name_ru": "Зонты",
+    "supplier": "websklad",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "2192599012": {
+    "portal_id": "1021",
+    "name_ua": "Зонты",
+    "name_ru": "Зонты",
+    "supplier": "websklad",
+    "maudau_official_name": "Парасолі",
+    "is_leaf": true
+  },
+  "9999_2194088440": {
+    "portal_id": "661",
+    "name_ua": "Павербанки",
+    "name_ru": "Павербанки",
+    "supplier": "websklad",
+    "maudau_official_name": "Повербанки",
+    "is_leaf": true
+  },
+  "2194088440": {
+    "portal_id": "661",
+    "name_ua": "Павербанки",
+    "name_ru": "Павербанки",
+    "supplier": "websklad",
+    "maudau_official_name": "Повербанки",
+    "is_leaf": true
+  },
+  "9999_2227575969": {
+    "portal_id": "1674",
+    "name_ua": "Печі",
+    "name_ru": "Печі",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні печі",
+    "is_leaf": true
+  },
+  "2227575969": {
+    "portal_id": "1674",
+    "name_ua": "Печі",
+    "name_ru": "Печі",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні печі",
+    "is_leaf": true
+  },
+  "9999_2258536432": {
+    "portal_id": "1753",
+    "name_ua": "Сушилки для ногтей",
+    "name_ru": "Сушилки для ногтей",
+    "supplier": "websklad",
+    "maudau_official_name": "Лампи для манікюру",
+    "is_leaf": true
+  },
+  "2258536432": {
+    "portal_id": "1753",
+    "name_ua": "Сушилки для ногтей",
+    "name_ru": "Сушилки для ногтей",
+    "supplier": "websklad",
+    "maudau_official_name": "Лампи для манікюру",
+    "is_leaf": true
+  },
+  "9999_2299663395": {
+    "portal_id": "2210",
+    "name_ua": "Автомийки",
+    "name_ru": "Автомийки",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "2299663395": {
+    "portal_id": "2210",
+    "name_ua": "Автомийки",
+    "name_ru": "Автомийки",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_2321134810": {
+    "portal_id": "118",
+    "name_ua": "Фотоаппараты",
+    "name_ru": "Фотоаппараты",
+    "supplier": "websklad",
+    "maudau_official_name": "Іграшки на радіокеруванні",
+    "is_leaf": true
+  },
+  "2321134810": {
+    "portal_id": "118",
+    "name_ua": "Фотоаппараты",
+    "name_ru": "Фотоаппараты",
+    "supplier": "websklad",
+    "maudau_official_name": "Іграшки на радіокеруванні",
+    "is_leaf": true
+  },
+  "9999_2326905555": {
+    "portal_id": "1854",
+    "name_ua": "Часы / Гигрометры",
+    "name_ru": "Часы / Гигрометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Метеостанції",
+    "is_leaf": true
+  },
+  "2326905555": {
+    "portal_id": "1854",
+    "name_ua": "Часы / Гигрометры",
+    "name_ru": "Часы / Гигрометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Метеостанції",
+    "is_leaf": true
+  },
+  "9999_2385147188": {
+    "portal_id": "130",
+    "name_ua": "Для рисования",
+    "name_ru": "Для рисования",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "2385147188": {
+    "portal_id": "130",
+    "name_ua": "Для рисования",
+    "name_ru": "Для рисования",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори для творчості та рукоділля",
+    "is_leaf": true
+  },
+  "9999_2393578841": {
+    "portal_id": "2389",
+    "name_ua": "Часы SKMEI",
+    "name_ru": "Часы SKMEI",
+    "supplier": "websklad",
+    "maudau_official_name": "Наручні годинники",
+    "is_leaf": true
+  },
+  "2393578841": {
+    "portal_id": "2389",
+    "name_ua": "Часы SKMEI",
+    "name_ru": "Часы SKMEI",
+    "supplier": "websklad",
+    "maudau_official_name": "Наручні годинники",
+    "is_leaf": true
+  },
+  "9999_2411972780": {
+    "portal_id": "2424",
+    "name_ua": "Сушарки взуття",
+    "name_ru": "Сушарки взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "2411972780": {
+    "portal_id": "2424",
+    "name_ua": "Сушарки взуття",
+    "name_ru": "Сушарки взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для взуття",
+    "is_leaf": true
+  },
+  "9999_2413176084": {
+    "portal_id": "1690",
+    "name_ua": "Сушилки пищевые",
+    "name_ru": "Сушилки пищевые",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для овочів та фруктів",
+    "is_leaf": true
+  },
+  "2413176084": {
+    "portal_id": "1690",
+    "name_ua": "Сушилки пищевые",
+    "name_ru": "Сушилки пищевые",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для овочів та фруктів",
+    "is_leaf": true
+  },
+  "9999_2417337777": {
+    "portal_id": "1120",
+    "name_ua": "Проектори / нічники",
+    "name_ru": "Проектори / нічники",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "2417337777": {
+    "portal_id": "1120",
+    "name_ua": "Проектори / нічники",
+    "name_ru": "Проектори / нічники",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_2422564983": {
+    "portal_id": "1402",
+    "name_ua": "Термометри для їжі",
+    "name_ru": "Термометри для їжі",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні термометри",
+    "is_leaf": true
+  },
+  "2422564983": {
+    "portal_id": "1402",
+    "name_ua": "Термометри для їжі",
+    "name_ru": "Термометри для їжі",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні термометри",
+    "is_leaf": true
+  },
+  "9999_2430472424": {
+    "portal_id": "1465",
+    "name_ua": "Кавомолки",
+    "name_ru": "Кавомолки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "2430472424": {
+    "portal_id": "1465",
+    "name_ua": "Кавомолки",
+    "name_ru": "Кавомолки",
+    "supplier": "websklad",
+    "maudau_official_name": "Кавомолки",
+    "is_leaf": true
+  },
+  "9999_2430521658": {
+    "portal_id": "1492",
+    "name_ua": "Пищевые контейнеры",
+    "name_ru": "Пищевые контейнеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланч-бокси",
+    "is_leaf": true
+  },
+  "2430521658": {
+    "portal_id": "1492",
+    "name_ua": "Пищевые контейнеры",
+    "name_ru": "Пищевые контейнеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланч-бокси",
+    "is_leaf": true
+  },
+  "9999_2445455845": {
+    "portal_id": "1854",
+    "name_ua": "Годинники / Гігрометри",
+    "name_ru": "Годинники / Гігрометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Метеостанції",
+    "is_leaf": true
+  },
+  "2445455845": {
+    "portal_id": "1854",
+    "name_ua": "Годинники / Гігрометри",
+    "name_ru": "Годинники / Гігрометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Метеостанції",
+    "is_leaf": true
+  },
+  "9999_2463177834": {
+    "portal_id": "267",
+    "name_ua": "Женская зимняя обувь",
+    "name_ru": "Женская зимняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "2463177834": {
+    "portal_id": "267",
+    "name_ua": "Женская зимняя обувь",
+    "name_ru": "Женская зимняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "9999_2476563987": {
+    "portal_id": "659",
+    "name_ua": "Зарядки",
+    "name_ru": "Зарядки",
+    "supplier": "websklad",
+    "maudau_official_name": "Зарядні пристрої для телефонів",
+    "is_leaf": true
+  },
+  "2476563987": {
+    "portal_id": "659",
+    "name_ua": "Зарядки",
+    "name_ru": "Зарядки",
+    "supplier": "websklad",
+    "maudau_official_name": "Зарядні пристрої для телефонів",
+    "is_leaf": true
+  },
+  "9999_2498946415": {
+    "portal_id": "1703",
+    "name_ua": "Бутербродниці",
+    "name_ru": "Бутербродниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Бутербродниці",
+    "is_leaf": true
+  },
+  "2498946415": {
+    "portal_id": "1703",
+    "name_ua": "Бутербродниці",
+    "name_ru": "Бутербродниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Бутербродниці",
+    "is_leaf": true
+  },
+  "9999_2538912064": {
+    "portal_id": "1838",
+    "name_ua": "ПК миші",
+    "name_ru": "ПК миші",
+    "supplier": "websklad",
+    "maudau_official_name": "Комп'ютерні миші",
+    "is_leaf": true
+  },
+  "2538912064": {
+    "portal_id": "1838",
+    "name_ua": "ПК миші",
+    "name_ru": "ПК миші",
+    "supplier": "websklad",
+    "maudau_official_name": "Комп'ютерні миші",
+    "is_leaf": true
+  },
+  "9999_2598325973": {
+    "portal_id": "2463",
+    "name_ua": "Велофары",
+    "name_ru": "Велофары",
+    "supplier": "websklad",
+    "maudau_official_name": "Велосипедні ліхтарі",
+    "is_leaf": true
+  },
+  "2598325973": {
+    "portal_id": "2463",
+    "name_ua": "Велофары",
+    "name_ru": "Велофары",
+    "supplier": "websklad",
+    "maudau_official_name": "Велосипедні ліхтарі",
+    "is_leaf": true
+  },
+  "9999_2606006910": {
+    "portal_id": "1809",
+    "name_ua": "Підставки для ноутбука",
+    "name_ru": "Підставки для ноутбука",
+    "supplier": "websklad",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "2606006910": {
+    "portal_id": "1809",
+    "name_ua": "Підставки для ноутбука",
+    "name_ru": "Підставки для ноутбука",
+    "supplier": "websklad",
+    "maudau_official_name": "Підставки для ноутбуків",
+    "is_leaf": true
+  },
+  "9999_2621346127": {
+    "portal_id": "1677",
+    "name_ua": "Тостери",
+    "name_ru": "Тостери",
+    "supplier": "websklad",
+    "maudau_official_name": "Тостери",
+    "is_leaf": true
+  },
+  "2621346127": {
+    "portal_id": "1677",
+    "name_ua": "Тостери",
+    "name_ru": "Тостери",
+    "supplier": "websklad",
+    "maudau_official_name": "Тостери",
+    "is_leaf": true
+  },
+  "9999_2622847521": {
+    "portal_id": "2275",
+    "name_ua": "Бананки",
+    "name_ru": "Бананки",
+    "supplier": "websklad",
+    "maudau_official_name": "Поясні сумки",
+    "is_leaf": true
+  },
+  "2622847521": {
+    "portal_id": "2275",
+    "name_ua": "Бананки",
+    "name_ru": "Бананки",
+    "supplier": "websklad",
+    "maudau_official_name": "Поясні сумки",
+    "is_leaf": true
+  },
+  "9999_2631725715": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальні шапки",
+    "name_ru": "Карнавальні шапки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "2631725715": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальні шапки",
+    "name_ru": "Карнавальні шапки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "9999_2634110072": {
+    "portal_id": "755",
+    "name_ua": "Шланги",
+    "name_ru": "Шланги",
+    "supplier": "websklad",
+    "maudau_official_name": "Шланги для поливу",
+    "is_leaf": true
+  },
+  "2634110072": {
+    "portal_id": "755",
+    "name_ua": "Шланги",
+    "name_ru": "Шланги",
+    "supplier": "websklad",
+    "maudau_official_name": "Шланги для поливу",
+    "is_leaf": true
+  },
+  "9999_2655507931": {
+    "portal_id": "1617",
+    "name_ua": "Тонометри",
+    "name_ru": "Тонометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Тонометри",
+    "is_leaf": true
+  },
+  "2655507931": {
+    "portal_id": "1617",
+    "name_ua": "Тонометри",
+    "name_ru": "Тонометри",
+    "supplier": "websklad",
+    "maudau_official_name": "Тонометри",
+    "is_leaf": true
+  },
+  "9999_2666804073": {
+    "portal_id": "1032",
+    "name_ua": "Для схуднення",
+    "name_ru": "Для схуднення",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "2666804073": {
+    "portal_id": "1032",
+    "name_ua": "Для схуднення",
+    "name_ru": "Для схуднення",
+    "supplier": "websklad",
+    "maudau_official_name": "Електромасажери",
+    "is_leaf": true
+  },
+  "9999_2722838145": {
+    "portal_id": "1642",
+    "name_ua": "Шуруповерты",
+    "name_ru": "Шуруповерты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "2722838145": {
+    "portal_id": "1642",
+    "name_ua": "Шуруповерты",
+    "name_ru": "Шуруповерты",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_2729261311": {
+    "portal_id": "1719",
+    "name_ua": "Цепные пилы",
+    "name_ru": "Цепные пилы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланцюгові пили",
+    "is_leaf": false
+  },
+  "2729261311": {
+    "portal_id": "1719",
+    "name_ua": "Цепные пилы",
+    "name_ru": "Цепные пилы",
+    "supplier": "websklad",
+    "maudau_official_name": "Ланцюгові пили",
+    "is_leaf": false
+  },
+  "9999_2759624059": {
+    "portal_id": "1436",
+    "name_ua": "Наборы ножей",
+    "name_ru": "Наборы ножей",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "2759624059": {
+    "portal_id": "1436",
+    "name_ua": "Наборы ножей",
+    "name_ru": "Наборы ножей",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "9999_2791721759": {
+    "portal_id": "1120",
+    "name_ua": "Запальнички",
+    "name_ru": "Запальнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "2791721759": {
+    "portal_id": "1120",
+    "name_ua": "Запальнички",
+    "name_ru": "Запальнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_2805427700": {
+    "portal_id": "2141",
+    "name_ua": "Біжутерія",
+    "name_ru": "Біжутерія",
+    "supplier": "websklad",
+    "maudau_official_name": "Сережки",
+    "is_leaf": true
+  },
+  "2805427700": {
+    "portal_id": "2141",
+    "name_ua": "Біжутерія",
+    "name_ru": "Біжутерія",
+    "supplier": "websklad",
+    "maudau_official_name": "Сережки",
+    "is_leaf": true
+  },
+  "9999_2830320963": {
+    "portal_id": "2123",
+    "name_ua": "Розгрузки",
+    "name_ru": "Розгрузки",
+    "supplier": "websklad",
+    "maudau_official_name": "Тактичні рюкзаки",
+    "is_leaf": true
+  },
+  "2830320963": {
+    "portal_id": "2123",
+    "name_ua": "Розгрузки",
+    "name_ru": "Розгрузки",
+    "supplier": "websklad",
+    "maudau_official_name": "Тактичні рюкзаки",
+    "is_leaf": true
+  },
+  "9999_2854773187": {
+    "portal_id": "1460",
+    "name_ua": "Турки",
+    "name_ru": "Турки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "2854773187": {
+    "portal_id": "1460",
+    "name_ua": "Турки",
+    "name_ru": "Турки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "9999_2858539340": {
+    "portal_id": "2082",
+    "name_ua": "Видеорегистраторы",
+    "name_ru": "Видеорегистраторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні відеореєстратори",
+    "is_leaf": true
+  },
+  "2858539340": {
+    "portal_id": "2082",
+    "name_ua": "Видеорегистраторы",
+    "name_ru": "Видеорегистраторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні відеореєстратори",
+    "is_leaf": true
+  },
+  "9999_2866009776": {
+    "portal_id": "267",
+    "name_ua": "Чоловіче зимове взуття",
+    "name_ru": "Чоловіче зимове взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "2866009776": {
+    "portal_id": "267",
+    "name_ua": "Чоловіче зимове взуття",
+    "name_ru": "Чоловіче зимове взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Домашні капці",
+    "is_leaf": true
+  },
+  "9999_2881879002": {
+    "portal_id": "1694",
+    "name_ua": "Утюги",
+    "name_ru": "Утюги",
+    "supplier": "websklad",
+    "maudau_official_name": "Праски",
+    "is_leaf": true
+  },
+  "2881879002": {
+    "portal_id": "1694",
+    "name_ua": "Утюги",
+    "name_ru": "Утюги",
+    "supplier": "websklad",
+    "maudau_official_name": "Праски",
+    "is_leaf": true
+  },
+  "9999_2883056285": {
+    "portal_id": "2289",
+    "name_ua": "Сумки меседжери",
+    "name_ru": "Сумки меседжери",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "2883056285": {
+    "portal_id": "2289",
+    "name_ua": "Сумки меседжери",
+    "name_ru": "Сумки меседжери",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_2884069620": {
+    "portal_id": "568",
+    "name_ua": "Мікрофони",
+    "name_ru": "Мікрофони",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "2884069620": {
+    "portal_id": "568",
+    "name_ua": "Мікрофони",
+    "name_ru": "Мікрофони",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_2898014294": {
+    "portal_id": "1704",
+    "name_ua": "Вафельниці",
+    "name_ru": "Вафельниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Вафельниці",
+    "is_leaf": true
+  },
+  "2898014294": {
+    "portal_id": "1704",
+    "name_ua": "Вафельниці",
+    "name_ru": "Вафельниці",
+    "supplier": "websklad",
+    "maudau_official_name": "Вафельниці",
+    "is_leaf": true
+  },
+  "9999_2909043773": {
+    "portal_id": "1265",
+    "name_ua": "Гірлянди",
+    "name_ru": "Гірлянди",
+    "supplier": "websklad",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "2909043773": {
+    "portal_id": "1265",
+    "name_ua": "Гірлянди",
+    "name_ru": "Гірлянди",
+    "supplier": "websklad",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "9999_2929010446": {
+    "portal_id": "2154",
+    "name_ua": "Компрессоры",
+    "name_ru": "Компрессоры",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні компресори",
+    "is_leaf": true
+  },
+  "2929010446": {
+    "portal_id": "2154",
+    "name_ua": "Компрессоры",
+    "name_ru": "Компрессоры",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні компресори",
+    "is_leaf": true
+  },
+  "9999_2935967576": {
+    "portal_id": "2095",
+    "name_ua": "Штативи",
+    "name_ru": "Штативи",
+    "supplier": "websklad",
+    "maudau_official_name": "Штативи",
+    "is_leaf": true
+  },
+  "2935967576": {
+    "portal_id": "2095",
+    "name_ua": "Штативи",
+    "name_ru": "Штативи",
+    "supplier": "websklad",
+    "maudau_official_name": "Штативи",
+    "is_leaf": true
+  },
+  "9999_2963954092": {
+    "portal_id": "2096",
+    "name_ua": "Відеоспостереження",
+    "name_ru": "Відеоспостереження",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "2963954092": {
+    "portal_id": "2096",
+    "name_ua": "Відеоспостереження",
+    "name_ru": "Відеоспостереження",
+    "supplier": "websklad",
+    "maudau_official_name": "Камери відеоспостереження",
+    "is_leaf": true
+  },
+  "9999_3001514919": {
+    "portal_id": "500",
+    "name_ua": "Зубні щітки",
+    "name_ru": "Зубні щітки",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні зубні щітки",
+    "is_leaf": true
+  },
+  "3001514919": {
+    "portal_id": "500",
+    "name_ua": "Зубні щітки",
+    "name_ru": "Зубні щітки",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні зубні щітки",
+    "is_leaf": true
+  },
+  "9999_3036005004": {
+    "portal_id": "2400",
+    "name_ua": "Бокс",
+    "name_ru": "Бокс",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для боксу та єдиноборств",
+    "is_leaf": false
+  },
+  "3036005004": {
+    "portal_id": "2400",
+    "name_ua": "Бокс",
+    "name_ru": "Бокс",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для боксу та єдиноборств",
+    "is_leaf": false
+  },
+  "9999_3037265427": {
+    "portal_id": "811",
+    "name_ua": "Мангалы",
+    "name_ru": "Мангалы",
+    "supplier": "websklad",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "3037265427": {
+    "portal_id": "811",
+    "name_ua": "Мангалы",
+    "name_ru": "Мангалы",
+    "supplier": "websklad",
+    "maudau_official_name": "Грилі-барбекю",
+    "is_leaf": true
+  },
+  "9999_3055111691": {
+    "portal_id": "521",
+    "name_ua": "Декор цветы",
+    "name_ru": "Декор цветы",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "3055111691": {
+    "portal_id": "521",
+    "name_ua": "Декор цветы",
+    "name_ru": "Декор цветы",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "9999_3062224442": {
+    "portal_id": "1024",
+    "name_ua": "Фени",
+    "name_ru": "Фени",
+    "supplier": "websklad",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "3062224442": {
+    "portal_id": "1024",
+    "name_ua": "Фени",
+    "name_ru": "Фени",
+    "supplier": "websklad",
+    "maudau_official_name": "Фени",
+    "is_leaf": true
+  },
+  "9999_3063289187": {
+    "portal_id": "1686",
+    "name_ua": "Блендеры",
+    "name_ru": "Блендеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "3063289187": {
+    "portal_id": "1686",
+    "name_ua": "Блендеры",
+    "name_ru": "Блендеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Блендери",
+    "is_leaf": true
+  },
+  "9999_3068068837": {
+    "portal_id": "2025",
+    "name_ua": "Чохли для AirPods",
+    "name_ru": "Чохли для AirPods",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари для навушників",
+    "is_leaf": true
+  },
+  "3068068837": {
+    "portal_id": "2025",
+    "name_ua": "Чохли для AirPods",
+    "name_ru": "Чохли для AirPods",
+    "supplier": "websklad",
+    "maudau_official_name": "Аксесуари для навушників",
+    "is_leaf": true
+  },
+  "9999_3076805067": {
+    "portal_id": "2290",
+    "name_ua": "Гайковерты",
+    "name_ru": "Гайковерты",
+    "supplier": "websklad",
+    "maudau_official_name": "Гайковерти",
+    "is_leaf": true
+  },
+  "3076805067": {
+    "portal_id": "2290",
+    "name_ua": "Гайковерты",
+    "name_ru": "Гайковерты",
+    "supplier": "websklad",
+    "maudau_official_name": "Гайковерти",
+    "is_leaf": true
+  },
+  "9999_3136079422": {
+    "portal_id": "568",
+    "name_ua": "Радиоприемники",
+    "name_ru": "Радиоприемники",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "3136079422": {
+    "portal_id": "568",
+    "name_ua": "Радиоприемники",
+    "name_ru": "Радиоприемники",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_3137183116": {
+    "portal_id": "1031",
+    "name_ua": "Весы напольные",
+    "name_ru": "Весы напольные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги підлогові",
+    "is_leaf": true
+  },
+  "3137183116": {
+    "portal_id": "1031",
+    "name_ua": "Весы напольные",
+    "name_ru": "Весы напольные",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги підлогові",
+    "is_leaf": true
+  },
+  "9999_3144623691": {
+    "portal_id": "759",
+    "name_ua": "Відлякувачі",
+    "name_ru": "Відлякувачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "3144623691": {
+    "portal_id": "759",
+    "name_ua": "Відлякувачі",
+    "name_ru": "Відлякувачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Обприскувачі",
+    "is_leaf": true
+  },
+  "9999_3144850486": {
+    "portal_id": "2289",
+    "name_ua": "Гаманці",
+    "name_ru": "Гаманці",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "3144850486": {
+    "portal_id": "2289",
+    "name_ua": "Гаманці",
+    "name_ru": "Гаманці",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_3149102533": {
+    "portal_id": "1276",
+    "name_ua": "Копилки",
+    "name_ru": "Копилки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "3149102533": {
+    "portal_id": "1276",
+    "name_ua": "Копилки",
+    "name_ru": "Копилки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "9999_3154094545": {
+    "portal_id": "2274",
+    "name_ua": "Пральні машини",
+    "name_ru": "Пральні машини",
+    "supplier": "websklad",
+    "maudau_official_name": "Пральні машини",
+    "is_leaf": true
+  },
+  "3154094545": {
+    "portal_id": "2274",
+    "name_ua": "Пральні машини",
+    "name_ru": "Пральні машини",
+    "supplier": "websklad",
+    "maudau_official_name": "Пральні машини",
+    "is_leaf": true
+  },
+  "9999_3177357666": {
+    "portal_id": "801",
+    "name_ua": "Посуд кемпінг",
+    "name_ru": "Посуд кемпінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "3177357666": {
+    "portal_id": "801",
+    "name_ua": "Посуд кемпінг",
+    "name_ru": "Посуд кемпінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "9999_3203653947": {
+    "portal_id": "1688",
+    "name_ua": "Вакууматоры",
+    "name_ru": "Вакууматоры",
+    "supplier": "websklad",
+    "maudau_official_name": "Побутові вакуумні пакувальники",
+    "is_leaf": true
+  },
+  "3203653947": {
+    "portal_id": "1688",
+    "name_ua": "Вакууматоры",
+    "name_ru": "Вакууматоры",
+    "supplier": "websklad",
+    "maudau_official_name": "Побутові вакуумні пакувальники",
+    "is_leaf": true
+  },
+  "9999_3206669509": {
+    "portal_id": "1855",
+    "name_ua": "Пульсоксиметры",
+    "name_ru": "Пульсоксиметры",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "3206669509": {
+    "portal_id": "1855",
+    "name_ua": "Пульсоксиметры",
+    "name_ru": "Пульсоксиметры",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "9999_3218415378": {
+    "portal_id": "568",
+    "name_ua": "Музичні центри",
+    "name_ru": "Музичні центри",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "3218415378": {
+    "portal_id": "568",
+    "name_ua": "Музичні центри",
+    "name_ru": "Музичні центри",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_3231589406": {
+    "portal_id": "1681",
+    "name_ua": "Миксеры",
+    "name_ru": "Миксеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Міксери",
+    "is_leaf": true
+  },
+  "3231589406": {
+    "portal_id": "1681",
+    "name_ua": "Миксеры",
+    "name_ru": "Миксеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Міксери",
+    "is_leaf": true
+  },
+  "9999_3243765545": {
+    "portal_id": "1855",
+    "name_ua": "Термометры",
+    "name_ru": "Термометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "3243765545": {
+    "portal_id": "1855",
+    "name_ua": "Термометры",
+    "name_ru": "Термометры",
+    "supplier": "websklad",
+    "maudau_official_name": "Термометри для тіла",
+    "is_leaf": true
+  },
+  "9999_3269916755": {
+    "portal_id": "500",
+    "name_ua": "Зубные щетки",
+    "name_ru": "Зубные щетки",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні зубні щітки",
+    "is_leaf": true
+  },
+  "3269916755": {
+    "portal_id": "500",
+    "name_ua": "Зубные щетки",
+    "name_ru": "Зубные щетки",
+    "supplier": "websklad",
+    "maudau_official_name": "Електричні зубні щітки",
+    "is_leaf": true
+  },
+  "9999_3279577053": {
+    "portal_id": "263",
+    "name_ua": "Пледы",
+    "name_ru": "Пледы",
+    "supplier": "websklad",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "3279577053": {
+    "portal_id": "263",
+    "name_ua": "Пледы",
+    "name_ru": "Пледы",
+    "supplier": "websklad",
+    "maudau_official_name": "Декоративні подушки",
+    "is_leaf": true
+  },
+  "9999_3290697416": {
+    "portal_id": "2245",
+    "name_ua": "Мужская летняя обувь",
+    "name_ru": "Мужская летняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "3290697416": {
+    "portal_id": "2245",
+    "name_ua": "Мужская летняя обувь",
+    "name_ru": "Мужская летняя обувь",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "9999_3327605906": {
+    "portal_id": "2210",
+    "name_ua": "Подушки в авто",
+    "name_ru": "Подушки в авто",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "3327605906": {
+    "portal_id": "2210",
+    "name_ua": "Подушки в авто",
+    "name_ru": "Подушки в авто",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_3330400428": {
+    "portal_id": "2389",
+    "name_ua": "Годинники SKMEI",
+    "name_ru": "Годинники SKMEI",
+    "supplier": "websklad",
+    "maudau_official_name": "Наручні годинники",
+    "is_leaf": true
+  },
+  "3330400428": {
+    "portal_id": "2389",
+    "name_ua": "Годинники SKMEI",
+    "name_ru": "Годинники SKMEI",
+    "supplier": "websklad",
+    "maudau_official_name": "Наручні годинники",
+    "is_leaf": true
+  },
+  "9999_3337785305": {
+    "portal_id": "568",
+    "name_ua": "Микрофоны",
+    "name_ru": "Микрофоны",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "3337785305": {
+    "portal_id": "568",
+    "name_ua": "Микрофоны",
+    "name_ru": "Микрофоны",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_3340435987": {
+    "portal_id": "231",
+    "name_ua": "Детектори валют",
+    "name_ru": "Детектори валют",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "3340435987": {
+    "portal_id": "231",
+    "name_ua": "Детектори валют",
+    "name_ru": "Детектори валют",
+    "supplier": "websklad",
+    "maudau_official_name": "Школа і канцтовари",
+    "is_leaf": false
+  },
+  "9999_3363548408": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі ручні",
+    "name_ru": "Ліхтарі ручні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "3363548408": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі ручні",
+    "name_ru": "Ліхтарі ручні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_3363656151": {
+    "portal_id": "1642",
+    "name_ua": "Мультиметры",
+    "name_ru": "Мультиметры",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "3363656151": {
+    "portal_id": "1642",
+    "name_ua": "Мультиметры",
+    "name_ru": "Мультиметры",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_3370679692": {
+    "portal_id": "683",
+    "name_ua": "Смарт-часы",
+    "name_ru": "Смарт-часы",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "3370679692": {
+    "portal_id": "683",
+    "name_ua": "Смарт-часы",
+    "name_ru": "Смарт-часы",
+    "supplier": "websklad",
+    "maudau_official_name": "Смарт-годинники",
+    "is_leaf": true
+  },
+  "9999_3381820688": {
+    "portal_id": "1690",
+    "name_ua": "Сушарки харчові",
+    "name_ru": "Сушарки харчові",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для овочів та фруктів",
+    "is_leaf": true
+  },
+  "3381820688": {
+    "portal_id": "1690",
+    "name_ua": "Сушарки харчові",
+    "name_ru": "Сушарки харчові",
+    "supplier": "websklad",
+    "maudau_official_name": "Сушарки для овочів та фруктів",
+    "is_leaf": true
+  },
+  "9999_3381956501": {
+    "portal_id": "2210",
+    "name_ua": "Автомагнітоли",
+    "name_ru": "Автомагнітоли",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "3381956501": {
+    "portal_id": "2210",
+    "name_ua": "Автомагнітоли",
+    "name_ru": "Автомагнітоли",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_3396386917": {
+    "portal_id": "691",
+    "name_ua": "Летающие игрушки",
+    "name_ru": "Летающие игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "3396386917": {
+    "portal_id": "691",
+    "name_ua": "Летающие игрушки",
+    "name_ru": "Летающие игрушки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "9999_3400461773": {
+    "portal_id": "2210",
+    "name_ua": "Автомагнитолы",
+    "name_ru": "Автомагнитолы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "3400461773": {
+    "portal_id": "2210",
+    "name_ua": "Автомагнитолы",
+    "name_ru": "Автомагнитолы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_3403788938": {
+    "portal_id": "1971",
+    "name_ua": "Электроплиты",
+    "name_ru": "Электроплиты",
+    "supplier": "websklad",
+    "maudau_official_name": "Настільні плити",
+    "is_leaf": true
+  },
+  "3403788938": {
+    "portal_id": "1971",
+    "name_ua": "Электроплиты",
+    "name_ru": "Электроплиты",
+    "supplier": "websklad",
+    "maudau_official_name": "Настільні плити",
+    "is_leaf": true
+  },
+  "9999_3423773961": {
+    "portal_id": "1717",
+    "name_ua": "Газонокосарки",
+    "name_ru": "Газонокосарки",
+    "supplier": "websklad",
+    "maudau_official_name": "Садові тримери та мотокоси",
+    "is_leaf": true
+  },
+  "3423773961": {
+    "portal_id": "1717",
+    "name_ua": "Газонокосарки",
+    "name_ru": "Газонокосарки",
+    "supplier": "websklad",
+    "maudau_official_name": "Садові тримери та мотокоси",
+    "is_leaf": true
+  },
+  "9999_3453002669": {
+    "portal_id": "2289",
+    "name_ua": "Сумки слінг",
+    "name_ru": "Сумки слінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "3453002669": {
+    "portal_id": "2289",
+    "name_ua": "Сумки слінг",
+    "name_ru": "Сумки слінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Жіночі сумки",
+    "is_leaf": true
+  },
+  "9999_3485097103": {
+    "portal_id": "1704",
+    "name_ua": "Вафельницы",
+    "name_ru": "Вафельницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Вафельниці",
+    "is_leaf": true
+  },
+  "3485097103": {
+    "portal_id": "1704",
+    "name_ua": "Вафельницы",
+    "name_ru": "Вафельницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Вафельниці",
+    "is_leaf": true
+  },
+  "9999_3489671288": {
+    "portal_id": "1692",
+    "name_ua": "Від катишків",
+    "name_ru": "Від катишків",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "3489671288": {
+    "portal_id": "1692",
+    "name_ua": "Від катишків",
+    "name_ru": "Від катишків",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки ковтунців",
+    "is_leaf": true
+  },
+  "9999_3498717434": {
+    "portal_id": "580",
+    "name_ua": "Мармиты",
+    "name_ru": "Мармиты",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "3498717434": {
+    "portal_id": "580",
+    "name_ua": "Мармиты",
+    "name_ru": "Мармиты",
+    "supplier": "websklad",
+    "maudau_official_name": "Каструлі",
+    "is_leaf": true
+  },
+  "9999_3504830054": {
+    "portal_id": "2174",
+    "name_ua": "Кондиціонери",
+    "name_ru": "Кондиціонери",
+    "supplier": "websklad",
+    "maudau_official_name": "Кондиціонери",
+    "is_leaf": true
+  },
+  "3504830054": {
+    "portal_id": "2174",
+    "name_ua": "Кондиціонери",
+    "name_ru": "Кондиціонери",
+    "supplier": "websklad",
+    "maudau_official_name": "Кондиціонери",
+    "is_leaf": true
+  },
+  "9999_3511108155": {
+    "portal_id": "1757",
+    "name_ua": "Фрезеры",
+    "name_ru": "Фрезеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "3511108155": {
+    "portal_id": "1757",
+    "name_ua": "Фрезеры",
+    "name_ru": "Фрезеры",
+    "supplier": "websklad",
+    "maudau_official_name": "Фрезери для манікюру та педикюру",
+    "is_leaf": true
+  },
+  "9999_3524141928": {
+    "portal_id": "615",
+    "name_ua": "Елки искусственные",
+    "name_ru": "Елки искусственные",
+    "supplier": "websklad",
+    "maudau_official_name": "Штучні ялинки",
+    "is_leaf": true
+  },
+  "3524141928": {
+    "portal_id": "615",
+    "name_ua": "Елки искусственные",
+    "name_ru": "Елки искусственные",
+    "supplier": "websklad",
+    "maudau_official_name": "Штучні ялинки",
+    "is_leaf": true
+  },
+  "9999_3527257278": {
+    "portal_id": "2210",
+    "name_ua": "FM модуляторы",
+    "name_ru": "FM модуляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "3527257278": {
+    "portal_id": "2210",
+    "name_ua": "FM модуляторы",
+    "name_ru": "FM модуляторы",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_3534945393": {
+    "portal_id": "1436",
+    "name_ua": "Точила ножів",
+    "name_ru": "Точила ножів",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "3534945393": {
+    "portal_id": "1436",
+    "name_ua": "Точила ножів",
+    "name_ru": "Точила ножів",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні ножі та аксесуари для ножів",
+    "is_leaf": false
+  },
+  "9999_3540713263": {
+    "portal_id": "691",
+    "name_ua": "Автоматы",
+    "name_ru": "Автоматы",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "3540713263": {
+    "portal_id": "691",
+    "name_ua": "Автоматы",
+    "name_ru": "Автоматы",
+    "supplier": "websklad",
+    "maudau_official_name": "Дитяча іграшкова зброя та аксесуари",
+    "is_leaf": true
+  },
+  "9999_3554003767": {
+    "portal_id": "1839",
+    "name_ua": "Клавиатуры",
+    "name_ru": "Клавиатуры",
+    "supplier": "websklad",
+    "maudau_official_name": "Клавіатури",
+    "is_leaf": true
+  },
+  "3554003767": {
+    "portal_id": "1839",
+    "name_ua": "Клавиатуры",
+    "name_ru": "Клавиатуры",
+    "supplier": "websklad",
+    "maudau_official_name": "Клавіатури",
+    "is_leaf": true
+  },
+  "9999_3581823412": {
+    "portal_id": "104",
+    "name_ua": "Наметы детские",
+    "name_ru": "Наметы детские",
+    "supplier": "websklad",
+    "maudau_official_name": "Манежі",
+    "is_leaf": true
+  },
+  "3581823412": {
+    "portal_id": "104",
+    "name_ua": "Наметы детские",
+    "name_ru": "Наметы детские",
+    "supplier": "websklad",
+    "maudau_official_name": "Манежі",
+    "is_leaf": true
+  },
+  "9999_3592120346": {
+    "portal_id": "743",
+    "name_ua": "Увлажнители",
+    "name_ru": "Увлажнители",
+    "supplier": "websklad",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "3592120346": {
+    "portal_id": "743",
+    "name_ua": "Увлажнители",
+    "name_ru": "Увлажнители",
+    "supplier": "websklad",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "9999_3594169076": {
+    "portal_id": "2126",
+    "name_ua": "Бинокли / монокуляры",
+    "name_ru": "Бинокли / монокуляры",
+    "supplier": "websklad",
+    "maudau_official_name": "Біноклі",
+    "is_leaf": true
+  },
+  "3594169076": {
+    "portal_id": "2126",
+    "name_ua": "Бинокли / монокуляры",
+    "name_ru": "Бинокли / монокуляры",
+    "supplier": "websklad",
+    "maudau_official_name": "Біноклі",
+    "is_leaf": true
+  },
+  "9999_3604521624": {
+    "portal_id": "615",
+    "name_ua": "Ялинки штучні",
+    "name_ru": "Ялинки штучні",
+    "supplier": "websklad",
+    "maudau_official_name": "Штучні ялинки",
+    "is_leaf": true
+  },
+  "3604521624": {
+    "portal_id": "615",
+    "name_ua": "Ялинки штучні",
+    "name_ru": "Ялинки штучні",
+    "supplier": "websklad",
+    "maudau_official_name": "Штучні ялинки",
+    "is_leaf": true
+  },
+  "9999_3612230396": {
+    "portal_id": "2094",
+    "name_ua": "Тримачі ТБ",
+    "name_ru": "Тримачі ТБ",
+    "supplier": "websklad",
+    "maudau_official_name": "Кронштейни для телевізорів",
+    "is_leaf": true
+  },
+  "3612230396": {
+    "portal_id": "2094",
+    "name_ua": "Тримачі ТБ",
+    "name_ru": "Тримачі ТБ",
+    "supplier": "websklad",
+    "maudau_official_name": "Кронштейни для телевізорів",
+    "is_leaf": true
+  },
+  "9999_3619281513": {
+    "portal_id": "857",
+    "name_ua": "Велосипеды",
+    "name_ru": "Велосипеды",
+    "supplier": "websklad",
+    "maudau_official_name": "Біговели",
+    "is_leaf": true
+  },
+  "3619281513": {
+    "portal_id": "857",
+    "name_ua": "Велосипеды",
+    "name_ru": "Велосипеды",
+    "supplier": "websklad",
+    "maudau_official_name": "Біговели",
+    "is_leaf": true
+  },
+  "9999_3633755537": {
+    "portal_id": "2310",
+    "name_ua": "VR окуляри",
+    "name_ru": "VR окуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Окуляри віртуальної реальності",
+    "is_leaf": true
+  },
+  "3633755537": {
+    "portal_id": "2310",
+    "name_ua": "VR окуляри",
+    "name_ru": "VR окуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Окуляри віртуальної реальності",
+    "is_leaf": true
+  },
+  "9999_3634956632": {
+    "portal_id": "651",
+    "name_ua": "Навушники з вушками",
+    "name_ru": "Навушники з вушками",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "3634956632": {
+    "portal_id": "651",
+    "name_ua": "Навушники з вушками",
+    "name_ru": "Навушники з вушками",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_3640186523": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі налобні",
+    "name_ru": "Ліхтарі налобні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "3640186523": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі налобні",
+    "name_ru": "Ліхтарі налобні",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_3662742067": {
+    "portal_id": "2097",
+    "name_ua": "Игровые приставки",
+    "name_ru": "Игровые приставки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ігрові приставки",
+    "is_leaf": true
+  },
+  "3662742067": {
+    "portal_id": "2097",
+    "name_ua": "Игровые приставки",
+    "name_ru": "Игровые приставки",
+    "supplier": "websklad",
+    "maudau_official_name": "Ігрові приставки",
+    "is_leaf": true
+  },
+  "9999_3678548971": {
+    "portal_id": "651",
+    "name_ua": "Беспроводные наушники",
+    "name_ru": "Беспроводные наушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "3678548971": {
+    "portal_id": "651",
+    "name_ua": "Беспроводные наушники",
+    "name_ru": "Беспроводные наушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_3693419475": {
+    "portal_id": "271",
+    "name_ua": "Сковороди",
+    "name_ru": "Сковороди",
+    "supplier": "websklad",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "3693419475": {
+    "portal_id": "271",
+    "name_ua": "Сковороди",
+    "name_ru": "Сковороди",
+    "supplier": "websklad",
+    "maudau_official_name": "Сковороди",
+    "is_leaf": true
+  },
+  "9999_3703539446": {
+    "portal_id": "1276",
+    "name_ua": "Скарбнички",
+    "name_ru": "Скарбнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "3703539446": {
+    "portal_id": "1276",
+    "name_ua": "Скарбнички",
+    "name_ru": "Скарбнички",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічні сувеніри та декорації",
+    "is_leaf": true
+  },
+  "9999_3717928504": {
+    "portal_id": "2007",
+    "name_ua": "Тренажери",
+    "name_ru": "Тренажери",
+    "supplier": "websklad",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "3717928504": {
+    "portal_id": "2007",
+    "name_ua": "Тренажери",
+    "name_ru": "Тренажери",
+    "supplier": "websklad",
+    "maudau_official_name": "Кістьові тренажери та еспандери",
+    "is_leaf": true
+  },
+  "9999_3727043409": {
+    "portal_id": "1693",
+    "name_ua": "Соковыжималки",
+    "name_ru": "Соковыжималки",
+    "supplier": "websklad",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "3727043409": {
+    "portal_id": "1693",
+    "name_ua": "Соковыжималки",
+    "name_ru": "Соковыжималки",
+    "supplier": "websklad",
+    "maudau_official_name": "Соковижималки",
+    "is_leaf": true
+  },
+  "9999_3741497081": {
+    "portal_id": "2044",
+    "name_ua": "Пускозарядні",
+    "name_ru": "Пускозарядні",
+    "supplier": "websklad",
+    "maudau_official_name": "Пускозарядні пристрої",
+    "is_leaf": true
+  },
+  "3741497081": {
+    "portal_id": "2044",
+    "name_ua": "Пускозарядні",
+    "name_ru": "Пускозарядні",
+    "supplier": "websklad",
+    "maudau_official_name": "Пускозарядні пристрої",
+    "is_leaf": true
+  },
+  "9999_3745024601": {
+    "portal_id": "1265",
+    "name_ua": "Гирлянды",
+    "name_ru": "Гирлянды",
+    "supplier": "websklad",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "3745024601": {
+    "portal_id": "1265",
+    "name_ua": "Гирлянды",
+    "name_ru": "Гирлянды",
+    "supplier": "websklad",
+    "maudau_official_name": "Гірлянди",
+    "is_leaf": true
+  },
+  "9999_3745612239": {
+    "portal_id": "801",
+    "name_ua": "Посуда кемпинг",
+    "name_ru": "Посуда кемпинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "3745612239": {
+    "portal_id": "801",
+    "name_ua": "Посуда кемпинг",
+    "name_ru": "Посуда кемпинг",
+    "supplier": "websklad",
+    "maudau_official_name": "Туристичний посуд",
+    "is_leaf": true
+  },
+  "9999_3751265436": {
+    "portal_id": "1615",
+    "name_ua": "Корсеты",
+    "name_ru": "Корсеты",
+    "supplier": "websklad",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "3751265436": {
+    "portal_id": "1615",
+    "name_ua": "Корсеты",
+    "name_ru": "Корсеты",
+    "supplier": "websklad",
+    "maudau_official_name": "Бандажі",
+    "is_leaf": true
+  },
+  "9999_3770614198": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные шапки",
+    "name_ru": "Карнавальные шапки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "3770614198": {
+    "portal_id": "1275",
+    "name_ua": "Карнавальные шапки",
+    "name_ru": "Карнавальные шапки",
+    "supplier": "websklad",
+    "maudau_official_name": "Новорічний одяг та аксесуари",
+    "is_leaf": true
+  },
+  "9999_3780093600": {
+    "portal_id": "1460",
+    "name_ua": "Кофеварки",
+    "name_ru": "Кофеварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "3780093600": {
+    "portal_id": "1460",
+    "name_ua": "Кофеварки",
+    "name_ru": "Кофеварки",
+    "supplier": "websklad",
+    "maudau_official_name": "Гейзерні кавоварки",
+    "is_leaf": true
+  },
+  "9999_3796939100": {
+    "portal_id": "1717",
+    "name_ua": "Газонокосилки",
+    "name_ru": "Газонокосилки",
+    "supplier": "websklad",
+    "maudau_official_name": "Садові тримери та мотокоси",
+    "is_leaf": true
+  },
+  "3796939100": {
+    "portal_id": "1717",
+    "name_ua": "Газонокосилки",
+    "name_ru": "Газонокосилки",
+    "supplier": "websklad",
+    "maudau_official_name": "Садові тримери та мотокоси",
+    "is_leaf": true
+  },
+  "9999_3807190236": {
+    "portal_id": "521",
+    "name_ua": "Ведмедики з троянд",
+    "name_ru": "Ведмедики з троянд",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "3807190236": {
+    "portal_id": "521",
+    "name_ua": "Ведмедики з троянд",
+    "name_ru": "Ведмедики з троянд",
+    "supplier": "websklad",
+    "maudau_official_name": "Святковий декор і аксесуари",
+    "is_leaf": true
+  },
+  "9999_3809573276": {
+    "portal_id": "743",
+    "name_ua": "Зволожувачі",
+    "name_ru": "Зволожувачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "3809573276": {
+    "portal_id": "743",
+    "name_ua": "Зволожувачі",
+    "name_ru": "Зволожувачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Зволожувачі повітря",
+    "is_leaf": true
+  },
+  "9999_3813542800": {
+    "portal_id": "568",
+    "name_ua": "Радіоприймачі",
+    "name_ru": "Радіоприймачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "3813542800": {
+    "portal_id": "568",
+    "name_ua": "Радіоприймачі",
+    "name_ru": "Радіоприймачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Портативні колонки",
+    "is_leaf": true
+  },
+  "9999_3824234386": {
+    "portal_id": "1298",
+    "name_ua": "Стрижка животных",
+    "name_ru": "Стрижка животных",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки собак",
+    "is_leaf": true
+  },
+  "3824234386": {
+    "portal_id": "1298",
+    "name_ua": "Стрижка животных",
+    "name_ru": "Стрижка животных",
+    "supplier": "websklad",
+    "maudau_official_name": "Машинки для стрижки собак",
+    "is_leaf": true
+  },
+  "9999_3826241044": {
+    "portal_id": "1694",
+    "name_ua": "Праски",
+    "name_ru": "Праски",
+    "supplier": "websklad",
+    "maudau_official_name": "Праски",
+    "is_leaf": true
+  },
+  "3826241044": {
+    "portal_id": "1694",
+    "name_ua": "Праски",
+    "name_ru": "Праски",
+    "supplier": "websklad",
+    "maudau_official_name": "Праски",
+    "is_leaf": true
+  },
+  "9999_3867596289": {
+    "portal_id": "2141",
+    "name_ua": "Бижутерия",
+    "name_ru": "Бижутерия",
+    "supplier": "websklad",
+    "maudau_official_name": "Сережки",
+    "is_leaf": true
+  },
+  "3867596289": {
+    "portal_id": "2141",
+    "name_ua": "Бижутерия",
+    "name_ru": "Бижутерия",
+    "supplier": "websklad",
+    "maudau_official_name": "Сережки",
+    "is_leaf": true
+  },
+  "9999_3870358037": {
+    "portal_id": "273",
+    "name_ua": "Для выпечки",
+    "name_ru": "Для выпечки",
+    "supplier": "websklad",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "3870358037": {
+    "portal_id": "273",
+    "name_ua": "Для выпечки",
+    "name_ru": "Для выпечки",
+    "supplier": "websklad",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "9999_3909138418": {
+    "portal_id": "2126",
+    "name_ua": "Біноклі / монокуляри",
+    "name_ru": "Біноклі / монокуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Біноклі",
+    "is_leaf": true
+  },
+  "3909138418": {
+    "portal_id": "2126",
+    "name_ua": "Біноклі / монокуляри",
+    "name_ru": "Біноклі / монокуляри",
+    "supplier": "websklad",
+    "maudau_official_name": "Біноклі",
+    "is_leaf": true
+  },
+  "9999_3911713718": {
+    "portal_id": "677",
+    "name_ua": "Обігрівачі",
+    "name_ru": "Обігрівачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "3911713718": {
+    "portal_id": "677",
+    "name_ua": "Обігрівачі",
+    "name_ru": "Обігрівачі",
+    "supplier": "websklad",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "9999_3931077732": {
+    "portal_id": "651",
+    "name_ua": "Наушники с ушками",
+    "name_ru": "Наушники с ушками",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "3931077732": {
+    "portal_id": "651",
+    "name_ua": "Наушники с ушками",
+    "name_ru": "Наушники с ушками",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_3934291967": {
+    "portal_id": "272",
+    "name_ua": "Термоси",
+    "name_ru": "Термоси",
+    "supplier": "websklad",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "3934291967": {
+    "portal_id": "272",
+    "name_ua": "Термоси",
+    "name_ru": "Термоси",
+    "supplier": "websklad",
+    "maudau_official_name": "Термоси",
+    "is_leaf": true
+  },
+  "9999_3936258834": {
+    "portal_id": "1549",
+    "name_ua": "Органайзери",
+    "name_ru": "Органайзери",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "3936258834": {
+    "portal_id": "1549",
+    "name_ua": "Органайзери",
+    "name_ru": "Органайзери",
+    "supplier": "websklad",
+    "maudau_official_name": "Органайзери для зберігання",
+    "is_leaf": true
+  },
+  "9999_3938591001": {
+    "portal_id": "2210",
+    "name_ua": "Автомойки",
+    "name_ru": "Автомойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "3938591001": {
+    "portal_id": "2210",
+    "name_ua": "Автомойки",
+    "name_ru": "Автомойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_3948579596": {
+    "portal_id": "277",
+    "name_ua": "Набори приладів",
+    "name_ru": "Набори приладів",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "3948579596": {
+    "portal_id": "277",
+    "name_ua": "Набори приладів",
+    "name_ru": "Набори приладів",
+    "supplier": "websklad",
+    "maudau_official_name": "Столові прибори",
+    "is_leaf": true
+  },
+  "9999_3995160072": {
+    "portal_id": "1971",
+    "name_ua": "Електроплити",
+    "name_ru": "Електроплити",
+    "supplier": "websklad",
+    "maudau_official_name": "Настільні плити",
+    "is_leaf": true
+  },
+  "3995160072": {
+    "portal_id": "1971",
+    "name_ua": "Електроплити",
+    "name_ru": "Електроплити",
+    "supplier": "websklad",
+    "maudau_official_name": "Настільні плити",
+    "is_leaf": true
+  },
+  "9999_4027398687": {
+    "portal_id": "2026",
+    "name_ua": "Чохли для Iphone 11 Pro",
+    "name_ru": "Чохли для Iphone 11 Pro",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "4027398687": {
+    "portal_id": "2026",
+    "name_ua": "Чохли для Iphone 11 Pro",
+    "name_ru": "Чохли для Iphone 11 Pro",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "9999_4034541818": {
+    "portal_id": "667",
+    "name_ua": "Держатели для телефона",
+    "name_ru": "Держатели для телефона",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "4034541818": {
+    "portal_id": "667",
+    "name_ua": "Держатели для телефона",
+    "name_ru": "Держатели для телефона",
+    "supplier": "websklad",
+    "maudau_official_name": "Автомобільні тримачі",
+    "is_leaf": true
+  },
+  "9999_4035387914": {
+    "portal_id": "1709",
+    "name_ua": "Швейные машинки",
+    "name_ru": "Швейные машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "4035387914": {
+    "portal_id": "1709",
+    "name_ua": "Швейные машинки",
+    "name_ru": "Швейные машинки",
+    "supplier": "websklad",
+    "maudau_official_name": "Техніка для дому",
+    "is_leaf": false
+  },
+  "9999_4059980731": {
+    "portal_id": "2272",
+    "name_ua": "Дорожные сумки",
+    "name_ru": "Дорожные сумки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дорожні сумки",
+    "is_leaf": true
+  },
+  "4059980731": {
+    "portal_id": "2272",
+    "name_ua": "Дорожные сумки",
+    "name_ru": "Дорожные сумки",
+    "supplier": "websklad",
+    "maudau_official_name": "Дорожні сумки",
+    "is_leaf": true
+  },
+  "9999_4071747056": {
+    "portal_id": "677",
+    "name_ua": "Обогреватели",
+    "name_ru": "Обогреватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "4071747056": {
+    "portal_id": "677",
+    "name_ua": "Обогреватели",
+    "name_ru": "Обогреватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Тепловентилятори",
+    "is_leaf": true
+  },
+  "9999_4077397304": {
+    "portal_id": "1402",
+    "name_ua": "Термометры для еды",
+    "name_ru": "Термометры для еды",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні термометри",
+    "is_leaf": true
+  },
+  "4077397304": {
+    "portal_id": "1402",
+    "name_ua": "Термометры для еды",
+    "name_ru": "Термометры для еды",
+    "supplier": "websklad",
+    "maudau_official_name": "Кухонні термометри",
+    "is_leaf": true
+  },
+  "9999_4082703522": {
+    "portal_id": "2026",
+    "name_ua": "Чохли для Iphone 12 Pro Max",
+    "name_ru": "Чохли для Iphone 12 Pro Max",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "4082703522": {
+    "portal_id": "2026",
+    "name_ua": "Чохли для Iphone 12 Pro Max",
+    "name_ru": "Чохли для Iphone 12 Pro Max",
+    "supplier": "websklad",
+    "maudau_official_name": "Чохли для телефонів",
+    "is_leaf": true
+  },
+  "9999_4107734731": {
+    "portal_id": "2210",
+    "name_ua": "Пылесосы авто",
+    "name_ru": "Пылесосы авто",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "4107734731": {
+    "portal_id": "2210",
+    "name_ua": "Пылесосы авто",
+    "name_ru": "Пылесосы авто",
+    "supplier": "websklad",
+    "maudau_official_name": "Автоаксесуари",
+    "is_leaf": false
+  },
+  "9999_4111817009": {
+    "portal_id": "735",
+    "name_ua": "Вентилятори",
+    "name_ru": "Вентилятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Вентилятори",
+    "is_leaf": true
+  },
+  "4111817009": {
+    "portal_id": "735",
+    "name_ua": "Вентилятори",
+    "name_ru": "Вентилятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Вентилятори",
+    "is_leaf": true
+  },
+  "9999_4128894403": {
+    "portal_id": "1257",
+    "name_ua": "Бритви / епілятори",
+    "name_ru": "Бритви / епілятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Електробритви",
+    "is_leaf": true
+  },
+  "4128894403": {
+    "portal_id": "1257",
+    "name_ua": "Бритви / епілятори",
+    "name_ru": "Бритви / епілятори",
+    "supplier": "websklad",
+    "maudau_official_name": "Електробритви",
+    "is_leaf": true
+  },
+  "9999_4140808818": {
+    "portal_id": "273",
+    "name_ua": "Для випікання",
+    "name_ru": "Для випікання",
+    "supplier": "websklad",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "4140808818": {
+    "portal_id": "273",
+    "name_ua": "Для випікання",
+    "name_ru": "Для випікання",
+    "supplier": "websklad",
+    "maudau_official_name": "Форми для випічки та запікання",
+    "is_leaf": true
+  },
+  "9999_4159998390": {
+    "portal_id": "1703",
+    "name_ua": "Бутербродницы",
+    "name_ru": "Бутербродницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Бутербродниці",
+    "is_leaf": true
+  },
+  "4159998390": {
+    "portal_id": "1703",
+    "name_ua": "Бутербродницы",
+    "name_ru": "Бутербродницы",
+    "supplier": "websklad",
+    "maudau_official_name": "Бутербродниці",
+    "is_leaf": true
+  },
+  "9999_4173127868": {
+    "portal_id": "1642",
+    "name_ua": "Наборы эл. инструментов",
+    "name_ru": "Наборы эл. инструментов",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "4173127868": {
+    "portal_id": "1642",
+    "name_ua": "Наборы эл. инструментов",
+    "name_ru": "Наборы эл. инструментов",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_4183355383": {
+    "portal_id": "1642",
+    "name_ua": "Інструменти",
+    "name_ru": "Інструменти",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "4183355383": {
+    "portal_id": "1642",
+    "name_ua": "Інструменти",
+    "name_ru": "Інструменти",
+    "supplier": "websklad",
+    "maudau_official_name": "Набори інструментів",
+    "is_leaf": true
+  },
+  "9999_4194419627": {
+    "portal_id": "2245",
+    "name_ua": "Чоловіче літнє взуття",
+    "name_ru": "Чоловіче літнє взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "4194419627": {
+    "portal_id": "2245",
+    "name_ua": "Чоловіче літнє взуття",
+    "name_ru": "Чоловіче літнє взуття",
+    "supplier": "websklad",
+    "maudau_official_name": "Товари для спорту",
+    "is_leaf": false
+  },
+  "9999_4213507466": {
+    "portal_id": "114",
+    "name_ua": "Мякі іграшки",
+    "name_ru": "Мякі іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "4213507466": {
+    "portal_id": "114",
+    "name_ua": "Мякі іграшки",
+    "name_ru": "Мякі іграшки",
+    "supplier": "websklad",
+    "maudau_official_name": "М'які іграшки",
+    "is_leaf": true
+  },
+  "9999_4234731339": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі кемпінг",
+    "name_ru": "Ліхтарі кемпінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "4234731339": {
+    "portal_id": "1120",
+    "name_ua": "Ліхтарі кемпінг",
+    "name_ru": "Ліхтарі кемпінг",
+    "supplier": "websklad",
+    "maudau_official_name": "Ліхтарі",
+    "is_leaf": true
+  },
+  "9999_4238647840": {
+    "portal_id": "2219",
+    "name_ua": "Водонагреватели",
+    "name_ru": "Водонагреватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Проточні водонагрівачі",
+    "is_leaf": true
+  },
+  "4238647840": {
+    "portal_id": "2219",
+    "name_ua": "Водонагреватели",
+    "name_ru": "Водонагреватели",
+    "supplier": "websklad",
+    "maudau_official_name": "Проточні водонагрівачі",
+    "is_leaf": true
+  },
+  "9999_4253348841": {
+    "portal_id": "2192",
+    "name_ua": "Палатки",
+    "name_ru": "Палатки",
+    "supplier": "websklad",
+    "maudau_official_name": "Намети",
+    "is_leaf": true
+  },
+  "4253348841": {
+    "portal_id": "2192",
+    "name_ua": "Палатки",
+    "name_ru": "Палатки",
+    "supplier": "websklad",
+    "maudau_official_name": "Намети",
+    "is_leaf": true
+  },
+  "9999_4259281861": {
+    "portal_id": "651",
+    "name_ua": "Игровые наушники",
+    "name_ru": "Игровые наушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "4259281861": {
+    "portal_id": "651",
+    "name_ua": "Игровые наушники",
+    "name_ru": "Игровые наушники",
+    "supplier": "websklad",
+    "maudau_official_name": "Навушники",
+    "is_leaf": true
+  },
+  "9999_4259660656": {
+    "portal_id": "1031",
+    "name_ua": "Ваги підлогові",
+    "name_ru": "Ваги підлогові",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги підлогові",
+    "is_leaf": true
+  },
+  "4259660656": {
+    "portal_id": "1031",
+    "name_ua": "Ваги підлогові",
+    "name_ru": "Ваги підлогові",
+    "supplier": "websklad",
+    "maudau_official_name": "Ваги підлогові",
+    "is_leaf": true
+  },
+  "9999_4273533213": {
+    "portal_id": "1522",
+    "name_ua": "Холодильники",
+    "name_ru": "Холодильники",
+    "supplier": "websklad",
+    "maudau_official_name": "Автохолодильники",
+    "is_leaf": true
+  },
+  "4273533213": {
+    "portal_id": "1522",
+    "name_ua": "Холодильники",
+    "name_ru": "Холодильники",
+    "supplier": "websklad",
+    "maudau_official_name": "Автохолодильники",
+    "is_leaf": true
+  },
+  "9999_4279298216": {
+    "portal_id": "1037",
+    "name_ua": "Щипці / плойки",
+    "name_ru": "Щипці / плойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "4279298216": {
+    "portal_id": "1037",
+    "name_ua": "Щипці / плойки",
+    "name_ru": "Щипці / плойки",
+    "supplier": "websklad",
+    "maudau_official_name": "Стайлери та випрямлячі для волосся",
+    "is_leaf": true
+  },
+  "9999_4289527267": {
+    "portal_id": "2274",
+    "name_ua": "Стиральные машины",
+    "name_ru": "Стиральные машины",
+    "supplier": "websklad",
+    "maudau_official_name": "Пральні машини",
+    "is_leaf": true
+  },
+  "4289527267": {
+    "portal_id": "2274",
+    "name_ua": "Стиральные машины",
+    "name_ru": "Стиральные машины",
+    "supplier": "websklad",
+    "maudau_official_name": "Пральні машини",
+    "is_leaf": true
   }
 }

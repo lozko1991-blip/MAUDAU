@@ -1,7 +1,11 @@
 import unittest
-from category_mapper import get_category_info, format_category_xml
+from category_mapper import get_category_info, format_category_xml, load_category_mapping
 
 class TestCategoryMapper(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        load_category_mapping()
+
     def test_mapped_category(self):
         # 14975 is Сковороды
         name_ua, portal_id = get_category_info("14975")
@@ -9,7 +13,7 @@ class TestCategoryMapper(unittest.TestCase):
         self.assertEqual(portal_id, "271")
 
     def test_unmapped_fallback(self):
-        name_ua, portal_id = get_category_info("99999999", default_name="Резервна категорія")
+        name_ua, portal_id = get_category_info("99999999999", default_name="Резервна категорія")
         self.assertEqual(name_ua, "Резервна категорія")
         self.assertIsNone(portal_id)
 
@@ -24,6 +28,31 @@ class TestCategoryMapper(unittest.TestCase):
     def test_format_xml_with_prefix_321(self):
         xml = format_category_xml("321_14975", "Сковороди", portal_id="271", parent_id="321_1000")
         self.assertEqual(xml, '<category id="321_14975" parentId="321_1000" portal_id="271">Сковороди</category>')
+
+    def test_websklad_mapped_categories(self):
+        # Blenders
+        name_ua, pid = get_category_info("9999_274548020")
+        self.assertEqual(pid, "1686")
+        # Dual key parity for unprefixed
+        name_raw, pid_raw = get_category_info("274548020")
+        self.assertEqual(pid_raw, "1686")
+        self.assertEqual(name_ua, name_raw)
+
+        # Kids playpens / tents
+        _, pid_tent = get_category_info("9999_3581823412")
+        self.assertEqual(pid_tent, "104")
+
+        # Kids strollers
+        _, pid_stroller = get_category_info("9999_1744618505")
+        self.assertEqual(pid_stroller, "158")
+
+        # 3D pens
+        _, pid_3dpen = get_category_info("9999_1174147754")
+        self.assertEqual(pid_3dpen, "149")
+
+        # Skmei watches
+        _, pid_skmei = get_category_info("9999_2393578841")
+        self.assertEqual(pid_skmei, "2389")
 
 if __name__ == "__main__":
     unittest.main()
